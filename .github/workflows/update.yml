@@ -1,47 +1,41 @@
 name: Update Calendar
 
-# 触发条件
 on:
   schedule:
-    # 计划任务：北京时间每天上午 8 点运行 (UTC时间 0点)
-    # 你可以修改 cron 表达式来调整频率，例如 '0 */4 * * *' 代表每4小时一次
-    - cron: '0 0 * * *'
-  workflow_dispatch: # 允许你在 Actions 界面手动点击按钮强制运行
+    # 对应北京时间 07:00, 13:00, 19:00
+    # GitHub 使用 UTC 时间:
+    # 05:00 UTC = 13:00 北京
+    # 11:00 UTC = 19:00 北京
+    # 23:00 UTC = 07:00 北京 (次日)
+    - cron: '0 5,11,23 * * *'
+  workflow_dispatch: # 允许手动运行
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    
-    # 【重要】赋予写权限，否则无法将生成的 calendar.ics 提交回仓库
     permissions:
       contents: write
 
     steps:
-      # 1. 下载仓库代码
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # 2. 安装 Python 环境
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.9'
 
-      # 3. 安装依赖 (读取你上传的 requirements.txt)
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
 
-      # 4. 运行你的爬虫脚本
-      - name: Generate Calendar
+      - name: Run Calendar Script
         run: python main.py
 
-      # 5. 提交并推送更改 (把生成的 calendar.ics 存回 GitHub)
       - name: Commit and Push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add calendar.ics
-          # 如果文件没有变化(今天没有新数据)，就不提交，防止报错
-          git commit -m "Auto-update calendar: $(date)" || echo "No changes to commit"
+          git commit -m "Auto-update: $(date)" || echo "No changes to commit"
           git push
