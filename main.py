@@ -23,8 +23,8 @@ HEADERS = {
 # 起始显示时间：每天早上 08:00
 START_HOUR = 8
 START_MINUTE = 0
-# 间隔时间：5分钟
-INTERVAL_MINUTES = 5
+# 【修改点】间隔时间：从 5 分钟改为 15 分钟
+INTERVAL_MINUTES = 15
 # ===========================================
 
 def safe_str(val):
@@ -46,7 +46,6 @@ def fetch_economic_data(date_str):
         data_list = resp.json().get('data', [])
         
         for item in data_list:
-            # 提取基础字段
             title_text = item.get('title') or item.get('name') or '未命名数据'
             country = item.get('country', '')
             actual = safe_str(item.get('actual'))
@@ -56,10 +55,9 @@ def fetch_economic_data(date_str):
             star = item.get('star', 0)
             affect = item.get('qh_affect_text', '')
             
-            # 时间处理
             pub_time = item.get('publictime')
-            sort_dt = None # 用于排序的时间对象
-            time_str_display = "" # 用于标题显示的字符串 (如 20:30)
+            sort_dt = None 
+            time_str_display = "" 
 
             if pub_time and len(pub_time) > 10:
                 try:
@@ -68,10 +66,9 @@ def fetch_economic_data(date_str):
                 except:
                     pass
             
-            # 构建中间对象
             results.append({
                 'type': 'data',
-                'sort_dt': sort_dt, # 真实时间，用于排序
+                'sort_dt': sort_dt, 
                 'time_display': time_str_display,
                 'star': star,
                 'country': country,
@@ -108,10 +105,8 @@ def fetch_financial_events(date_str):
             people = item.get('people')
             star = item.get('star', 0)
             
-            # 标题截断
             short_title = content if len(content) < 30 else content[:28] + "..."
             
-            # 时间处理
             time_str = item.get('dateTimeStr')
             sort_dt = None
             time_str_display = ""
@@ -148,67 +143,51 @@ def main():
     c = Calendar()
     tz = pytz.timezone('Asia/Shanghai')
     
-    print(f"====== 开始执行 (抓取未来 {DAYS_TO_FETCH} 天) - 虚拟时间轴模式 ======")
+    print(f"====== 开始执行 (抓取未来 {DAYS_TO_FETCH} 天) - 虚拟时间轴(15分钟间隔) ======")
 
     for i in range(DAYS_TO_FETCH):
-        # 1. 确定日期
         target_date = datetime.datetime.now(tz) + datetime.timedelta(days=i)
         date_str_api = target_date.strftime("%Y%m%d")
         date_str_display = target_date.strftime("%Y-%m-%d")
         
         print(f"处理日期: {date_str_display} ...")
         
-        # 2. 抓取两类数据
         list_data = fetch_economic_data(date_str_api)
         time.sleep(0.2)
         list_event = fetch_financial_events(date_str_api)
         
-        # 3. 合并列表
         all_items = list_data + list_event
         
         if not all_items:
             continue
             
-        print(f"  -> 共获取 {len(all_items)} 条事件，正在重排时间...")
+        print(f"  -> 共获取 {len(all_items)} 条事件，正在按 15分钟 间隔重排...")
 
-        # 4. 核心排序逻辑
-        # 按照真实时间排序 (sort_dt)。如果是全天事件(None)，排在最前面
         def sort_key(x):
             if x['sort_dt'] is None:
-                # 赋予一个极早的时间用于排序
                 return datetime.datetime(1970,1,1)
             return x['sort_dt']
             
         all_items.sort(key=sort_key)
         
-        # 5. 虚拟时间分配
-        # 设定当天的起始“虚拟时间”：08:00:00
         current_virtual_time = target_date.replace(hour=START_HOUR, minute=START_MINUTE, second=0, microsecond=0)
         
         for item in all_items:
             e = Event()
-            
-            # 构建标题
             star_icon = get_star_icon(item['star'])
             
             if item['type'] == 'data':
                 affect_str = f"[{item['affect']}]" if item['affect'] else ""
-                # 标题: 20:30 ★★★ [原油] 美国EIA...
                 e.name = f"{item['time_display']} {star_icon} {affect_str} {item['title']}".strip()
             else:
-                # 标题: 09:00 [大事] ★★ 欧洲央行...
                 e.name = f"{item['time_display']} [大事] {star_icon} {item['country']} {item['title']}".strip()
             
-            # 设置描述
             e.description = item['desc']
-            
-            # --- 强制设置虚拟时间 ---
             e.begin = current_virtual_time
-            e.duration = {"minutes": 0} # 设为0分钟，保持日历条目尽量薄
-            
+            e.duration = {"minutes": 0} 
             c.events.add(e)
             
-            # 时间递增 5 分钟
+            # 【核心逻辑生效处】每次加 15 分钟
             current_virtual_time += datetime.timedelta(minutes=INTERVAL_MINUTES)
 
     output_file = 'calendar.ics'
