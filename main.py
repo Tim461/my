@@ -14,7 +14,7 @@ DAYS_TO_FETCH = 30
 URL_DATA = "https://qhcal-api.jin10.com/data"   # 经济数据
 URL_EVENT = "https://qhcal-api.jin10.com/event" # 财经大事
 
-# 请求头
+# 核心请求头
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
     "x-app-id": "1coXNOi34tU5TDTl", 
@@ -35,18 +35,14 @@ def get_star_icon(star_num):
         return ""
 
 def process_economic_data(date_str, date_display, calendar, tz):
-    """处理【经济数据】 (/data)"""
+    """处理【经济数据】"""
     url = f"{URL_DATA}?date={date_str}"
     try:
         resp = requests.get(url, headers=HEADERS, timeout=10)
-        if resp.status_code != 200:
-            print(f"  [数据] 请求失败: {resp.status_code}")
-            return
+        if resp.status_code != 200: return
 
         data_list = resp.json().get('data', [])
-        if not data_list:
-            # 某些日期确实没数据，不打印日志以免刷屏
-            return
+        if not data_list: return
         
         print(f"  [数据] 解析到 {len(data_list)} 条")
 
@@ -63,6 +59,7 @@ def process_economic_data(date_str, date_display, calendar, tz):
             star_icon = get_star_icon(star)
             affect_str = f"[{affect}]" if affect else ""
             
+            # 标题优化：尽量精简
             full_title = f"{star_icon} {affect_str} {title_text}".strip()
             
             description = (
@@ -86,7 +83,8 @@ def process_economic_data(date_str, date_display, calendar, tz):
                     dt = datetime.datetime.strptime(pub_time, "%Y-%m-%d %H:%M:%S")
                     dt = tz.localize(dt)
                     e.begin = dt
-                    e.duration = {"minutes": 15}
+                    # 【关键修改】设为0分钟，变成"瞬时事件"，防止日历格子重叠
+                    e.duration = {"minutes": 0}
                 else:
                     e.begin = date_display
                     e.make_all_day()
@@ -98,17 +96,14 @@ def process_economic_data(date_str, date_display, calendar, tz):
         print(f"  [数据] 异常: {e}")
 
 def process_financial_events(date_str, date_display, calendar, tz):
-    """处理【财经大事】 (/event)"""
+    """处理【财经大事】"""
     url = f"{URL_EVENT}?date={date_str}"
     try:
         resp = requests.get(url, headers=HEADERS, timeout=10)
-        if resp.status_code != 200:
-            print(f"  [大事] 请求失败: {resp.status_code}")
-            return
+        if resp.status_code != 200: return
 
         event_list = resp.json().get('data', [])
-        if not event_list:
-            return
+        if not event_list: return
 
         print(f"  [大事] 解析到 {len(event_list)} 条")
 
@@ -142,7 +137,8 @@ def process_financial_events(date_str, date_display, calendar, tz):
                     dt = datetime.datetime.strptime(time_str, "%Y-%m-%d %H:%M:%S")
                     dt = tz.localize(dt)
                     e.begin = dt
-                    e.duration = {"minutes": 30}
+                    # 【关键修改】大事也设为0分钟，只标记开始时间，避免挡住经济数据
+                    e.duration = {"minutes": 0}
                 else:
                     e.begin = date_display
                     e.make_all_day()
@@ -165,8 +161,8 @@ def main():
         date_str_display = target_date.strftime("%Y-%m-%d")
         
         print(f"处理日期: {date_str_display} ...")
+        
         process_economic_data(date_str_api, date_str_display, c, tz)
-        # 稍微暂停一下，避免请求过于频繁触发反爬
         time.sleep(0.5)
         process_financial_events(date_str_api, date_str_display, c, tz)
 
@@ -174,12 +170,11 @@ def main():
     with open(output_file, 'w', encoding='utf-8') as f:
         f.writelines(c.serialize_iter())
     
-    # 打印文件大小确认生成成功
     if os.path.exists(output_file):
         print(f"\n====== 完成 ======")
         print(f"文件 {output_file} 已生成，大小: {os.path.getsize(output_file)} 字节")
     else:
-        print("\n❌ 文件生成失败")
+        print("\n❌ 错误: 文件生成失败")
 
 if __name__ == "__main__":
     main()
