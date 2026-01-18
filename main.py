@@ -19,6 +19,12 @@ HEADERS = {
     "Origin": "https://qihuo.jin10.com",
     "Accept-Encoding": "gzip, deflate"
 }
+
+# 起始显示时间：每天早上 08:00
+START_HOUR = 8
+START_MINUTE = 0
+# 间隔时间：5分钟
+INTERVAL_MINUTES = 5
 # ===========================================
 
 def safe_str(val):
@@ -30,19 +36,17 @@ def get_star_icon(star_num):
     except:
         return ""
 
-def process_economic_data(date_str, date_display, calendar, tz):
-    """处理【经济数据】"""
+def fetch_economic_data(date_str):
+    """获取经济数据，返回中间格式列表"""
     url = f"{URL_DATA}?date={date_str}"
+    results = []
     try:
         resp = requests.get(url, headers=HEADERS, timeout=10)
-        if resp.status_code != 200: return
-
+        if resp.status_code != 200: return []
         data_list = resp.json().get('data', [])
-        if not data_list: return
         
-        print(f"  [数据] 解析到 {len(data_list)} 条")
-
         for item in data_list:
+            # 提取基础字段
             title_text = item.get('title') or item.get('name') or '未命名数据'
             country = item.get('country', '')
             actual = safe_str(item.get('actual'))
@@ -52,62 +56,51 @@ def process_economic_data(date_str, date_display, calendar, tz):
             star = item.get('star', 0)
             affect = item.get('qh_affect_text', '')
             
-            star_icon = get_star_icon(star)
-            affect_str = f"[{affect}]" if affect else ""
-            
-            e = Event()
-            
-            # --- 时间与标题处理逻辑 ---
+            # 时间处理
             pub_time = item.get('publictime')
-            time_prefix = "" # 用于标题显示的时间前缀
-            
-            try:
-                if pub_time and len(pub_time) > 10:
-                    dt = datetime.datetime.strptime(pub_time, "%Y-%m-%d %H:%M:%S")
-                    dt = tz.localize(dt)
-                    e.begin = dt
-                    e.duration = {"minutes": 0} # 瞬时事件，防止重叠
-                    # 提取 20:30 这种格式
-                    time_prefix = dt.strftime("%H:%M")
-                else:
-                    e.begin = date_display
-                    e.make_all_day()
-            except:
-                continue # 时间解析失败则跳过
+            sort_dt = None # 用于排序的时间对象
+            time_str_display = "" # 用于标题显示的字符串 (如 20:30)
 
-            # 【视觉优化】标题格式：20:30 ★★★ [原油] 美国EIA原油库存
-            # 把时间写在标题最前面，强制按顺序阅读
-            full_title = f"{time_prefix} {star_icon} {affect_str} {title_text}".strip()
-            e.name = full_title
+            if pub_time and len(pub_time) > 10:
+                try:
+                    sort_dt = datetime.datetime.strptime(pub_time, "%Y-%m-%d %H:%M:%S")
+                    time_str_display = sort_dt.strftime("%H:%M")
+                except:
+                    pass
             
-            description = (
-                f"【经济数据】\n"
-                f"项目: {title_text}\n"
-                f"国家: {country}\n"
-                f"重要性: {star}星\n"
-                f"----------------\n"
-                f"今值: {actual}\n"
-                f"预测: {consensus}\n"
-                f"前值: {previous} {unit}"
-            )
-            e.description = description
-            
-            calendar.events.add(e)
-
+            # 构建中间对象
+            results.append({
+                'type': 'data',
+                'sort_dt': sort_dt, # 真实时间，用于排序
+                'time_display': time_str_display,
+                'star': star,
+                'country': country,
+                'title': title_text,
+                'affect': affect,
+                'desc': (
+                    f"【经济数据】\n"
+                    f"真实时间: {time_str_display}\n"
+                    f"项目: {title_text}\n"
+                    f"国家: {country}\n"
+                    f"重要性: {star}星\n"
+                    f"----------------\n"
+                    f"今值: {actual}\n"
+                    f"预测: {consensus}\n"
+                    f"前值: {previous} {unit}"
+                )
+            })
     except Exception as e:
-        print(f"  [数据] 异常: {e}")
+        print(f"  [数据抓取错] {e}")
+    return results
 
-def process_financial_events(date_str, date_display, calendar, tz):
-    """处理【财经大事】"""
+def fetch_financial_events(date_str):
+    """获取财经大事，返回中间格式列表"""
     url = f"{URL_EVENT}?date={date_str}"
+    results = []
     try:
         resp = requests.get(url, headers=HEADERS, timeout=10)
-        if resp.status_code != 200: return
-
+        if resp.status_code != 200: return []
         event_list = resp.json().get('data', [])
-        if not event_list: return
-
-        print(f"  [大事] 解析到 {len(event_list)} 条")
 
         for item in event_list:
             content = item.get('eventcontent', '未命名事件')
@@ -115,61 +108,108 @@ def process_financial_events(date_str, date_display, calendar, tz):
             people = item.get('people')
             star = item.get('star', 0)
             
-            star_icon = get_star_icon(star)
+            # 标题截断
             short_title = content if len(content) < 30 else content[:28] + "..."
             
-            e = Event()
-            
-            # --- 时间与标题处理逻辑 ---
+            # 时间处理
             time_str = item.get('dateTimeStr')
-            time_prefix = ""
-            
-            try:
-                if time_str and len(time_str) > 10:
-                    dt = datetime.datetime.strptime(time_str, "%Y-%m-%d %H:%M:%S")
-                    dt = tz.localize(dt)
-                    e.begin = dt
-                    e.duration = {"minutes": 0} # 瞬时事件
-                    time_prefix = dt.strftime("%H:%M")
-                else:
-                    e.begin = date_display
-                    e.make_all_day()
-            except:
-                continue
+            sort_dt = None
+            time_str_display = ""
 
-            # 【视觉优化】标题格式：09:00 [大事] ★★ 欧洲央行...
-            full_title = f"{time_prefix} [大事] {star_icon} {country} {short_title}".strip()
-            e.name = full_title
-            
-            description = (
-                f"【财经大事】\n"
-                f"内容: {content}\n"
-                f"国家: {country}\n"
-                f"人物: {people if people else '--'}\n"
-                f"重要性: {star}星"
-            )
-            e.description = description
-            
-            calendar.events.add(e)
+            if time_str and len(time_str) > 10:
+                try:
+                    sort_dt = datetime.datetime.strptime(time_str, "%Y-%m-%d %H:%M:%S")
+                    time_str_display = sort_dt.strftime("%H:%M")
+                except:
+                    pass
 
+            results.append({
+                'type': 'event',
+                'sort_dt': sort_dt,
+                'time_display': time_str_display,
+                'star': star,
+                'country': country,
+                'title': short_title,
+                'people': people,
+                'desc': (
+                    f"【财经大事】\n"
+                    f"真实时间: {time_str_display}\n"
+                    f"内容: {content}\n"
+                    f"国家: {country}\n"
+                    f"人物: {people if people else '--'}\n"
+                    f"重要性: {star}星"
+                )
+            })
     except Exception as e:
-        print(f"  [大事] 异常: {e}")
+        print(f"  [大事抓取错] {e}")
+    return results
 
 def main():
     c = Calendar()
     tz = pytz.timezone('Asia/Shanghai')
     
-    print(f"====== 开始执行 (抓取未来 {DAYS_TO_FETCH} 天) ======")
+    print(f"====== 开始执行 (抓取未来 {DAYS_TO_FETCH} 天) - 虚拟时间轴模式 ======")
 
     for i in range(DAYS_TO_FETCH):
+        # 1. 确定日期
         target_date = datetime.datetime.now(tz) + datetime.timedelta(days=i)
         date_str_api = target_date.strftime("%Y%m%d")
         date_str_display = target_date.strftime("%Y-%m-%d")
         
         print(f"处理日期: {date_str_display} ...")
-        process_economic_data(date_str_api, date_str_display, c, tz)
-        time.sleep(0.5)
-        process_financial_events(date_str_api, date_str_display, c, tz)
+        
+        # 2. 抓取两类数据
+        list_data = fetch_economic_data(date_str_api)
+        time.sleep(0.2)
+        list_event = fetch_financial_events(date_str_api)
+        
+        # 3. 合并列表
+        all_items = list_data + list_event
+        
+        if not all_items:
+            continue
+            
+        print(f"  -> 共获取 {len(all_items)} 条事件，正在重排时间...")
+
+        # 4. 核心排序逻辑
+        # 按照真实时间排序 (sort_dt)。如果是全天事件(None)，排在最前面
+        def sort_key(x):
+            if x['sort_dt'] is None:
+                # 赋予一个极早的时间用于排序
+                return datetime.datetime(1970,1,1)
+            return x['sort_dt']
+            
+        all_items.sort(key=sort_key)
+        
+        # 5. 虚拟时间分配
+        # 设定当天的起始“虚拟时间”：08:00:00
+        current_virtual_time = target_date.replace(hour=START_HOUR, minute=START_MINUTE, second=0, microsecond=0)
+        
+        for item in all_items:
+            e = Event()
+            
+            # 构建标题
+            star_icon = get_star_icon(item['star'])
+            
+            if item['type'] == 'data':
+                affect_str = f"[{item['affect']}]" if item['affect'] else ""
+                # 标题: 20:30 ★★★ [原油] 美国EIA...
+                e.name = f"{item['time_display']} {star_icon} {affect_str} {item['title']}".strip()
+            else:
+                # 标题: 09:00 [大事] ★★ 欧洲央行...
+                e.name = f"{item['time_display']} [大事] {star_icon} {item['country']} {item['title']}".strip()
+            
+            # 设置描述
+            e.description = item['desc']
+            
+            # --- 强制设置虚拟时间 ---
+            e.begin = current_virtual_time
+            e.duration = {"minutes": 0} # 设为0分钟，保持日历条目尽量薄
+            
+            c.events.add(e)
+            
+            # 时间递增 5 分钟
+            current_virtual_time += datetime.timedelta(minutes=INTERVAL_MINUTES)
 
     output_file = 'calendar.ics'
     with open(output_file, 'w', encoding='utf-8') as f:
@@ -177,7 +217,7 @@ def main():
     
     if os.path.exists(output_file):
         print(f"\n====== 完成 ======")
-        print(f"文件 {output_file} 已生成，大小: {os.path.getsize(output_file)} 字节")
+        print(f"文件已生成，按每隔 {INTERVAL_MINUTES} 分钟排列。")
     else:
         print("\n❌ 错误: 文件生成失败")
 
