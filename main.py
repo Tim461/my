@@ -7,14 +7,14 @@ import pytz
 import time
 
 # ================= 配置区域 =================
-# 抓取未来多少天的数据
-DAYS_TO_FETCH = 14
+# 抓取未来 30 天的数据
+DAYS_TO_FETCH = 30
 
-# 两个 API 的基础地址
+# API 地址
 URL_DATA = "https://qhcal-api.jin10.com/data"   # 经济数据
 URL_EVENT = "https://qhcal-api.jin10.com/event" # 财经大事
 
-# 统一的请求头 (两个接口通用)
+# 请求头
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
     "x-app-id": "1coXNOi34tU5TDTl", 
@@ -26,18 +26,16 @@ HEADERS = {
 # ===========================================
 
 def safe_str(val):
-    """安全转换为字符串，处理 None"""
     return str(val) if val is not None else "--"
 
 def get_star_icon(star_num):
-    """根据数字生成星星图标"""
     try:
         return "★" * int(star_num)
     except:
         return ""
 
 def process_economic_data(date_str, date_display, calendar, tz):
-    """处理【经济数据】接口 (/data)"""
+    """处理【经济数据】 (/data)"""
     url = f"{URL_DATA}?date={date_str}"
     try:
         resp = requests.get(url, headers=HEADERS, timeout=10)
@@ -47,13 +45,12 @@ def process_economic_data(date_str, date_display, calendar, tz):
 
         data_list = resp.json().get('data', [])
         if not data_list:
-            print(f"  [数据] 无内容")
+            # 某些日期确实没数据，不打印日志以免刷屏
             return
         
         print(f"  [数据] 解析到 {len(data_list)} 条")
 
         for item in data_list:
-            # 1. 提取字段
             title_text = item.get('title') or item.get('name') or '未命名数据'
             country = item.get('country', '')
             actual = safe_str(item.get('actual'))
@@ -63,11 +60,9 @@ def process_economic_data(date_str, date_display, calendar, tz):
             star = item.get('star', 0)
             affect = item.get('qh_affect_text', '')
             
-            # 2. 构建显示内容
             star_icon = get_star_icon(star)
             affect_str = f"[{affect}]" if affect else ""
             
-            # 标题: ★★★ [原油] 美国EIA原油库存
             full_title = f"{star_icon} {affect_str} {title_text}".strip()
             
             description = (
@@ -81,12 +76,10 @@ def process_economic_data(date_str, date_display, calendar, tz):
                 f"前值: {previous} {unit}"
             )
 
-            # 3. 创建事件
             e = Event()
             e.name = full_title
             e.description = description
             
-            # 4. 时间处理 (使用 publictime: "2026-01-22 05:30:00")
             pub_time = item.get('publictime')
             try:
                 if pub_time and len(pub_time) > 10:
@@ -98,14 +91,14 @@ def process_economic_data(date_str, date_display, calendar, tz):
                     e.begin = date_display
                     e.make_all_day()
                 calendar.events.add(e)
-            except Exception as err:
-                print(f"    跳过数据条目(时间错误): {err}")
+            except:
+                pass
 
     except Exception as e:
         print(f"  [数据] 异常: {e}")
 
 def process_financial_events(date_str, date_display, calendar, tz):
-    """处理【财经大事】接口 (/event)"""
+    """处理【财经大事】 (/event)"""
     url = f"{URL_EVENT}?date={date_str}"
     try:
         resp = requests.get(url, headers=HEADERS, timeout=10)
@@ -115,24 +108,17 @@ def process_financial_events(date_str, date_display, calendar, tz):
 
         event_list = resp.json().get('data', [])
         if not event_list:
-            print(f"  [大事] 无内容")
             return
 
         print(f"  [大事] 解析到 {len(event_list)} 条")
 
         for item in event_list:
-            # 1. 提取字段 (根据你提供的 /event JSON 结构)
-            # 核心内容在 eventcontent 字段
             content = item.get('eventcontent', '未命名事件')
             country = item.get('country', '')
-            people = item.get('people') # 可能为 null
+            people = item.get('people')
             star = item.get('star', 0)
             
-            # 2. 构建显示内容
             star_icon = get_star_icon(star)
-            
-            # 标题: [大事] ★★ 欧洲央行公布会议纪要
-            # 如果内容太长，标题截取前20字
             short_title = content if len(content) < 30 else content[:28] + "..."
             people_str = f"人物: {people}\n" if people else ""
             
@@ -146,31 +132,28 @@ def process_financial_events(date_str, date_display, calendar, tz):
                 f"重要性: {star}星"
             )
 
-            # 3. 创建事件
             e = Event()
             e.name = full_title
             e.description = description
             
-            # 4. 时间处理 (使用 dateTimeStr: "2026-01-22 09:20:00")
             time_str = item.get('dateTimeStr')
             try:
                 if time_str and len(time_str) > 10:
                     dt = datetime.datetime.strptime(time_str, "%Y-%m-%d %H:%M:%S")
                     dt = tz.localize(dt)
                     e.begin = dt
-                    e.duration = {"minutes": 30} # 大事通常持续时间长一点，设为30分钟
+                    e.duration = {"minutes": 30}
                 else:
                     e.begin = date_display
                     e.make_all_day()
                 calendar.events.add(e)
-            except Exception as err:
-                print(f"    跳过大事条目(时间错误): {err}")
+            except:
+                pass
 
     except Exception as e:
         print(f"  [大事] 异常: {e}")
 
 def main():
-    # 初始化日历
     c = Calendar()
     tz = pytz.timezone('Asia/Shanghai')
     
@@ -178,30 +161,25 @@ def main():
 
     for i in range(DAYS_TO_FETCH):
         target_date = datetime.datetime.now(tz) + datetime.timedelta(days=i)
-        date_str_api = target_date.strftime("%Y%m%d")   # 20260122
-        date_str_display = target_date.strftime("%Y-%m-%d") # 2026-01-22
+        date_str_api = target_date.strftime("%Y%m%d")
+        date_str_display = target_date.strftime("%Y-%m-%d")
         
-        print(f"\n处理日期: {date_str_display} ...")
-        
-        # 步骤 1: 抓取经济数据
+        print(f"处理日期: {date_str_display} ...")
         process_economic_data(date_str_api, date_str_display, c, tz)
-        
-        # 步骤 2: 抓取财经大事 (休息 0.5秒防止请求太快)
+        # 稍微暂停一下，避免请求过于频繁触发反爬
         time.sleep(0.5)
         process_financial_events(date_str_api, date_str_display, c, tz)
 
-    # 保存文件
     output_file = 'calendar.ics'
     with open(output_file, 'w', encoding='utf-8') as f:
         f.writelines(c.serialize_iter())
     
-    # 检查文件大小
-    try:
-        size = os.path.getsize(output_file)
+    # 打印文件大小确认生成成功
+    if os.path.exists(output_file):
         print(f"\n====== 完成 ======")
-        print(f"文件 {output_file} 已生成，大小: {size} 字节")
-    except:
-        print("文件生成失败")
+        print(f"文件 {output_file} 已生成，大小: {os.path.getsize(output_file)} 字节")
+    else:
+        print("\n❌ 文件生成失败")
 
 if __name__ == "__main__":
     main()
