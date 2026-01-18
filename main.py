@@ -7,14 +7,10 @@ import pytz
 import time
 
 # ================= 配置区域 =================
-# 抓取未来 30 天的数据
 DAYS_TO_FETCH = 30
+URL_DATA = "https://qhcal-api.jin10.com/data"
+URL_EVENT = "https://qhcal-api.jin10.com/event"
 
-# API 地址
-URL_DATA = "https://qhcal-api.jin10.com/data"   # 经济数据
-URL_EVENT = "https://qhcal-api.jin10.com/event" # 财经大事
-
-# 核心请求头
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
     "x-app-id": "1coXNOi34tU5TDTl", 
@@ -59,8 +55,30 @@ def process_economic_data(date_str, date_display, calendar, tz):
             star_icon = get_star_icon(star)
             affect_str = f"[{affect}]" if affect else ""
             
-            # 标题优化：尽量精简
-            full_title = f"{star_icon} {affect_str} {title_text}".strip()
+            e = Event()
+            
+            # --- 时间与标题处理逻辑 ---
+            pub_time = item.get('publictime')
+            time_prefix = "" # 用于标题显示的时间前缀
+            
+            try:
+                if pub_time and len(pub_time) > 10:
+                    dt = datetime.datetime.strptime(pub_time, "%Y-%m-%d %H:%M:%S")
+                    dt = tz.localize(dt)
+                    e.begin = dt
+                    e.duration = {"minutes": 0} # 瞬时事件，防止重叠
+                    # 提取 20:30 这种格式
+                    time_prefix = dt.strftime("%H:%M")
+                else:
+                    e.begin = date_display
+                    e.make_all_day()
+            except:
+                continue # 时间解析失败则跳过
+
+            # 【视觉优化】标题格式：20:30 ★★★ [原油] 美国EIA原油库存
+            # 把时间写在标题最前面，强制按顺序阅读
+            full_title = f"{time_prefix} {star_icon} {affect_str} {title_text}".strip()
+            e.name = full_title
             
             description = (
                 f"【经济数据】\n"
@@ -72,25 +90,9 @@ def process_economic_data(date_str, date_display, calendar, tz):
                 f"预测: {consensus}\n"
                 f"前值: {previous} {unit}"
             )
-
-            e = Event()
-            e.name = full_title
             e.description = description
             
-            pub_time = item.get('publictime')
-            try:
-                if pub_time and len(pub_time) > 10:
-                    dt = datetime.datetime.strptime(pub_time, "%Y-%m-%d %H:%M:%S")
-                    dt = tz.localize(dt)
-                    e.begin = dt
-                    # 【关键修改】设为0分钟，变成"瞬时事件"，防止日历格子重叠
-                    e.duration = {"minutes": 0}
-                else:
-                    e.begin = date_display
-                    e.make_all_day()
-                calendar.events.add(e)
-            except:
-                pass
+            calendar.events.add(e)
 
     except Exception as e:
         print(f"  [数据] 异常: {e}")
@@ -115,36 +117,40 @@ def process_financial_events(date_str, date_display, calendar, tz):
             
             star_icon = get_star_icon(star)
             short_title = content if len(content) < 30 else content[:28] + "..."
-            people_str = f"人物: {people}\n" if people else ""
             
-            full_title = f"[大事] {star_icon} {country} {short_title}".strip()
-            
-            description = (
-                f"【财经大事】\n"
-                f"内容: {content}\n"
-                f"国家: {country}\n"
-                f"{people_str}"
-                f"重要性: {star}星"
-            )
-
             e = Event()
-            e.name = full_title
-            e.description = description
             
+            # --- 时间与标题处理逻辑 ---
             time_str = item.get('dateTimeStr')
+            time_prefix = ""
+            
             try:
                 if time_str and len(time_str) > 10:
                     dt = datetime.datetime.strptime(time_str, "%Y-%m-%d %H:%M:%S")
                     dt = tz.localize(dt)
                     e.begin = dt
-                    # 【关键修改】大事也设为0分钟，只标记开始时间，避免挡住经济数据
-                    e.duration = {"minutes": 0}
+                    e.duration = {"minutes": 0} # 瞬时事件
+                    time_prefix = dt.strftime("%H:%M")
                 else:
                     e.begin = date_display
                     e.make_all_day()
-                calendar.events.add(e)
             except:
-                pass
+                continue
+
+            # 【视觉优化】标题格式：09:00 [大事] ★★ 欧洲央行...
+            full_title = f"{time_prefix} [大事] {star_icon} {country} {short_title}".strip()
+            e.name = full_title
+            
+            description = (
+                f"【财经大事】\n"
+                f"内容: {content}\n"
+                f"国家: {country}\n"
+                f"人物: {people if people else '--'}\n"
+                f"重要性: {star}星"
+            )
+            e.description = description
+            
+            calendar.events.add(e)
 
     except Exception as e:
         print(f"  [大事] 异常: {e}")
@@ -161,7 +167,6 @@ def main():
         date_str_display = target_date.strftime("%Y-%m-%d")
         
         print(f"处理日期: {date_str_display} ...")
-        
         process_economic_data(date_str_api, date_str_display, c, tz)
         time.sleep(0.5)
         process_financial_events(date_str_api, date_str_display, c, tz)
