@@ -1,13 +1,16 @@
 import requests
 import datetime
-from ics import Calendar, Event
+# 【修改点1】引入 Todo 而不是 Event
+from ics import Calendar, Todo
 import json
 import os
 import pytz
 import time
 
 # ================= 配置区域 =================
-DAYS_TO_FETCH = 30
+# 【修改点2】抓取未来 60 天
+DAYS_TO_FETCH = 60
+
 URL_DATA = "https://qhcal-api.jin10.com/data"
 URL_EVENT = "https://qhcal-api.jin10.com/event"
 
@@ -23,8 +26,8 @@ HEADERS = {
 # 起始显示时间：每天早上 08:00
 START_HOUR = 8
 START_MINUTE = 0
-# 【修改点】间隔时间：从 5 分钟改为 15 分钟
-INTERVAL_MINUTES = 15
+# 【修改点3】间隔时间：10分钟
+INTERVAL_MINUTES = 10
 # ===========================================
 
 def safe_str(val):
@@ -37,7 +40,7 @@ def get_star_icon(star_num):
         return ""
 
 def fetch_economic_data(date_str):
-    """获取经济数据，返回中间格式列表"""
+    """获取经济数据"""
     url = f"{URL_DATA}?date={date_str}"
     results = []
     try:
@@ -91,7 +94,7 @@ def fetch_economic_data(date_str):
     return results
 
 def fetch_financial_events(date_str):
-    """获取财经大事，返回中间格式列表"""
+    """获取财经大事"""
     url = f"{URL_EVENT}?date={date_str}"
     results = []
     try:
@@ -143,7 +146,7 @@ def main():
     c = Calendar()
     tz = pytz.timezone('Asia/Shanghai')
     
-    print(f"====== 开始执行 (抓取未来 {DAYS_TO_FETCH} 天) - 虚拟时间轴(15分钟间隔) ======")
+    print(f"====== 开始执行 (抓取未来 {DAYS_TO_FETCH} 天) - 任务模式(10分钟间隔) ======")
 
     for i in range(DAYS_TO_FETCH):
         target_date = datetime.datetime.now(tz) + datetime.timedelta(days=i)
@@ -153,7 +156,7 @@ def main():
         print(f"处理日期: {date_str_display} ...")
         
         list_data = fetch_economic_data(date_str_api)
-        time.sleep(0.2)
+        time.sleep(0.1) # 60天数据量大，稍微减少一点间隔，加快速度
         list_event = fetch_financial_events(date_str_api)
         
         all_items = list_data + list_event
@@ -161,7 +164,7 @@ def main():
         if not all_items:
             continue
             
-        print(f"  -> 共获取 {len(all_items)} 条事件，正在按 15分钟 间隔重排...")
+        print(f"  -> 共 {len(all_items)} 条，正在转为 Task 并排序...")
 
         def sort_key(x):
             if x['sort_dt'] is None:
@@ -170,24 +173,30 @@ def main():
             
         all_items.sort(key=sort_key)
         
+        # 虚拟时间起点
         current_virtual_time = target_date.replace(hour=START_HOUR, minute=START_MINUTE, second=0, microsecond=0)
         
         for item in all_items:
-            e = Event()
+            # 【修改点4】使用 Todo 类 (待办事项)
+            t = Todo()
+            
             star_icon = get_star_icon(item['star'])
             
             if item['type'] == 'data':
                 affect_str = f"[{item['affect']}]" if item['affect'] else ""
-                e.name = f"{item['time_display']} {star_icon} {affect_str} {item['title']}".strip()
+                t.name = f"{item['time_display']} {star_icon} {affect_str} {item['title']}".strip()
             else:
-                e.name = f"{item['time_display']} [大事] {star_icon} {item['country']} {item['title']}".strip()
+                t.name = f"{item['time_display']} [大事] {star_icon} {item['country']} {item['title']}".strip()
             
-            e.description = item['desc']
-            e.begin = current_virtual_time
-            e.duration = {"minutes": 0} 
-            c.events.add(e)
+            t.description = item['desc']
             
-            # 【核心逻辑生效处】每次加 15 分钟
+            # 【修改点5】Task 使用 'due' (截止日期) 来确定时间，而不是 'begin'
+            t.due = current_virtual_time
+            
+            # 将 Task 添加到日历的 todos 列表中 (注意不是 c.events)
+            c.todos.add(t)
+            
+            # 时间递增 10 分钟
             current_virtual_time += datetime.timedelta(minutes=INTERVAL_MINUTES)
 
     output_file = 'calendar.ics'
@@ -196,7 +205,7 @@ def main():
     
     if os.path.exists(output_file):
         print(f"\n====== 完成 ======")
-        print(f"文件已生成，按每隔 {INTERVAL_MINUTES} 分钟排列。")
+        print(f"文件已生成，任务已按每隔 {INTERVAL_MINUTES} 分钟排列。")
     else:
         print("\n❌ 错误: 文件生成失败")
 
