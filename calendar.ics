@@ -2,1851 +2,1857 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 14:00\n项目: 中国至4月2日螺纹钢周度产量(万吨)\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 197.87 万吨
-DTSTART:20260402T010000Z
-SUMMARY:14:00 ★★★ [螺纹钢] 中国至4月2日螺纹钢周度产量(万吨)
-UID:d627707c-c27a-4685-a695-a0d683368ab2@d627.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国4月未季调核心CPI年率\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- %
-DTSTART:20260512T003000Z
-SUMMARY:20:30 ★★★ [金银] 美国4月未季调核心CPI年率
-UID:9fe593f6-7e1c-42f9-9f91-27182ed8fa55@9fe5.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至4月24日当周石油钻井总数(口)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 口
-DTSTART:20260425T002000Z
-SUMMARY:01:00 ★★★ [原油] 美国至4月24日当周石油钻井总数(口)
-UID:714a8409-3aa5-4ebd-8694-e0a7c061be74@714a.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 05:30\n项目: 巴西至4月29日Selic利率\n国家: 巴西\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 14.75 %
-DTSTART:20260430T003000Z
-SUMMARY:05:30 ★★ [巴西雷亚尔] 巴西至4月29日Selic利率
-UID:bf8b56f6-72f8-4a98-8a1a-bbbd8c375245@bf8b.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国4月未季调CPI年率\n国家: 美国\n重要性: 5星\n----------------\n今值: --\n预测: --\n前值: -- %
-DTSTART:20260512T002000Z
-SUMMARY:20:30 ★★★★★ [金银] 美国4月未季调CPI年率
-UID:30c3049d-b982-4f81-967d-00ad07d4b6cc@30c3.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至5月1日当周EIA原油库存(万桶)\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
-DTSTART:20260506T003000Z
-SUMMARY:22:30 ★★★★ [原油] 美国至5月1日当周EIA原油库存(万桶)
-UID:93d3b458-5be2-4bb7-a1c1-afbdef7e949f@93d3.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国4月核心PCE物价指数月率\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- %
-DTSTART:20260528T000000Z
-SUMMARY:20:30 ★★★  美国4月核心PCE物价指数月率
-UID:81a9206e-5877-4189-9700-27e033ac8f39@81a9.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【财经大事】\n真实时间: 03:30\n内容: CFTC公布周度持仓报告。\n国家: 美国\n人物: --\n重要性: 2星
-DTSTART:20260530T003000Z
-SUMMARY:03:30 [大事] ★★ 美国 CFTC公布周度持仓报告。
-UID:0cb1f010-c118-4963-ae2a-c1361dac876b@0cb1.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 21:45\n项目: 美国3月标普全球服务业PMI终值\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 51.1 --
-DTSTART:20260403T041000Z
-SUMMARY:21:45 ★★★ [金银] 美国3月标普全球服务业PMI终值
-UID:d111216e-78de-4361-b093-425956c843e9@d111.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【财经大事】\n真实时间: 09:30\n内容: 国家统计局公布70个大中城市住宅销售价格月度报告。\n国家: 中国\n人物: --\n重要性: 3星
-DTSTART:20260416T000000Z
-SUMMARY:09:30 [大事] ★★★ 中国 国家统计局公布70个大中城市住宅销售价格月度报告。
-UID:ded4a1fa-c2ec-42c8-b790-9c0203cbb2b3@ded4.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月3日当周EIA精炼油库存(万桶)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -211.1 万桶
-DTSTART:20260408T034000Z
-SUMMARY:22:30 ★ [原油] 美国至4月3日当周EIA精炼油库存(万桶)
-UID:62fc377f-91e0-4c2b-aa38-cfc39542f14b@62fc.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 10:00\n项目: 中国3月规模以上工业增加值同比\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- %
-DTSTART:20260416T002000Z
-SUMMARY:10:00 ★★★ [大宗商品] 中国3月规模以上工业增加值同比
-UID:fc9db02e-39fd-4cb0-bc0e-371b13208ca3@fc9d.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月10日当周EIA原油产量引伸需求数据(万桶/日)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- 万桶/日
-DTSTART:20260415T005000Z
-SUMMARY:22:30 ★★  美国至4月10日当周EIA原油产量引伸需求数据(万桶/日)
-UID:1c5703b8-1de9-40ff-99c4-fe7aac914cd0@1c57.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 04:30\n项目: 美国至4月3日当周API成品油进口(万桶/日)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 12 万桶/日
-DTSTART:20260408T021000Z
-SUMMARY:04:30 ★★ [原油] 美国至4月3日当周API成品油进口(万桶/日)
-UID:d14329e4-d5fb-4cfe-a398-90a61f00e15a@d143.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 10:00\n项目: 中国3月社会消费品零售总额环比\n国家: 中国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: 0.81 %
-DTSTART:20260416T005000Z
-SUMMARY:10:00 ★ [大宗商品] 中国3月社会消费品零售总额环比
-UID:f2a6894b-d40a-4168-9a0a-e71eee4f42ed@f2a6.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 16:00\n项目: 英国至4月3日LME铜库存变化值(吨)\n国家: 英国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 吨
-DTSTART:20260403T025000Z
-SUMMARY:16:00 ★★★ [铜] 英国至4月3日LME铜库存变化值(吨)
-UID:a05563b1-0bdf-4410-89c1-34e6f0af2d42@a055.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 美国4月EIA当年WTI原油均价预期(美元/桶)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- 美元/桶
-DTSTART:20260408T004000Z
-SUMMARY:00:00 ★★ [原油] 美国4月EIA当年WTI原油均价预期(美元/桶)
-UID:2024b6c5-4833-4d86-859e-a2bd24454aa5@2024.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 16:00\n项目: 英国至4月3日LME镍库存变化值(吨)\n国家: 英国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 吨
-DTSTART:20260403T034000Z
-SUMMARY:16:00 ★★★ [镍] 英国至4月3日LME镍库存变化值(吨)
-UID:0a7ad387-ef67-4181-9fd0-1bfb0ce82d02@0a7a.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 中国3月进口年率\n国家: 中国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 10.90 %
-DTSTART:20260414T001000Z
-SUMMARY:00:00 ★★ [大宗商品] 中国3月进口年率
-UID:9bb01e4a-345b-43f1-ae4d-42c502f76d95@9bb0.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 09:30\n项目: 中国3月CPI年率\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 1.30 %
-DTSTART:20260410T001000Z
-SUMMARY:09:30 ★★★ [大宗商品] 中国3月CPI年率
-UID:2498cf85-68ee-4392-8f72-8d86ca39d663@2498.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 中国4月外汇储备(亿美元)\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 亿美元
-DTSTART:20260507T000000Z
-SUMMARY:00:00 ★★★ [大宗商品] 中国4月外汇储备(亿美元)
-UID:e65f9e61-5bd1-429b-a953-2f69f11b6937@e65f.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【财经大事】\n真实时间: 10:00\n内容: 国新办就国民经济运行情况举行新闻发布会。\n国家: 中国\n人物: --\n重要性: 3星
-DTSTART:20260416T012000Z
-SUMMARY:10:00 [大事] ★★★ 中国 国新办就国民经济运行情况举行新闻发布会。
-UID:cb3a4184-82e7-4171-90ed-02c40abfd5b0@cb3a.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【财经大事】\n真实时间: 00:00\n内容: 欧佩克公布月度原油市场报告（月报具体公布时间待定，一般于北京时间18-21点左右公布）。\n国家: 奥地利\n人物: --\n重要性: 3星
-DTSTART:20260413T000000Z
-SUMMARY:00:00 [大事] ★★★ 奥地利 欧佩克公布月度原油市场报告（月报具体公布时间待定，一般于...
-UID:dce1b9f3-d10c-4f05-a120-219cb8d9e6d6@dce1.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月17日当周EIA车用汽油总产量引伸需求数据(万桶/日)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶/日
-DTSTART:20260422T010000Z
-SUMMARY:22:30 ★  美国至4月17日当周EIA车用汽油总产量引伸需求数据(万桶/日)
-UID:ffbbe450-5e0e-4839-b757-09052c79c4b1@ffbb.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 16:00\n项目: 新加坡至4月1日当周燃料油库存(万桶)\n国家: 新加坡\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 2450.9 万桶
-DTSTART:20260402T015000Z
-SUMMARY:16:00 ★★★ [燃料油] 新加坡至4月1日当周燃料油库存(万桶)
-UID:2fdc3d09-a5aa-425c-bdc7-36aece27d641@2fdc.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 中国3月出口总额(亿元)\n国家: 中国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: 20994.3 亿元
-DTSTART:20260414T003000Z
-SUMMARY:00:00 ★ [大宗商品] 中国3月出口总额(亿元)
-UID:c111a8b0-abc1-4a49-884a-e76ac093a6f1@c111.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 16:00\n项目: 中国至4月3日全国主要油厂大豆压榨开机率\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 50.53 %
-DTSTART:20260403T022000Z
-SUMMARY:16:00 ★★★ [豆粕] 中国至4月3日全国主要油厂大豆压榨开机率
-UID:ee653429-3c0d-40bf-aac6-6ba42513d580@ee65.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【财经大事】\n真实时间: 00:00\n内容: 国内成品油将开启新一轮调价窗口。\n国家: 中国\n人物: --\n重要性: 3星
-DTSTART:20260508T000000Z
-SUMMARY:00:00 [大事] ★★★ 中国 国内成品油将开启新一轮调价窗口。
-UID:09d70be5-a6ba-4212-98b5-5540d9f7dd59@09d7.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【财经大事】\n真实时间: 10:00\n内容: 国新办就国民经济运行情况举行新闻发布会。\n国家: 中国\n人物: --\n重要性: 3星
-DTSTART:20260518T005000Z
-SUMMARY:10:00 [大事] ★★★ 中国 国新办就国民经济运行情况举行新闻发布会。
-UID:7967b4de-bfea-4ca4-aa04-65bb7f2bb45f@7967.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 16:00\n项目: 中国至4月2日华东港口甲醇库存(万吨)\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 47.27 万吨
-DTSTART:20260402T014000Z
-SUMMARY:16:00 ★★★ [甲醇] 中国至4月2日华东港口甲醇库存(万吨)
-UID:2d2f8176-e4b2-4b0a-b582-d2cf638fd0a3@2d2f.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 中国3月出口年率\n国家: 中国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 36.10 %
-DTSTART:20260414T000000Z
-SUMMARY:00:00 ★★ [大宗商品] 中国3月出口年率
-UID:57d0df1b-d03e-4e7f-9e75-8cea4dedffd6@57d0.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国第四季度实际个人消费支出季率终值\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 3.5 %
-DTSTART:20260409T011000Z
-SUMMARY:20:30 ★★★  美国第四季度实际个人消费支出季率终值
-UID:9b4d65b9-8b91-4b10-a473-fabe1c82e46b@9b4d.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 10:00\n项目: 中国4月规模以上工业增加值同比\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- %
-DTSTART:20260518T002000Z
-SUMMARY:10:00 ★★★ [大宗商品] 中国4月规模以上工业增加值同比
-UID:8021b6f3-8743-4a6d-b296-4f3e90eaa50f@8021.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至5月1日当周总钻井总数(口)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- 口
-DTSTART:20260502T000000Z
-SUMMARY:01:00 ★★ [油气] 美国至5月1日当周总钻井总数(口)
-UID:c68f3874-d9a9-43d0-adc1-c55cf683bcd9@c68f.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 16:00\n项目: 英国至4月2日LME铝库存变化值(吨)\n国家: 英国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -2600 吨
-DTSTART:20260402T025000Z
-SUMMARY:16:00 ★★★ [铝] 英国至4月2日LME铝库存变化值(吨)
-UID:ff138ae5-65e8-4afb-8826-5a96436d3a88@ff13.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 04:30\n项目: 美国至4月3日当周API汽油库存(万桶)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -320.9 万桶
-DTSTART:20260408T012000Z
-SUMMARY:04:30 ★ [原油] 美国至4月3日当周API汽油库存(万桶)
-UID:04c32ca7-7a42-401c-81b4-2368854a7534@04c3.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至5月15日当周EIA天然气库存(亿立方英尺)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 亿立方英尺
-DTSTART:20260521T011000Z
-SUMMARY:22:30 ★★★ [天然气] 美国至5月15日当周EIA天然气库存(亿立方英尺)
-UID:5b1afa94-afde-43c3-9e74-b884849213de@5b1a.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至5月1日当周EIA精炼油库存(万桶)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
-DTSTART:20260506T010000Z
-SUMMARY:22:30 ★ [原油] 美国至5月1日当周EIA精炼油库存(万桶)
-UID:0802cf40-b1f2-470a-81ab-2d790ed96d44@0802.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至4月17日当周总钻井总数(口)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- 口
-DTSTART:20260418T000000Z
-SUMMARY:01:00 ★★ [油气] 美国至4月17日当周总钻井总数(口)
-UID:3e12dd88-3e8e-4bfa-91b7-92c81fe36149@3e12.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至5月15日当周EIA汽油库存(万桶)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
-DTSTART:20260520T005000Z
-SUMMARY:22:30 ★ [原油] 美国至5月15日当周EIA汽油库存(万桶)
-UID:4b83e0d4-27be-42c1-9853-30d19b6b9e6b@4b83.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月10日当周EIA蒸馏燃油产量引伸需求数据(万桶/日)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶/日
-DTSTART:20260415T011000Z
-SUMMARY:22:30 ★  美国至4月10日当周EIA蒸馏燃油产量引伸需求数据(万桶/日)
-UID:ba39c369-ba90-4c8f-b46e-e86b6b4c4d94@ba39.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国3月失业率\n国家: 美国\n重要性: 5星\n----------------\n今值: --\n预测: 4.40\n前值: 4.40 %
-DTSTART:20260403T040000Z
-SUMMARY:20:30 ★★★★★ [金银] 美国3月失业率
-UID:2bd183c9-e3b7-45cd-9a9a-cc33c1d10686@2bd1.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 16:00\n项目: 英国至4月2日LME锌库存变化值(吨)\n国家: 英国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -275 吨
-DTSTART:20260402T030000Z
-SUMMARY:16:00 ★★ [锌] 英国至4月2日LME锌库存变化值(吨)
-UID:3aff0fab-51bb-42c3-84ae-259127985265@3aff.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【财经大事】\n真实时间: 02:00\n内容: 美联储公布货币政策会议纪要。\n国家: 美国\n人物: 美联储\n重要性: 4星
-DTSTART:20260521T001000Z
-SUMMARY:02:00 [大事] ★★★★ 美国 美联储公布货币政策会议纪要。
-UID:47d47f47-4006-4805-97f8-2d310c1d7747@47d4.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国第四季度实际个人消费支出季率初值\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 2.00 %
-DTSTART:20260409T005000Z
-SUMMARY:20:30 ★★★ [黄金] 美国第四季度实际个人消费支出季率初值
-UID:f4536742-0c42-487b-a64f-dce7c923fe35@f453.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国5月达拉斯联储商业活动指数\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- --
-DTSTART:20260526T000000Z
-SUMMARY:22:30 ★★★ [金银] 美国5月达拉斯联储商业活动指数
-UID:e24014bd-9585-42fa-be9d-85e057ee6f9e@e240.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 美国4月EIA当年布伦特原油均价预期(美元/桶)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- 美元/桶
-DTSTART:20260408T005000Z
-SUMMARY:00:00 ★★ [原油] 美国4月EIA当年布伦特原油均价预期(美元/桶)
-UID:e81b3a97-483c-4955-9833-1432a35c4146@e81b.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国第一季度实际GDP年化季率初值\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- %
-DTSTART:20260430T015000Z
-SUMMARY:20:30 ★★★ [黄金] 美国第一季度实际GDP年化季率初值
-UID:62d53618-866f-4309-9f54-baebf87f6f7b@62d5.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月3日当周EIA原油库存(万桶)\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: --\n前值: 545.1 万桶
-DTSTART:20260408T031000Z
-SUMMARY:22:30 ★★★★ [原油] 美国至4月3日当周EIA原油库存(万桶)
-UID:6e9ef7b7-b3b5-4005-ad12-e3bdb1cc9608@6e9e.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【财经大事】\n真实时间: 20:00\n内容: 俄罗斯央行行长纳比乌琳娜召开货币政策新闻发布会。\n国家: 俄罗斯\n人物: 纳比乌琳娜\n重要性: 2星
-DTSTART:20260424T002000Z
-SUMMARY:20:00 [大事] ★★ 俄罗斯 俄罗斯央行行长纳比乌琳娜召开货币政策新闻发布会。
-UID:bc556fb5-80a0-4160-945b-82c43f95a82a@bc55.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 美国4月EIA次年天然气产量预期(亿立方英尺/日)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: 1123.3 亿立方英尺/日
-DTSTART:20260408T003000Z
-SUMMARY:00:00 ★ [天然气] 美国4月EIA次年天然气产量预期(亿立方英尺/日)
-UID:939dd695-21a7-43f8-b7b1-939be8c8bed3@939d.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国2月核心PCE物价指数月率\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 0.40 %
-DTSTART:20260409T001000Z
-SUMMARY:20:30 ★★★  美国2月核心PCE物价指数月率
-UID:2e0617fe-10c6-4046-90a3-63d283448448@2e06.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 09:00\n项目: 中国至5月20日五年期贷款市场报价利率\n国家: 中国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- %
-DTSTART:20260520T000000Z
-SUMMARY:09:00 ★★ [大宗商品] 中国至5月20日五年期贷款市场报价利率
-UID:c18d4631-9a8a-4da8-a819-5ab8b616b761@c18d.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:00\n项目: 美国4月ISM制造业PMI\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: --\n前值: 52.7 --
-DTSTART:20260501T002000Z
-SUMMARY:22:00 ★★★★ [黄金] 美国4月ISM制造业PMI
-UID:0f62bf11-387f-4da2-84bc-d7039eeb454c@0f62.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国至3月26日2025/2026市场年度棉花出口净销售量(包)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 202400 包
-DTSTART:20260402T035000Z
-SUMMARY:20:30 ★★ [棉花] 美国至3月26日2025/2026市场年度棉花出口净销售量(包)
-UID:49de9507-697c-4fa8-8350-a09b855208af@49de.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 美国5月EIA次年天然气产量预期(亿立方英尺/日)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 亿立方英尺/日
-DTSTART:20260513T003000Z
-SUMMARY:00:00 ★ [天然气] 美国5月EIA次年天然气产量预期(亿立方英尺/日)
-UID:34078c8e-847a-46f1-ac74-c2ee739efed6@3407.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 10:00\n项目: 中国3月城镇调查失业率\n国家: 中国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 5.30 %
-DTSTART:20260416T004000Z
-SUMMARY:10:00 ★★ [大宗商品] 中国3月城镇调查失业率
-UID:f0877b38-1e38-4feb-b971-18e9325e954c@f087.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 中国4月出口年率\n国家: 中国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- %
-DTSTART:20260509T000000Z
-SUMMARY:00:00 ★★ [大宗商品] 中国4月出口年率
-UID:ad1e26f4-703b-4009-8fac-3c1290a3c4f3@ad1e.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国至4月25日当周初请失业金人数(万人)\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: --\n前值: -- 万人
-DTSTART:20260430T014000Z
-SUMMARY:20:30 ★★★★ [黄金] 美国至4月25日当周初请失业金人数(万人)
-UID:615b3e4e-1f41-46eb-8015-81de3eb3081b@615b.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【财经大事】\n真实时间: 03:30\n内容: CFTC公布周度持仓报告。\n国家: 美国\n人物: --\n重要性: 2星
-DTSTART:20260418T003000Z
-SUMMARY:03:30 [大事] ★★ 美国 CFTC公布周度持仓报告。
-UID:ece86238-5a69-4649-999d-295d19a35d5c@ece8.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 10:00\n项目: 中国4月今年迄今城镇固定资产投资同比\n国家: 中国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- %
-DTSTART:20260518T003000Z
-SUMMARY:10:00 ★★ [大宗商品] 中国4月今年迄今城镇固定资产投资同比
-UID:b3ce4990-fcc6-4914-b6be-1b85f05a2e2f@b3ce.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 13:00\n项目: 中国至4月3日外购仔猪养殖利润(元/头)\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -189.87 元/头
-DTSTART:20260403T014000Z
-SUMMARY:13:00 ★★★ [生猪] 中国至4月3日外购仔猪养殖利润(元/头)
-UID:86ff4733-5f9f-4fb8-8b03-b4ff39db927a@86ff.org
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:【经济数据】\n真实时间: 10:00\n项目: 中国3月社会消费品零售总额同比\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- %
 DTSTART:20260416T001000Z
 SUMMARY:10:00 ★★★ [大宗商品] 中国3月社会消费品零售总额同比
-UID:f64f2d41-2349-4743-85f7-5f281c1fa07a@f64f.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【财经大事】\n真实时间: 09:20\n内容: 今日有6000亿元1年期中期借贷便利（MLF）到期。\n国家: 中国\n人物: --\n重要性: 3星
-DTSTART:20260427T000000Z
-SUMMARY:09:20 [大事] ★★★ 中国 今日有6000亿元1年期中期借贷便利（MLF）到期。
-UID:8980b057-0e4d-473a-a12e-093a164f1b12@8980.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至5月8日当周总钻井总数(口)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- 口
-DTSTART:20260509T002000Z
-SUMMARY:01:00 ★★ [油气] 美国至5月8日当周总钻井总数(口)
-UID:c15e80de-c1c2-4595-8594-a3ec81516259@c15e.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月3日当周EIA蒸馏燃油产量引伸需求数据(万桶/日)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: 544.46 万桶/日
-DTSTART:20260408T041000Z
-SUMMARY:22:30 ★  美国至4月3日当周EIA蒸馏燃油产量引伸需求数据(万桶/日)
-UID:b2934380-a7e3-4138-8511-b5e61d4abd03@b293.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 中国3月外汇储备(亿美元)\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 34278 亿美元
-DTSTART:20260407T000000Z
-SUMMARY:00:00 ★★★ [大宗商品] 中国3月外汇储备(亿美元)
-UID:c3ccd10c-9bff-4e85-95c0-104eab93f2a0@c3cc.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【财经大事】\n真实时间: 00:00\n内容: EIA公布月度短期能源展望报告。\n国家: 美国\n人物: --\n重要性: 3星
-DTSTART:20260408T010000Z
-SUMMARY:00:00 [大事] ★★★ 美国 EIA公布月度短期能源展望报告。
-UID:7218075c-51c3-4417-a892-380f2f8aba79@7218.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国3月未季调CPI年率\n国家: 美国\n重要性: 5星\n----------------\n今值: --\n预测: --\n前值: 2.40 %
-DTSTART:20260410T010000Z
-SUMMARY:20:30 ★★★★★ [金银] 美国3月未季调CPI年率
-UID:c9ea1d7f-befd-40f6-bfd1-f688fa577480@c9ea.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至5月15日当周EIA车用汽油总产量引伸需求数据(万桶/日)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶/日
-DTSTART:20260520T012000Z
-SUMMARY:22:30 ★  美国至5月15日当周EIA车用汽油总产量引伸需求数据(万桶/日)
-UID:1e0928a2-b303-4611-9570-c8c174e14b41@1e09.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国4月零售销售月率\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: --\n前值: -- %
-DTSTART:20260514T001000Z
-SUMMARY:20:30 ★★★★ [黄金] 美国4月零售销售月率
-UID:108ff53c-7257-4577-b6d6-58aa8f5fdff0@108f.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国至5月23日当周初请失业金人数(万人)\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: --\n前值: -- 万人
-DTSTART:20260528T002000Z
-SUMMARY:20:30 ★★★★ [黄金] 美国至5月23日当周初请失业金人数(万人)
-UID:6a30f8d0-b2e3-4fa5-9c72-5cba2ef99b71@6a30.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 美国4月EIA当年短期前景美国原油产量预期(万桶/日)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 1361 万桶/日
-DTSTART:20260408T000000Z
-SUMMARY:00:00 ★★ [原油] 美国4月EIA当年短期前景美国原油产量预期(万桶/日)
-UID:88b8dd07-ddc1-442b-8202-35ca110d5fea@88b8.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至4月24日当周总钻井总数(口)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- 口
-DTSTART:20260425T000000Z
-SUMMARY:01:00 ★★ [油气] 美国至4月24日当周总钻井总数(口)
-UID:6bb29488-4ca1-4e44-8629-c8355b5f966a@6bb2.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月3日当周EIA汽油库存(万桶)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -58.6 万桶
-DTSTART:20260408T033000Z
-SUMMARY:22:30 ★ [原油] 美国至4月3日当周EIA汽油库存(万桶)
-UID:83d2ea4b-c8af-426f-8215-18219d37584e@83d2.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 21:45\n项目: 美国5月标普全球制造业PMI初值\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- --
-DTSTART:20260521T004000Z
-SUMMARY:21:45 ★★★ [金银] 美国5月标普全球制造业PMI初值
-UID:1aa836e2-5cf0-4a14-868a-884c444041b5@1aa8.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至4月10日当周总钻井总数(口)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- 口
-DTSTART:20260411T000000Z
-SUMMARY:01:00 ★★ [油气] 美国至4月10日当周总钻井总数(口)
-UID:51b4c4f9-519f-4ffa-b469-bb795bc408f5@51b4.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 10:00\n项目: 中国3月规模以上工业增加值环比\n国家: 中国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 0.83 %
-DTSTART:20260416T010000Z
-SUMMARY:10:00 ★★ [大宗商品] 中国3月规模以上工业增加值环比
-UID:ee2970d6-4a38-4262-9db6-aec49edbfa3f@ee29.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 09:30\n项目: 中国3月规模以上工业企业利润年率\n国家: 中国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: 5.30 %
-DTSTART:20260427T002000Z
-SUMMARY:09:30 ★ [大宗商品] 中国3月规模以上工业企业利润年率
-UID:7e306a36-9bf8-4488-8b87-c36da82ccf17@7e30.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 09:45\n项目: 中国3月RatingDog综合PMI\n国家: 中国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 55.4 --
-DTSTART:20260403T012000Z
-SUMMARY:09:45 ★★ [大宗商品] 中国3月RatingDog综合PMI
-UID:61d63658-7c69-4669-84ed-2f5f7c5247a6@61d6.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 21:45\n项目: 美国5月标普全球综合PMI初值\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- --
-DTSTART:20260521T010000Z
-SUMMARY:21:45 ★★ [金银] 美国5月标普全球综合PMI初值
-UID:a24b5a0f-7d83-4242-a4b7-0bc2292a27f9@a24b.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至4月10日当周天然气钻井总数(口)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 口
-DTSTART:20260411T001000Z
-SUMMARY:01:00 ★ [天然气] 美国至4月10日当周天然气钻井总数(口)
-UID:f94aa2be-83fc-4741-948f-60709a0d068e@f94a.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 21:45\n项目: 美国4月标普全球制造业PMI终值\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 52.3 --
-DTSTART:20260501T001000Z
-SUMMARY:21:45 ★★★ [金银] 美国4月标普全球制造业PMI终值
-UID:920c9ef7-fedd-45df-bb2a-daee01332170@920c.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至5月8日当周EIA原油库存(万桶)\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
-DTSTART:20260513T011000Z
-SUMMARY:22:30 ★★★★ [原油] 美国至5月8日当周EIA原油库存(万桶)
-UID:03797b41-3303-4563-85c7-1e9f4bf0b8f5@0379.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国至3月28日当周初请失业金人数(万人)\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: 21.2\n前值: 21 万人
-DTSTART:20260402T044000Z
-SUMMARY:20:30 ★★★★ [黄金] 美国至3月28日当周初请失业金人数(万人)
-UID:533d395a-7244-43ff-99fc-cbf0e196adc8@533d.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 09:45\n项目: 中国4月RatingDog制造业PMI\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 50.8 --
-DTSTART:20260430T011000Z
-SUMMARY:09:45 ★★★ [大宗商品] 中国4月RatingDog制造业PMI
-UID:783579a7-643c-4a28-b42b-9cd38f6e2c81@7835.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【财经大事】\n真实时间: 00:00\n内容: 国家能源局每月15日左右公布全社会用电量数据。\n国家: 中国\n人物: --\n重要性: 3星
-DTSTART:20260415T000000Z
-SUMMARY:00:00 [大事] ★★★ 中国 国家能源局每月15日左右公布全社会用电量数据。
-UID:f5f4cab8-9aa3-4d07-875f-f084e206f3e1@f5f4.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月10日当周EIA汽油库存(万桶)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
-DTSTART:20260415T003000Z
-SUMMARY:22:30 ★ [原油] 美国至4月10日当周EIA汽油库存(万桶)
-UID:f00f0129-dfd1-4c14-827c-5a98a0577558@f00f.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至5月22日当周EIA天然气库存(亿立方英尺)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 亿立方英尺
-DTSTART:20260528T005000Z
-SUMMARY:22:30 ★★★ [天然气] 美国至5月22日当周EIA天然气库存(亿立方英尺)
-UID:7b59e7d5-7fd9-4528-ae7a-070d204bc047@7b59.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 04:30\n项目: 美国至4月3日当周API取暖油库存(万桶)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -53 万桶
-DTSTART:20260408T015000Z
-SUMMARY:04:30 ★★ [原油] 美国至4月3日当周API取暖油库存(万桶)
-UID:3c94ae51-19c4-4678-97a8-97edb646dd6d@3c94.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月10日当周EIA车用汽油总产量引伸需求数据(万桶/日)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶/日
-DTSTART:20260415T010000Z
-SUMMARY:22:30 ★  美国至4月10日当周EIA车用汽油总产量引伸需求数据(万桶/日)
-UID:6c73db1c-5509-44bc-94c9-1f6044d78e1e@6c73.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国第一季度实际GDP年化季率修正值\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 0.7 %
-DTSTART:20260528T003000Z
-SUMMARY:20:30 ★★★ [贵金属] 美国第一季度实际GDP年化季率修正值
-UID:7e015c26-b379-4bc8-90b4-06b3b5e769f5@7e01.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国3月季调后CPI月率\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: --\n前值: 0.30 %
-DTSTART:20260410T004000Z
-SUMMARY:20:30 ★★★★ [金银] 美国3月季调后CPI月率
-UID:42ae6523-9d3e-4caa-b928-18ca541fd6fa@42ae.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 09:00\n项目: 中国4月Swift人民币在全球支付中占比\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- %
-DTSTART:20260521T002000Z
-SUMMARY:09:00 ★★★  中国4月Swift人民币在全球支付中占比
-UID:a497966f-81ba-45d3-951f-934abb77d738@a497.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 09:00\n项目: 中国至5月20日一年期贷款市场报价利率\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- %
-DTSTART:20260520T001000Z
-SUMMARY:09:00 ★★★ [大宗商品] 中国至5月20日一年期贷款市场报价利率
-UID:d330e029-3584-47d1-a962-201b0b150aa0@d330.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 09:30\n项目: 中国5月综合PMI\n国家: 中国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- --
-DTSTART:20260531T002000Z
-SUMMARY:09:30 ★★ [大宗商品] 中国5月综合PMI
-UID:b8efac25-5334-40da-9b93-9ac95dcb13bc@b8ef.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【财经大事】\n真实时间: 03:30\n内容: CFTC公布周度持仓报告。\n国家: 美国\n人物: --\n重要性: 2星
-DTSTART:20260425T003000Z
-SUMMARY:03:30 [大事] ★★ 美国 CFTC公布周度持仓报告。
-UID:2840bbe4-c404-4b39-899e-76711299311d@2840.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至5月15日当周EIA原油库存(万桶)\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
-DTSTART:20260520T003000Z
-SUMMARY:22:30 ★★★★ [原油] 美国至5月15日当周EIA原油库存(万桶)
-UID:575fc79d-53c3-4078-a7e7-8e87a725af7f@575f.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 09:30\n项目: 中国4月官方制造业PMI\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 50.4 
-DTSTART:20260430T004000Z
-SUMMARY:09:30 ★★★ [大宗商品] 中国4月官方制造业PMI
-UID:c82db28c-fce2-4e5f-a22a-d6ac18301516@c82d.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【财经大事】\n真实时间: 00:00\n内容: EIA公布月度短期能源展望报告。\n国家: 美国\n人物: --\n重要性: 3星
-DTSTART:20260513T004000Z
-SUMMARY:00:00 [大事] ★★★ 美国 EIA公布月度短期能源展望报告。
-UID:84c4dbff-431f-4f82-90e2-6f3b5bb53a4b@84c4.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 16:00\n项目: 英国至4月3日LME锌库存变化值(吨)\n国家: 英国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- 吨
-DTSTART:20260403T032000Z
-SUMMARY:16:00 ★★ [锌] 英国至4月3日LME锌库存变化值(吨)
-UID:0af451dd-50f6-4c3e-8a08-a19816fef56d@0af4.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 美国5月EIA当年天然气产量预期(亿立方英尺/日)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 亿立方英尺/日
-DTSTART:20260513T002000Z
-SUMMARY:00:00 ★ [天然气] 美国5月EIA当年天然气产量预期(亿立方英尺/日)
-UID:bed1fe91-5a40-47b0-ab3c-0300250d66da@bed1.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国第一季度核心PCE物价指数年化季率初值\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- %
-DTSTART:20260430T021000Z
-SUMMARY:20:30 ★★★ [黄金] 美国第一季度核心PCE物价指数年化季率初值
-UID:d5af413d-a78e-4982-b737-f1a0eeb702e2@d5af.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至4月3日当周总钻井总数(口)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 543 口
-DTSTART:20260403T003000Z
-SUMMARY:01:00 ★★ [油气] 美国至4月3日当周总钻井总数(口)
-UID:4d52522f-670a-44e3-8a66-9b66c27c97fa@4d52.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月3日当周EIA车用汽油总产量引伸需求数据(万桶/日)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: 951.51 万桶/日
-DTSTART:20260408T040000Z
-SUMMARY:22:30 ★  美国至4月3日当周EIA车用汽油总产量引伸需求数据(万桶/日)
-UID:f447f3e3-3bca-4339-b09a-f74025195a9a@f447.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 09:00\n项目: 中国至4月20日一年期贷款市场报价利率\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 3.00 %
-DTSTART:20260420T001000Z
-SUMMARY:09:00 ★★★ [大宗商品] 中国至4月20日一年期贷款市场报价利率
-UID:4a289ad7-3ac8-4d12-b9e8-8315e0881a67@4a28.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 16:00\n项目: 英国至4月3日LME锡库存变化值(吨)\n国家: 英国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- 吨
-DTSTART:20260403T033000Z
-SUMMARY:16:00 ★★ [锡] 英国至4月3日LME锡库存变化值(吨)
-UID:586d742b-9689-43ce-927b-7797bd591c8b@586d.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 04:30\n项目: 美国至4月3日当周API精炼油库存(万桶)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -1043 万桶
-DTSTART:20260408T013000Z
-SUMMARY:04:30 ★ [原油] 美国至4月3日当周API精炼油库存(万桶)
-UID:ac6bfc02-a295-4480-881f-edb755d42e3c@ac6b.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至5月8日当周石油钻井总数(口)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 口
-DTSTART:20260509T004000Z
-SUMMARY:01:00 ★★★ [原油] 美国至5月8日当周石油钻井总数(口)
-UID:6edb68be-99cb-449d-bcc6-e7e9878df74e@6edb.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至5月22日当周石油钻井总数(口)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 口
-DTSTART:20260523T002000Z
-SUMMARY:01:00 ★★★ [原油] 美国至5月22日当周石油钻井总数(口)
-UID:5ddc13cf-7a58-4aaf-ba95-993545834358@5ddc.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国4月季调后非农就业人口(万人)\n国家: 美国\n重要性: 5星\n----------------\n今值: --\n预测: --\n前值: -- 万人
-DTSTART:20260508T001000Z
-SUMMARY:20:30 ★★★★★ [金银] 美国4月季调后非农就业人口(万人)
-UID:5f1b7d31-059b-4a15-8624-85965572c31f@5f1b.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【财经大事】\n真实时间: 03:30\n内容: CFTC公布周度持仓报告。\n国家: 美国\n人物: --\n重要性: 2星
-DTSTART:20260502T003000Z
-SUMMARY:03:30 [大事] ★★ 美国 CFTC公布周度持仓报告。
-UID:f5bfac09-3415-4ca4-82ec-da8c4d3293d9@f5bf.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 09:30\n项目: 中国5月非制造业PMI\n国家: 中国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- 
-DTSTART:20260531T001000Z
-SUMMARY:09:30 ★★ [大宗商品] 中国5月非制造业PMI
-UID:aa737a5f-0ebf-4ae7-8f6b-0e406d538a27@aa73.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【财经大事】\n真实时间: 03:30\n内容: CFTC公布周度持仓报告。\n国家: 美国\n人物: --\n重要性: 2星
-DTSTART:20260404T000000Z
-SUMMARY:03:30 [大事] ★★ 美国 CFTC公布周度持仓报告。
-UID:00e6b254-23e1-42a1-88ca-bfed2a2336fe@00e6.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国3月核心PCE物价指数月率\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- %
-DTSTART:20260430T012000Z
-SUMMARY:20:30 ★★★  美国3月核心PCE物价指数月率
-UID:f1f88d30-dbde-4f4a-acee-41d4d43c659b@f1f8.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至5月22日当周天然气钻井总数(口)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 口
-DTSTART:20260523T001000Z
-SUMMARY:01:00 ★ [天然气] 美国至5月22日当周天然气钻井总数(口)
-UID:8cb8f91a-4d63-4a44-83e7-2633a1178ff2@8cb8.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至5月1日当周EIA俄克拉荷马州库欣原油库存(万桶)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
-DTSTART:20260506T004000Z
-SUMMARY:22:30 ★★★ [原油] 美国至5月1日当周EIA俄克拉荷马州库欣原油库存(万桶)
-UID:679765eb-7b63-4e32-a405-8c0de85feab9@6797.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月3日当周EIA原油产量引伸需求数据(万桶/日)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 1933.2 万桶/日
-DTSTART:20260408T035000Z
-SUMMARY:22:30 ★★  美国至4月3日当周EIA原油产量引伸需求数据(万桶/日)
-UID:e9bba123-8b10-44d5-b0f5-ae20a04f9fa8@e9bb.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至4月3日当周石油钻井总数(口)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 409 口
-DTSTART:20260403T005000Z
-SUMMARY:01:00 ★★★ [原油] 美国至4月3日当周石油钻井总数(口)
-UID:593e4678-af5a-4cd7-82a1-a438449f645a@593e.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 12:30\n项目: 印度至4月8日央行利率决定\n国家: 印度\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 5.25 %
-DTSTART:20260408T024000Z
-SUMMARY:12:30 ★★  印度至4月8日央行利率决定
-UID:73e2dadb-1348-456c-aa3a-b0ad928bbb06@73e2.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 09:30\n项目: 中国3月CPI月率\n国家: 中国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 1 %
-DTSTART:20260410T003000Z
-SUMMARY:09:30 ★★ [大宗商品] 中国3月CPI月率
-UID:da049a65-d8c0-4dca-af56-4086a67aa958@da04.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 09:45\n项目: 中国3月RatingDog服务业PMI\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: 53.7\n前值: 56.7 --
-DTSTART:20260403T013000Z
-SUMMARY:09:45 ★★★ [大宗商品] 中国3月RatingDog服务业PMI
-UID:287bf475-f0c6-477c-bb47-cc7985a8247a@287b.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月17日当周EIA天然气库存(亿立方英尺)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 亿立方英尺
-DTSTART:20260423T005000Z
-SUMMARY:22:30 ★★★ [天然气] 美国至4月17日当周EIA天然气库存(亿立方英尺)
-UID:4904d9f1-ffd8-45a1-8bdc-27043a5b5219@4904.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月10日当周EIA精炼油库存(万桶)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
-DTSTART:20260415T004000Z
-SUMMARY:22:30 ★ [原油] 美国至4月10日当周EIA精炼油库存(万桶)
-UID:4de6d6d7-d9fb-40e9-ad48-f555a681f1f4@4de6.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 中国3月贸易帐(亿元)\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 6375.5 亿元
-DTSTART:20260414T002000Z
-SUMMARY:00:00 ★★★ [大宗商品] 中国3月贸易帐(亿元)
-UID:936ba5dc-92a9-4015-bce3-21e6e33b3a7a@936b.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 21:45\n项目: 美国3月标普全球综合PMI终值\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 51.4 --
-DTSTART:20260403T042000Z
-SUMMARY:21:45 ★★ [金银] 美国3月标普全球综合PMI终值
-UID:ddaedf9f-aba7-4274-bce3-6d1068ec3797@ddae.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 04:30\n项目: 美国至4月3日当周API投产原油量(万桶/日)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -20.5 万桶/日
-DTSTART:20260408T022000Z
-SUMMARY:04:30 ★★ [原油] 美国至4月3日当周API投产原油量(万桶/日)
-UID:f737296f-aad9-46b2-b3cc-454c3690ecc7@f737.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月24日当周EIA汽油库存(万桶)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
-DTSTART:20260429T002000Z
-SUMMARY:22:30 ★ [原油] 美国至4月24日当周EIA汽油库存(万桶)
-UID:752bd9b1-f17c-45e5-999a-550929242a00@752b.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国第四季度核心PCE物价指数年化季率终值\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 2.70 %
-DTSTART:20260409T010000Z
-SUMMARY:20:30 ★★★  美国第四季度核心PCE物价指数年化季率终值
-UID:677770f1-db3c-41a8-bc16-986d5fdac3a2@6777.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 09:30\n项目: 中国4月CPI年率\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- %
-DTSTART:20260511T001000Z
-SUMMARY:09:30 ★★★ [大宗商品] 中国4月CPI年率
-UID:2b69d933-a61a-4d97-b754-e47a3aa25dde@2b69.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 08:00\n项目: 中国至4月2日45个港口铁矿石库存(万吨)\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 17000.31 万吨
-DTSTART:20260403T010000Z
-SUMMARY:08:00 ★★★ [铁矿石] 中国至4月2日45个港口铁矿石库存(万吨)
-UID:2fcee733-49e0-4797-85c7-20737812464e@2fce.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 02:00\n项目: 美国至4月29日美联储利率决定(下限)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 3.50 %
-DTSTART:20260430T001000Z
-SUMMARY:02:00 ★★ [黄金] 美国至4月29日美联储利率决定(下限)
-UID:60992945-a2f6-470b-8bd0-4e975e88b424@6099.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 09:30\n项目: 中国4月综合PMI\n国家: 中国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 50.5 --
-DTSTART:20260430T010000Z
-SUMMARY:09:30 ★★ [大宗商品] 中国4月综合PMI
-UID:2f08f0b9-3ea9-445e-a470-a98d148a9c13@2f08.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至5月1日当周天然气钻井总数(口)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 口
-DTSTART:20260502T001000Z
-SUMMARY:01:00 ★ [天然气] 美国至5月1日当周天然气钻井总数(口)
-UID:52789d23-43dc-4d84-8ace-79d74e5834c2@5278.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 16:00\n项目: 英国至4月2日LME铅库存变化值(吨)\n国家: 英国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: 0 吨
-DTSTART:20260402T022000Z
-SUMMARY:16:00 ★ [铅] 英国至4月2日LME铅库存变化值(吨)
-UID:f65df6df-4101-41f0-9134-92ceed0869ba@f65d.org
+UID:3b38b3de-981f-4e36-843a-9373775f37b4@3b38.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国至3月26日2025/2026市场年度大豆出口净销售量(吨)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 668900 吨
 DTSTART:20260402T040000Z
 SUMMARY:20:30 ★★★ [大豆] 美国至3月26日2025/2026市场年度大豆出口净销售量(吨)
-UID:218daa73-34bd-4ca9-9f06-3fbffd361da9@218d.org
+UID:f3d6e8b2-6b51-479a-bbbd-fd136db85e9c@f3d6.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国至5月2日当周初请失业金人数(万人)\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: --\n前值: -- 万人
-DTSTART:20260507T001000Z
-SUMMARY:20:30 ★★★★ [黄金] 美国至5月2日当周初请失业金人数(万人)
-UID:c300b897-f56c-4244-82da-87bfa698328d@c300.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【财经大事】\n真实时间: 00:00\n内容: 国内成品油将开启新一轮调价窗口。\n国家: 中国\n人物: --\n重要性: 3星
-DTSTART:20260421T000000Z
-SUMMARY:00:00 [大事] ★★★ 中国 国内成品油将开启新一轮调价窗口。
-UID:90e91abb-42f6-4e6b-8a64-3ceef671d00a@90e9.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 美国至5月22日当周EIA俄克拉荷马州库欣原油库存(万桶)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
-DTSTART:20260529T001000Z
-SUMMARY:00:00 ★★★ [原油] 美国至5月22日当周EIA俄克拉荷马州库欣原油库存(万桶)
-UID:58f43b80-5be4-4d2c-ad77-6e715339ecfa@58f4.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 16:00\n项目: 英国至4月3日LME铝库存变化值(吨)\n国家: 英国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 吨
-DTSTART:20260403T031000Z
-SUMMARY:16:00 ★★★ [铝] 英国至4月3日LME铝库存变化值(吨)
-UID:def13248-837f-46e4-9655-a6c32d41626e@def1.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 09:30\n项目: 中国4月非制造业PMI\n国家: 中国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 50.1 
-DTSTART:20260430T005000Z
-SUMMARY:09:30 ★★ [大宗商品] 中国4月非制造业PMI
-UID:b9cad361-c773-46f5-868e-9a7b77cd27cd@b9ca.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 16:00\n项目: 英国至4月2日LME铜库存变化值(吨)\n国家: 英国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -1000 吨
-DTSTART:20260402T023000Z
-SUMMARY:16:00 ★★★ [铜] 英国至4月2日LME铜库存变化值(吨)
-UID:04f6e744-e545-4773-afcc-192a828d7d3e@04f6.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 08:00\n项目: 韩国4月出口年率\n国家: 韩国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: 48.3 %
-DTSTART:20260501T000000Z
-SUMMARY:08:00 ★ [全球经济] 韩国4月出口年率
-UID:8e7ae161-e845-4269-bc7d-62aacc68fa45@8e7a.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 16:00\n项目: 英国至4月3日LME铅库存变化值(吨)\n国家: 英国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 吨
-DTSTART:20260403T024000Z
-SUMMARY:16:00 ★ [铅] 英国至4月3日LME铅库存变化值(吨)
-UID:4b088f35-5154-4a89-b3dc-29f0aa36eaf1@4b08.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 04:30\n项目: 美国至4月3日当周API原油进口(万桶)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 32.8 万桶
-DTSTART:20260408T020000Z
-SUMMARY:04:30 ★★ [原油] 美国至4月3日当周API原油进口(万桶)
-UID:5a172a85-8eec-444f-bb1f-91f8a0ead50e@5a17.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国3月季调后核心CPI月率\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 0.20 %
-DTSTART:20260410T005000Z
-SUMMARY:20:30 ★★★ [金银] 美国3月季调后核心CPI月率
-UID:300562c5-115d-4c53-bf84-40221065bfff@3005.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国至5月9日当周初请失业金人数(万人)\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: --\n前值: -- 万人
-DTSTART:20260514T000000Z
-SUMMARY:20:30 ★★★★ [黄金] 美国至5月9日当周初请失业金人数(万人)
-UID:371deb2e-87f7-45b9-b715-1c47ee5fa847@371d.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 14:00\n项目: 中国至4月2日螺纹钢周度社会库存(万吨)\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 642.75 万吨
-DTSTART:20260402T012000Z
-SUMMARY:14:00 ★★★ [螺纹钢] 中国至4月2日螺纹钢周度社会库存(万吨)
-UID:c17e5388-8d7a-4a46-bd50-e527b3ba8f65@c17e.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【财经大事】\n真实时间: 09:20\n内容: 今日有5000亿元1年期中期借贷便利（MLF）到期。\n国家: 中国\n人物: --\n重要性: 3星
-DTSTART:20260525T000000Z
-SUMMARY:09:20 [大事] ★★★ 中国 今日有5000亿元1年期中期借贷便利（MLF）到期。
-UID:ddf9d23d-985e-4e41-a41e-fcc442327135@ddf9.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国至3月26日2025/2026市场年度豆粕出口净销售量(吨)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 507600 吨
-DTSTART:20260402T042000Z
-SUMMARY:20:30 ★★ [豆粕] 美国至3月26日2025/2026市场年度豆粕出口净销售量(吨)
-UID:6421b99b-2f17-406d-9cef-31b528b74368@6421.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【财经大事】\n真实时间: 00:00\n内容: 澳大利亚和新西兰开始进入冬令时，其金融市场交易时间及经济数据公布时间将较夏令时延后一小时。\n国家: 澳大利亚\n人物: --\n重要性: 3星
-DTSTART:20260405T000000Z
-SUMMARY:00:00 [大事] ★★★ 澳大利亚 澳大利亚和新西兰开始进入冬令时，其金融市场交易时间及经济...
-UID:8f06c8d8-935a-455e-b552-1eab6a29b5c1@8f06.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至5月15日当周天然气钻井总数(口)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 口
-DTSTART:20260516T001000Z
-SUMMARY:01:00 ★ [天然气] 美国至5月15日当周天然气钻井总数(口)
-UID:d12a91e5-3fbb-46e9-82bd-606ca4d95c05@d12a.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 02:00\n项目: 美国至4月30日储备余额利率\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 3.65 %
-DTSTART:20260430T002000Z
-SUMMARY:02:00 ★★ [金银] 美国至4月30日储备余额利率
-UID:c177e337-baa2-4169-ada2-8a6f16147d66@c177.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至4月24日当周天然气钻井总数(口)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 口
-DTSTART:20260425T001000Z
-SUMMARY:01:00 ★ [天然气] 美国至4月24日当周天然气钻井总数(口)
-UID:688e095e-52e1-4516-934a-22ddd5f1184b@688e.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月3日当周EIA天然气库存(亿立方英尺)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 亿立方英尺
-DTSTART:20260409T012000Z
-SUMMARY:22:30 ★★★ [天然气] 美国至4月3日当周EIA天然气库存(亿立方英尺)
-UID:a3311def-ab2a-4246-83cb-8b4479c71865@a331.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 21:45\n项目: 美国4月标普全球综合PMI初值\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- --
-DTSTART:20260423T004000Z
-SUMMARY:21:45 ★★ [金银] 美国4月标普全球综合PMI初值
-UID:13fa31a6-c076-4abe-825f-aa3ea8556b8f@13fa.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至5月15日当周总钻井总数(口)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- 口
-DTSTART:20260516T000000Z
-SUMMARY:01:00 ★★ [油气] 美国至5月15日当周总钻井总数(口)
-UID:a9566bff-0187-427f-9d4b-b7dc93d366fc@a956.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国第四季度实际GDP年化季率终值\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 0.70 %
-DTSTART:20260409T004000Z
-SUMMARY:20:30 ★★★ [贵金属] 美国第四季度实际GDP年化季率终值
-UID:326e9779-79c1-4a1a-b518-4f92c6878ac3@326e.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 09:45\n项目: 中国4月RatingDog综合PMI\n国家: 中国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- --
-DTSTART:20260506T000000Z
-SUMMARY:09:45 ★★ [大宗商品] 中国4月RatingDog综合PMI
-UID:48054c02-8418-4a32-9190-a149e9b86d4d@4805.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 马来西亚3月1-31日SGS马棕油出口量(吨)\n国家: 马来西亚\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 852629 吨
-DTSTART:20260402T000000Z
-SUMMARY:00:00 ★★★ [马棕油] 马来西亚3月1-31日SGS马棕油出口量(吨)
-UID:b52d1126-1543-4a76-be7d-1cd53d1e8e27@b52d.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 02:00\n项目: 美国至4月29日美联储利率决定(上限)\n国家: 美国\n重要性: 5星\n----------------\n今值: --\n预测: --\n前值: 3.75 %
-DTSTART:20260430T000000Z
-SUMMARY:02:00 ★★★★★ [黄金] 美国至4月29日美联储利率决定(上限)
-UID:5d482269-7427-4d6d-8df0-fc490b327857@5d48.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国4月季调后CPI月率\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: --\n前值: -- %
-DTSTART:20260512T000000Z
-SUMMARY:20:30 ★★★★ [金银] 美国4月季调后CPI月率
-UID:d15dacbf-9dcf-4722-a464-c62a008cd209@d15d.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国至3月26日2025/2026市场年度豆油出口净销售量(吨)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 800 吨
-DTSTART:20260402T043000Z
-SUMMARY:20:30 ★★ [豆油] 美国至3月26日2025/2026市场年度豆油出口净销售量(吨)
-UID:c70ff5d7-8525-420b-8dad-81df275f436a@c70f.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国至4月4日当周初请失业金人数(万人)\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: --\n前值: -- 万人
-DTSTART:20260409T003000Z
-SUMMARY:20:30 ★★★★ [黄金] 美国至4月4日当周初请失业金人数(万人)
-UID:4430116b-ad0c-457e-9e62-0aeae2be31d3@4430.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至4月10日当周石油钻井总数(口)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 口
-DTSTART:20260411T002000Z
-SUMMARY:01:00 ★★★ [原油] 美国至4月10日当周石油钻井总数(口)
-UID:36354833-4947-4811-943a-207ba91bb7fd@3635.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 10:00\n项目: 中国4月城镇调查失业率\n国家: 中国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- %
-DTSTART:20260518T004000Z
-SUMMARY:10:00 ★★ [大宗商品] 中国4月城镇调查失业率
-UID:21e1cab0-c8cf-4304-be97-d210e00fb497@21e1.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 14:00\n项目: 中国至4月2日螺纹钢周度钢厂库存(万吨)\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 219.16 万吨
-DTSTART:20260402T011000Z
-SUMMARY:14:00 ★★★ [螺纹钢] 中国至4月2日螺纹钢周度钢厂库存(万吨)
-UID:279e1420-79ba-4add-893d-aceec085c77f@279e.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 美国至5月22日当周EIA车用汽油总产量引伸需求数据(万桶/日)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶/日
-DTSTART:20260529T005000Z
-SUMMARY:00:00 ★  美国至5月22日当周EIA车用汽油总产量引伸需求数据(万桶/日)
-UID:fa08e300-2a03-4c53-accc-e0a130e4b2bd@fa08.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国至4月11日当周初请失业金人数(万人)\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: --\n前值: -- 万人
-DTSTART:20260416T013000Z
-SUMMARY:20:30 ★★★★ [黄金] 美国至4月11日当周初请失业金人数(万人)
-UID:11a4915c-b16a-4294-9aa1-baeeaa46db8c@11a4.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至5月1日当周EIA蒸馏燃油产量引伸需求数据(万桶/日)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶/日
-DTSTART:20260506T013000Z
-SUMMARY:22:30 ★  美国至5月1日当周EIA蒸馏燃油产量引伸需求数据(万桶/日)
-UID:9f133b7e-8dc1-4b5e-82ea-f4551ea4cb38@9f13.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【财经大事】\n真实时间: 18:30\n内容: 俄罗斯央行公布利率决议。\n国家: 俄罗斯\n人物: --\n重要性: 2星
-DTSTART:20260424T001000Z
-SUMMARY:18:30 [大事] ★★ 俄罗斯 俄罗斯央行公布利率决议。
-UID:ab3ccadf-104b-454f-b372-88cbf40eab81@ab3c.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【财经大事】\n真实时间: 00:00\n内容: 布宜诺斯艾利斯谷物交易所作物报告\n国家: 阿根廷\n人物: --\n重要性: 1星
-DTSTART:20260403T001000Z
-SUMMARY:00:00 [大事] ★ 阿根廷 布宜诺斯艾利斯谷物交易所作物报告
-UID:73abe400-2365-44a3-8af4-1d2523fa6906@73ab.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至5月1日当周EIA汽油库存(万桶)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
-DTSTART:20260506T005000Z
-SUMMARY:22:30 ★ [原油] 美国至5月1日当周EIA汽油库存(万桶)
-UID:d8498623-8981-4523-8f1c-76a839bd283f@d849.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【财经大事】\n真实时间: 02:00\n内容: 美联储公布货币政策会议纪要。\n国家: 美国\n人物: 美联储\n重要性: 4星
-DTSTART:20260409T000000Z
-SUMMARY:02:00 [大事] ★★★★ 美国 美联储公布货币政策会议纪要。
-UID:8a1a8fc5-ac51-4ca5-8623-4a80c319327d@8a1a.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月10日当周EIA俄克拉荷马州库欣原油库存(万桶)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
-DTSTART:20260415T002000Z
-SUMMARY:22:30 ★★★ [原油] 美国至4月10日当周EIA俄克拉荷马州库欣原油库存(万桶)
-UID:ce6f52f3-09da-46a8-8e09-3fdc206634f2@ce6f.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【财经大事】\n真实时间: 09:20\n内容: 今日有3020亿元7天期逆回购到期。\n国家: 中国\n人物: --\n重要性: 2星
-DTSTART:20260407T002000Z
-SUMMARY:09:20 [大事] ★★ 中国 今日有3020亿元7天期逆回购到期。
-UID:0cd9da67-502e-48ab-9103-dcd0edd5a410@0cd9.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 12:30\n项目: 印度至4月8日央行存款准备金率\n国家: 印度\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: 3 %
-DTSTART:20260408T030000Z
-SUMMARY:12:30 ★  印度至4月8日央行存款准备金率
-UID:e749532e-7c6c-4707-a18e-2097892b87ea@e749.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 12:30\n项目: 印度至4月8日央行逆回购利率\n国家: 印度\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: 3.35 %
-DTSTART:20260408T025000Z
-SUMMARY:12:30 ★  印度至4月8日央行逆回购利率
-UID:6d024ea3-dfd4-40ec-97b2-5ababc882288@6d02.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 21:00\n项目: 南非至5月28日回购利率\n国家: 南非\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: 6.75 %
-DTSTART:20260528T004000Z
-SUMMARY:21:00 ★  南非至5月28日回购利率
-UID:a57b8255-b00f-472b-83d0-0188982a8cd8@a57b.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【财经大事】\n真实时间: 03:30\n内容: CFTC公布周度持仓报告。\n国家: 美国\n人物: --\n重要性: 2星
-DTSTART:20260411T003000Z
-SUMMARY:03:30 [大事] ★★ 美国 CFTC公布周度持仓报告。
-UID:d037156f-16fe-446e-bdf0-61029900761b@d037.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国至3月26日2025/2026市场年度小麦出口净销售量(吨)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: 397200 吨
-DTSTART:20260402T034000Z
-SUMMARY:20:30 ★ [美小麦] 美国至3月26日2025/2026市场年度小麦出口净销售量(吨)
-UID:1a7c52ca-24c7-401b-8cf2-981735071264@1a7c.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至5月8日当周EIA天然气库存(亿立方英尺)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 亿立方英尺
-DTSTART:20260514T002000Z
-SUMMARY:22:30 ★★★ [天然气] 美国至5月8日当周EIA天然气库存(亿立方英尺)
-UID:beec67ef-331c-4a81-91a5-f444f6c39899@beec.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 23:00\n项目: 美国4月纽约联储1年通胀预期\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- %
-DTSTART:20260507T003000Z
-SUMMARY:23:00 ★★★  美国4月纽约联储1年通胀预期
-UID:44e47a3d-3b39-42d4-9d3b-db02b30a6f1f@44e4.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至5月15日当周EIA原油产量引伸需求数据(万桶/日)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- 万桶/日
-DTSTART:20260520T011000Z
-SUMMARY:22:30 ★★  美国至5月15日当周EIA原油产量引伸需求数据(万桶/日)
-UID:ed577d34-4364-403e-b48a-8529317b9ac5@ed57.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 09:30\n项目: 中国3月今年迄今规模以上工业企业利润年率\n国家: 中国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- %
-DTSTART:20260427T001000Z
-SUMMARY:09:30 ★★  中国3月今年迄今规模以上工业企业利润年率
-UID:7ca7be5c-f2a0-4c90-85ca-e91127d23165@7ca7.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月17日当周EIA蒸馏燃油产量引伸需求数据(万桶/日)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶/日
-DTSTART:20260422T011000Z
-SUMMARY:22:30 ★  美国至4月17日当周EIA蒸馏燃油产量引伸需求数据(万桶/日)
-UID:61f6008b-185f-4861-8ead-743df5560927@61f6.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 美国至5月22日当周EIA蒸馏燃油产量引伸需求数据(万桶/日)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶/日
-DTSTART:20260529T010000Z
-SUMMARY:00:00 ★  美国至5月22日当周EIA蒸馏燃油产量引伸需求数据(万桶/日)
-UID:f7b4ec8f-5b86-4bb3-91d2-8a330165c5ed@f7b4.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【财经大事】\n真实时间: 00:00\n内容: 沙特阿美在每月5日左右公布官方原油售价。\n国家: 沙特\n人物: --\n重要性: 3星
-DTSTART:20260505T000000Z
-SUMMARY:00:00 [大事] ★★★ 沙特 沙特阿美在每月5日左右公布官方原油售价。
-UID:2ab08e4c-7161-49e0-9830-165f01050a08@2ab0.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 03:00\n项目: 美国2月USDA大豆压榨量(万吨)\n国家: 美国\n重要性: 3星\n----------------\n今值: 643\n预测: --\n前值: 684 万吨
-DTSTART:20260402T003000Z
-SUMMARY:03:00 ★★★ [大豆] 美国2月USDA大豆压榨量(万吨)
-UID:520c2579-ec7a-4ab0-a742-2b578f18dc7f@520c.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【财经大事】\n真实时间: 03:30\n内容: CFTC公布周度持仓报告。\n国家: 美国\n人物: --\n重要性: 2星
-DTSTART:20260509T005000Z
-SUMMARY:03:30 [大事] ★★ 美国 CFTC公布周度持仓报告。
-UID:15cae57d-764b-4dbd-be99-839269913533@15ca.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至5月8日当周EIA俄克拉荷马州库欣原油库存(万桶)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
-DTSTART:20260513T012000Z
-SUMMARY:22:30 ★★★ [原油] 美国至5月8日当周EIA俄克拉荷马州库欣原油库存(万桶)
-UID:315f3376-a701-4e8f-88bc-4e58c7b50f04@315f.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至5月1日当周EIA天然气库存(亿立方英尺)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 亿立方英尺
-DTSTART:20260507T002000Z
-SUMMARY:22:30 ★★★ [天然气] 美国至5月1日当周EIA天然气库存(亿立方英尺)
-UID:b18b4a55-9b45-496d-b392-1bb389127111@b18b.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 中国4月进口年率\n国家: 中国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- %
-DTSTART:20260509T001000Z
-SUMMARY:00:00 ★★ [大宗商品] 中国4月进口年率
-UID:ac9bdfea-233a-4ba6-a5ac-dacfbd282f55@ac9b.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至3月27日当周EIA天然气库存(亿立方英尺)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -540 亿立方英尺
-DTSTART:20260402T045000Z
-SUMMARY:22:30 ★★★ [天然气] 美国至3月27日当周EIA天然气库存(亿立方英尺)
-UID:c4ccd1dd-02c7-45b0-9951-cd623504203a@c4cc.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 美国至5月22日当周EIA原油库存(万桶)\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
-DTSTART:20260529T000000Z
-SUMMARY:00:00 ★★★★ [原油] 美国至5月22日当周EIA原油库存(万桶)
-UID:81aff1ba-c0c4-4219-be72-4343321dacfc@81af.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【财经大事】\n真实时间: 09:20\n内容: 今日有1462亿元7天期逆回购到期。\n国家: 中国\n人物: --\n重要性: 2星
-DTSTART:20260403T011000Z
-SUMMARY:09:20 [大事] ★★ 中国 今日有1462亿元7天期逆回购到期。
-UID:4675cfac-f476-4611-a725-a2c8ea7b589e@4675.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 美国至5月22日当周EIA原油产量引伸需求数据(万桶/日)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- 万桶/日
-DTSTART:20260529T004000Z
-SUMMARY:00:00 ★★  美国至5月22日当周EIA原油产量引伸需求数据(万桶/日)
-UID:12db0368-4f66-492d-8c53-ee99288c7c41@12db.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 18:30\n项目: 俄罗斯至4月24日央行利率决定\n国家: 俄罗斯\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 15.00 %
-DTSTART:20260424T000000Z
-SUMMARY:18:30 ★★  俄罗斯至4月24日央行利率决定
-UID:b27b3ef1-6c57-4e92-81ec-4e28bfc38841@b27b.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至5月8日当周EIA车用汽油总产量引伸需求数据(万桶/日)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶/日
-DTSTART:20260513T020000Z
-SUMMARY:22:30 ★  美国至5月8日当周EIA车用汽油总产量引伸需求数据(万桶/日)
-UID:429be9d1-f81e-46b7-b2ab-dc7658715a29@429b.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 03:00\n项目: 美国2月USDA豆油产量(亿磅)\n国家: 美国\n重要性: 3星\n----------------\n今值: 24.8\n预测: --\n前值: 26.3 亿磅
-DTSTART:20260402T004000Z
-SUMMARY:03:00 ★★★ [豆油] 美国2月USDA豆油产量(亿磅)
-UID:31873c0a-5ef5-428b-a8ba-1c62ef1f7e5e@3187.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月3日当周EIA俄克拉荷马州库欣原油库存(万桶)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 52 万桶
-DTSTART:20260408T032000Z
-SUMMARY:22:30 ★★★ [原油] 美国至4月3日当周EIA俄克拉荷马州库欣原油库存(万桶)
-UID:709662a9-da19-48db-a777-6aef3b439ebd@7096.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至4月17日当周天然气钻井总数(口)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 口
-DTSTART:20260418T001000Z
-SUMMARY:01:00 ★ [天然气] 美国至4月17日当周天然气钻井总数(口)
-UID:673fdc54-602d-4429-89ef-c65a0474990b@673f.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 09:30\n项目: 中国5月官方制造业PMI\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 
-DTSTART:20260531T000000Z
-SUMMARY:09:30 ★★★ [大宗商品] 中国5月官方制造业PMI
-UID:df9f5d0f-cd2d-468d-aa5c-88dff8babdf0@df9f.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 13:00\n项目: 中国至4月3日菜粕周度库存(万吨)\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 2.4 万吨
-DTSTART:20260403T020000Z
-SUMMARY:13:00 ★★★ [菜粕] 中国至4月3日菜粕周度库存(万吨)
-UID:17f27c13-2349-41f6-a1be-84c5f805d7e5@17f2.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 09:30\n项目: 中国3月PPI年率\n国家: 中国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -0.90 %
-DTSTART:20260410T000000Z
-SUMMARY:09:30 ★★ [大宗商品] 中国3月PPI年率
-UID:70313728-4b6b-4ac2-bc71-3eb0c50ba1ae@7031.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 16:00\n项目: 英国至4月2日LME铝合金库存变化值(吨)\n国家: 英国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: 0 吨
-DTSTART:20260402T024000Z
-SUMMARY:16:00 ★ [铝合金] 英国至4月2日LME铝合金库存变化值(吨)
-UID:a987cf18-af0b-4066-8c36-5ba909550046@a987.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月24日当周EIA俄克拉荷马州库欣原油库存(万桶)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
-DTSTART:20260429T001000Z
-SUMMARY:22:30 ★★★ [原油] 美国至4月24日当周EIA俄克拉荷马州库欣原油库存(万桶)
-UID:636a1da5-115f-4a2c-b20f-4f4dfe19add4@636a.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国至4月18日当周初请失业金人数(万人)\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: --\n前值: -- 万人
-DTSTART:20260423T001000Z
-SUMMARY:20:30 ★★★★ [黄金] 美国至4月18日当周初请失业金人数(万人)
-UID:b6162469-4b18-4647-a5d3-4f544f6ff555@b616.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 美国至5月22日当周EIA精炼油库存(万桶)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
-DTSTART:20260529T003000Z
-SUMMARY:00:00 ★ [原油] 美国至5月22日当周EIA精炼油库存(万桶)
-UID:95eaa854-7435-4218-a575-9512075e0ec0@95ea.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国3月未季调核心CPI年率\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 2.50 %
-DTSTART:20260410T011000Z
-SUMMARY:20:30 ★★★ [金银] 美国3月未季调核心CPI年率
-UID:a7bcfbc5-7f59-4d72-9500-078bd26b7a50@a7bc.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月24日当周EIA天然气库存(亿立方英尺)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 亿立方英尺
-DTSTART:20260430T022000Z
-SUMMARY:22:30 ★★★ [天然气] 美国至4月24日当周EIA天然气库存(亿立方英尺)
-UID:7fcc7649-8ddd-42f7-a781-10ca2eb48bf8@7fcc.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至5月1日当周EIA原油产量引伸需求数据(万桶/日)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- 万桶/日
-DTSTART:20260506T011000Z
-SUMMARY:22:30 ★★  美国至5月1日当周EIA原油产量引伸需求数据(万桶/日)
-UID:b0da4b6c-e461-42d3-8874-04fedbe74d59@b0da.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至5月29日当周天然气钻井总数(口)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 口
-DTSTART:20260530T001000Z
-SUMMARY:01:00 ★ [天然气] 美国至5月29日当周天然气钻井总数(口)
-UID:065a703f-f78b-4fab-8ecb-7bd4364cb32f@065a.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至4月17日当周石油钻井总数(口)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 口
-DTSTART:20260418T002000Z
-SUMMARY:01:00 ★★★ [原油] 美国至4月17日当周石油钻井总数(口)
-UID:4383f7f5-20e2-4b2a-bcca-b578de21755d@4383.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月17日当周EIA汽油库存(万桶)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
-DTSTART:20260422T003000Z
-SUMMARY:22:30 ★ [原油] 美国至4月17日当周EIA汽油库存(万桶)
-UID:d1894642-2447-432a-94f6-9c2279de0a81@d189.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月24日当周EIA原油库存(万桶)\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
-DTSTART:20260429T000000Z
-SUMMARY:22:30 ★★★★ [原油] 美国至4月24日当周EIA原油库存(万桶)
-UID:1684ac8f-8ec0-4c43-8ffd-cfe05c9d562c@1684.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 09:30\n项目: 中国3月PPI月率\n国家: 中国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 0.4 %
-DTSTART:20260410T002000Z
-SUMMARY:09:30 ★★ [大宗商品] 中国3月PPI月率
-UID:72d66422-32b3-470c-8016-52be50f9b4bd@72d6.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 10:00\n项目: 中国3月城镇固定资产投资环比\n国家: 中国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: 0.39 %
-DTSTART:20260416T011000Z
-SUMMARY:10:00 ★ [大宗商品] 中国3月城镇固定资产投资环比
-UID:9b7521a0-194c-4c73-93a2-8a14ee3d2f7f@9b75.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 中国3月进口总额(亿元)\n国家: 中国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: 14618.8 亿元
-DTSTART:20260414T004000Z
-SUMMARY:00:00 ★ [大宗商品] 中国3月进口总额(亿元)
-UID:0fa659f8-1edf-4f1b-a516-013edcff11f2@0fa6.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【财经大事】\n真实时间: 00:00\n内容: 国内成品油将开启新一轮调价窗口。\n国家: 中国\n人物: --\n重要性: 3星
-DTSTART:20260521T000000Z
-SUMMARY:00:00 [大事] ★★★ 中国 国内成品油将开启新一轮调价窗口。
-UID:ffc3e99c-b2f5-4253-83db-c0e323a68adf@ffc3.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【财经大事】\n真实时间: 09:20\n内容: 今日有5亿元7天期逆回购到期。\n国家: 中国\n人物: --\n重要性: 2星
-DTSTART:20260408T023000Z
-SUMMARY:09:20 [大事] ★★ 中国 今日有5亿元7天期逆回购到期。
-UID:30eb2599-c666-4236-b045-b84886c6df20@30eb.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 16:00\n项目: 中国至4月3日全国主要油厂大豆压榨量(万吨)\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 183.52 万吨
-DTSTART:20260403T023000Z
-SUMMARY:16:00 ★★★ [豆粕] 中国至4月3日全国主要油厂大豆压榨量(万吨)
-UID:0a6d8c6c-1119-40a1-874d-cd2d104b479d@0a6d.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至5月15日当周EIA精炼油库存(万桶)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
-DTSTART:20260520T010000Z
-SUMMARY:22:30 ★ [原油] 美国至5月15日当周EIA精炼油库存(万桶)
-UID:7f5be5d2-0c39-4086-9024-13f4dfa1e1ed@7f5b.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至5月1日当周EIA车用汽油总产量引伸需求数据(万桶/日)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶/日
-DTSTART:20260506T012000Z
-SUMMARY:22:30 ★  美国至5月1日当周EIA车用汽油总产量引伸需求数据(万桶/日)
-UID:26a31b63-b69d-4e2d-ab0d-42937e2f92f7@26a3.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 14:00\n项目: 中国至4月2日螺纹钢周度表观需求(万吨)\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 225.37 万吨
-DTSTART:20260402T013000Z
-SUMMARY:14:00 ★★★ [螺纹钢] 中国至4月2日螺纹钢周度表观需求(万吨)
-UID:fdfdb843-1fc7-4478-8600-b6676b4e7b72@fdfd.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月17日当周EIA原油库存(万桶)\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
-DTSTART:20260422T001000Z
-SUMMARY:22:30 ★★★★ [原油] 美国至4月17日当周EIA原油库存(万桶)
-UID:4f5197c0-669d-48b4-b18a-f065f988378c@4f51.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【财经大事】\n真实时间: 03:30\n内容: CFTC公布周度持仓报告。\n国家: 美国\n人物: --\n重要性: 2星
-DTSTART:20260523T003000Z
-SUMMARY:03:30 [大事] ★★ 美国 CFTC公布周度持仓报告。
-UID:fc052188-ae60-4823-ac6d-651332fcf12c@fc05.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【财经大事】\n真实时间: 00:00\n内容: 国家能源局每月15日左右公布全社会用电量数据。\n国家: 中国\n人物: --\n重要性: 3星
-DTSTART:20260515T000000Z
-SUMMARY:00:00 [大事] ★★★ 中国 国家能源局每月15日左右公布全社会用电量数据。
-UID:0b159b1c-2aab-438c-b65f-7aa33036af72@0b15.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国2月核心PCE物价指数年率\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: --\n前值: 3.10 %
-DTSTART:20260409T002000Z
-SUMMARY:20:30 ★★★★ [黄金] 美国2月核心PCE物价指数年率
-UID:895217e1-debd-45a9-a193-40a0146ad019@8952.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月24日当周EIA精炼油库存(万桶)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
-DTSTART:20260429T003000Z
-SUMMARY:22:30 ★ [原油] 美国至4月24日当周EIA精炼油库存(万桶)
-UID:738ca425-5af4-49b9-b067-fdc3ce8a0ca6@738c.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 09:00\n项目: 中国至4月20日五年期贷款市场报价利率\n国家: 中国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 3.50 %
-DTSTART:20260420T000000Z
-SUMMARY:09:00 ★★ [大宗商品] 中国至4月20日五年期贷款市场报价利率
-UID:e30fdada-0e4c-4c1b-880f-5e86fd482cd7@e30f.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月24日当周EIA原油产量引伸需求数据(万桶/日)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- 万桶/日
-DTSTART:20260429T004000Z
-SUMMARY:22:30 ★★  美国至4月24日当周EIA原油产量引伸需求数据(万桶/日)
-UID:1066f2c0-640f-4fd8-b098-673997f62d02@1066.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 20:15\n项目: 美国4月ADP就业人数(万人)\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: --\n前值: 6.2 万人
-DTSTART:20260506T002000Z
-SUMMARY:20:15 ★★★★ [黄金] 美国4月ADP就业人数(万人)
-UID:4f65389c-a92d-434c-8a4a-14b030d02bcc@4f65.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月17日当周EIA精炼油库存(万桶)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
-DTSTART:20260422T004000Z
-SUMMARY:22:30 ★ [原油] 美国至4月17日当周EIA精炼油库存(万桶)
-UID:b7b20da3-b50c-4783-abb5-8c1df5b85346@b7b2.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月17日当周EIA俄克拉荷马州库欣原油库存(万桶)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
-DTSTART:20260422T002000Z
-SUMMARY:22:30 ★★★ [原油] 美国至4月17日当周EIA俄克拉荷马州库欣原油库存(万桶)
-UID:5163d93b-c8e9-4cd2-b615-b66c3df4a6a4@5163.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国至5月16日当周初请失业金人数(万人)\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: --\n前值: -- 万人
-DTSTART:20260521T003000Z
-SUMMARY:20:30 ★★★★ [黄金] 美国至5月16日当周初请失业金人数(万人)
-UID:2bac56e1-2e65-4384-bd1e-6a851dbc0c4f@2bac.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 04:30\n项目: 美国至4月3日当周API库欣原油库存(万桶)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 78.4 万桶
-DTSTART:20260408T014000Z
-SUMMARY:04:30 ★★ [原油] 美国至4月3日当周API库欣原油库存(万桶)
-UID:bcc2fbd5-1d68-43ce-92d2-2bf66bbdf507@bcc2.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 16:00\n项目: 英国至4月2日LME镍库存变化值(吨)\n国家: 英国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -6 吨
-DTSTART:20260402T032000Z
-SUMMARY:16:00 ★★★ [镍] 英国至4月2日LME镍库存变化值(吨)
-UID:d9293626-7b8a-4bf2-b975-fef2fb3c8195@d929.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至5月8日当周EIA蒸馏燃油产量引伸需求数据(万桶/日)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶/日
-DTSTART:20260513T021000Z
-SUMMARY:22:30 ★  美国至5月8日当周EIA蒸馏燃油产量引伸需求数据(万桶/日)
-UID:c007e640-2692-4176-a6f0-cd7f1e674604@c007.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 04:30\n项目: 美国至4月3日当周API原油库存(万桶)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 1026.3 万桶
-DTSTART:20260408T011000Z
-SUMMARY:04:30 ★★★ [原油] 美国至4月3日当周API原油库存(万桶)
-UID:0a6d4cc8-263f-47e3-a97c-8f63d6c52304@0a6d.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 09:30\n项目: 中国4月今年迄今规模以上工业企业利润年率\n国家: 中国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- %
-DTSTART:20260527T000000Z
-SUMMARY:09:30 ★★  中国4月今年迄今规模以上工业企业利润年率
-UID:b7409374-2cd4-42ad-9ab5-da24fa5ef328@b740.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 13:00\n项目: 中国至4月3日自繁自养生猪养殖利润(元/头)\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -344.24 元/头
-DTSTART:20260403T015000Z
-SUMMARY:13:00 ★★★ [生猪] 中国至4月3日自繁自养生猪养殖利润(元/头)
-UID:5d34cac4-3bfe-4eb9-9d58-c91091b3ec85@5d34.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至5月22日当周总钻井总数(口)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- 口
-DTSTART:20260523T000000Z
-SUMMARY:01:00 ★★ [油气] 美国至5月22日当周总钻井总数(口)
-UID:e399509e-abcb-4a9f-966a-52fa65b01381@e399.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【财经大事】\n真实时间: 00:00\n内容: 欧佩克公布月度原油市场报告（月报具体公布时间待定，一般于北京时间18-21点左右公布）。\n国家: 奥地利\n人物: --\n重要性: 3星
-DTSTART:20260513T005000Z
-SUMMARY:00:00 [大事] ★★★ 奥地利 欧佩克公布月度原油市场报告（月报具体公布时间待定，一般于...
-UID:e1163eb8-adcd-449c-a8e3-31ce45bd6103@e116.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 12:30\n项目: 澳大利亚至5月5日澳洲联储利率决定\n国家: 澳大利亚\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 4.1 %
-DTSTART:20260505T001000Z
-SUMMARY:12:30 ★★★ [澳元] 澳大利亚至5月5日澳洲联储利率决定
-UID:de9c7e59-a679-43e5-a394-3ff21e82ce05@de9c.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月24日当周EIA蒸馏燃油产量引伸需求数据(万桶/日)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶/日
-DTSTART:20260429T010000Z
-SUMMARY:22:30 ★  美国至4月24日当周EIA蒸馏燃油产量引伸需求数据(万桶/日)
-UID:c7206653-48a1-4b90-ab80-c3555620c4ee@c720.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 美国4月EIA当年天然气产量预期(亿立方英尺/日)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: 1094.9 亿立方英尺/日
-DTSTART:20260408T002000Z
-SUMMARY:00:00 ★ [天然气] 美国4月EIA当年天然气产量预期(亿立方英尺/日)
-UID:5e0c6335-ead7-42e5-8f5a-1be8c3734c8b@5e0c.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至5月8日当周EIA汽油库存(万桶)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
-DTSTART:20260513T013000Z
-SUMMARY:22:30 ★ [原油] 美国至5月8日当周EIA汽油库存(万桶)
-UID:6e98a544-6d74-4e11-ac3c-0d80bb5ecc16@6e98.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 13:00\n项目: 中国至4月3日豆粕周度库存(万吨)\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 64.18 万吨
-DTSTART:20260403T021000Z
-SUMMARY:13:00 ★★★ [豆粕] 中国至4月3日豆粕周度库存(万吨)
-UID:7d9c8d8d-53b9-43a1-933c-2e1e31e2c91d@7d9c.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至5月15日当周EIA蒸馏燃油产量引伸需求数据(万桶/日)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶/日
-DTSTART:20260520T013000Z
-SUMMARY:22:30 ★  美国至5月15日当周EIA蒸馏燃油产量引伸需求数据(万桶/日)
-UID:9eede663-7ab5-4c31-895a-763e18853b11@9eed.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 15:20\n项目: 印尼至4月22日7天逆回购利率\n国家: 印尼\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: 4.75 %
-DTSTART:20260422T000000Z
-SUMMARY:15:20 ★  印尼至4月22日7天逆回购利率
-UID:d14e9cf0-a996-46cd-9445-277b1a0ca9f3@d14e.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至5月15日当周石油钻井总数(口)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 口
-DTSTART:20260516T002000Z
-SUMMARY:01:00 ★★★ [原油] 美国至5月15日当周石油钻井总数(口)
-UID:ebf58ed7-10c4-4e13-a2b9-532721d2442a@ebf5.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 美国5月EIA当年短期前景美国原油产量预期(万桶/日)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- 万桶/日
-DTSTART:20260513T000000Z
-SUMMARY:00:00 ★★ [原油] 美国5月EIA当年短期前景美国原油产量预期(万桶/日)
-UID:f3d0998b-5091-48c5-8f96-00b9a9c03c90@f3d0.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 23:00\n项目: 美国3月纽约联储1年通胀预期\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 3.00 %
-DTSTART:20260407T003000Z
-SUMMARY:23:00 ★★★  美国3月纽约联储1年通胀预期
-UID:ceaacf86-6513-4485-9bb2-a15990360636@ceaa.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 16:00\n项目: 新加坡至4月1日当周轻质馏分油库存(万桶)\n国家: 新加坡\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 1843.8 万桶
-DTSTART:20260402T020000Z
-SUMMARY:16:00 ★★ [燃料油] 新加坡至4月1日当周轻质馏分油库存(万桶)
-UID:8a584792-566b-478c-9ba7-e1654f179345@8a58.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至5月8日当周EIA精炼油库存(万桶)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
-DTSTART:20260513T014000Z
-SUMMARY:22:30 ★ [原油] 美国至5月8日当周EIA精炼油库存(万桶)
-UID:2104004d-1ad2-42cc-82dc-73e342fffc06@2104.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 21:45\n项目: 美国4月标普全球服务业PMI终值\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- --
-DTSTART:20260505T002000Z
-SUMMARY:21:45 ★★★ [金银] 美国4月标普全球服务业PMI终值
-UID:e86c876b-4c6f-4ae3-bd64-7b12fae2e71f@e86c.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至5月8日当周EIA原油产量引伸需求数据(万桶/日)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- 万桶/日
-DTSTART:20260513T015000Z
-SUMMARY:22:30 ★★  美国至5月8日当周EIA原油产量引伸需求数据(万桶/日)
-UID:fab5959f-07aa-4199-9de3-e8bbcb665793@fab5.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国3月零售销售月率\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: --\n前值: 0.6 %
-DTSTART:20260421T001000Z
-SUMMARY:20:30 ★★★★ [黄金] 美国3月零售销售月率
-UID:b1ddd3fa-1251-4008-bfda-954e45584902@b1dd.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国3月核心PCE物价指数年率\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: --\n前值: -- %
-DTSTART:20260430T013000Z
-SUMMARY:20:30 ★★★★ [黄金] 美国3月核心PCE物价指数年率
-UID:856f5119-bb45-4f3a-af1a-28bd5593b8d1@856f.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国4月失业率\n国家: 美国\n重要性: 5星\n----------------\n今值: --\n预测: --\n前值: -- %
-DTSTART:20260508T002000Z
-SUMMARY:20:30 ★★★★★ [金银] 美国4月失业率
-UID:acb5a437-c9fd-47af-af5e-e0b456f9f5ec@acb5.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【财经大事】\n真实时间: 03:30\n内容: CFTC公布周度持仓报告。\n国家: 美国\n人物: --\n重要性: 2星
-DTSTART:20260516T003000Z
-SUMMARY:03:30 [大事] ★★ 美国 CFTC公布周度持仓报告。
-UID:9144dcb2-8969-483b-9305-485d947463fc@9144.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 美国4月EIA次年短期前景美国原油产量预期(万桶/日)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 1383 万桶/日
-DTSTART:20260408T001000Z
-SUMMARY:00:00 ★★ [原油] 美国4月EIA次年短期前景美国原油产量预期(万桶/日)
-UID:298c86be-aecc-4f54-a0b0-25c44141eb68@298c.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 美国至5月22日当周EIA汽油库存(万桶)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
-DTSTART:20260529T002000Z
-SUMMARY:00:00 ★ [原油] 美国至5月22日当周EIA汽油库存(万桶)
-UID:756e0b20-4793-497d-9592-2c59b166a042@756e.org
+DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 中国3月出口年率\n国家: 中国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 36.10 %
+DTSTART:20260414T000000Z
+SUMMARY:00:00 ★★ [大宗商品] 中国3月出口年率
+UID:fb2d0f18-fb91-482f-8b5f-20afa1d5cef4@fb2d.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月24日当周EIA车用汽油总产量引伸需求数据(万桶/日)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶/日
 DTSTART:20260429T005000Z
 SUMMARY:22:30 ★  美国至4月24日当周EIA车用汽油总产量引伸需求数据(万桶/日)
-UID:4d6a494c-5460-4ce6-8570-8f68fe33090a@4d6a.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 10:00\n项目: 中国4月社会消费品零售总额同比\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- %
-DTSTART:20260518T001000Z
-SUMMARY:10:00 ★★★ [大宗商品] 中国4月社会消费品零售总额同比
-UID:7ac8d337-a29c-4dca-83b9-1243c7ba789e@7ac8.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:00\n项目: 美国3月ISM非制造业PMI\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: 55\n前值: 56.1 --
-DTSTART:20260406T000000Z
-SUMMARY:22:00 ★★★ [金银] 美国3月ISM非制造业PMI
-UID:3073fdd9-66e0-4a1c-9104-c22dd28b30d0@3073.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 09:45\n项目: 中国4月RatingDog服务业PMI\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- --
-DTSTART:20260506T001000Z
-SUMMARY:09:45 ★★★ [大宗商品] 中国4月RatingDog服务业PMI
-UID:b3eb3cde-85ab-45f9-82c0-e95b92cd4acc@b3eb.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国4月核心PCE物价指数年率\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: --\n前值: -- %
-DTSTART:20260528T001000Z
-SUMMARY:20:30 ★★★★ [黄金] 美国4月核心PCE物价指数年率
-UID:8a2e674f-8d2f-490c-b143-aefd92091778@8a2e.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【财经大事】\n真实时间: 09:20\n内容: 今日有2240亿元7天期逆回购到期。\n国家: 中国\n人物: --\n重要性: 2星
-DTSTART:20260402T005000Z
-SUMMARY:09:20 [大事] ★★ 中国 今日有2240亿元7天期逆回购到期。
-UID:1a43b4e1-3e3b-4559-bb92-66b59bc435dd@1a43.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 03:00\n项目: 美国2月用于乙醇燃料的玉米消费量(亿蒲式耳)\n国家: 美国\n重要性: 3星\n----------------\n今值: 4.69\n预测: --\n前值: 4.61 亿蒲式耳
-DTSTART:20260402T002000Z
-SUMMARY:03:00 ★★★ [玉米] 美国2月用于乙醇燃料的玉米消费量(亿蒲式耳)
-UID:440912f4-658d-4fc5-a913-d0afa1557575@4409.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国4月季调后核心CPI月率\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- %
-DTSTART:20260512T001000Z
-SUMMARY:20:30 ★★★ [金银] 美国4月季调后核心CPI月率
-UID:051cc910-3257-446e-b928-11b826cd996b@051c.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至5月8日当周天然气钻井总数(口)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 口
-DTSTART:20260509T003000Z
-SUMMARY:01:00 ★ [天然气] 美国至5月8日当周天然气钻井总数(口)
-UID:b87dc23c-1a5b-4c1c-9745-05079641de01@b87d.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【财经大事】\n真实时间: 16:00\n内容: ESG新加坡周度燃料油库存\n国家: 新加坡\n人物: --\n重要性: 2星
-DTSTART:20260402T033000Z
-SUMMARY:16:00 [大事] ★★ 新加坡 ESG新加坡周度燃料油库存
-UID:d015d913-ecc6-43ed-9b85-e3e0e2fdf020@d015.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【财经大事】\n真实时间: 00:00\n内容: 沙特阿美在每月5日左右公布官方原油售价。\n国家: 沙特\n人物: --\n重要性: 3星
-DTSTART:20260405T001000Z
-SUMMARY:00:00 [大事] ★★★ 沙特 沙特阿美在每月5日左右公布官方原油售价。
-UID:ff0b9cfa-379b-4943-b8da-43dd7c7ae48b@ff0b.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国第一季度实际个人消费支出季率初值\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- %
-DTSTART:20260430T020000Z
-SUMMARY:20:30 ★★★ [黄金] 美国第一季度实际个人消费支出季率初值
-UID:8fcff2ff-0d78-4a42-b490-0304663d058f@8fcf.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【财经大事】\n真实时间: 00:00\n内容: 国内成品油将开启新一轮调价窗口。\n国家: 中国\n人物: --\n重要性: 3星
-DTSTART:20260407T001000Z
-SUMMARY:00:00 [大事] ★★★ 中国 国内成品油将开启新一轮调价窗口。
-UID:05eddc38-5dba-4222-bf10-f52e54a123c1@05ed.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 马来西亚3月MPOA马棕油产量预估\n国家: 马来西亚\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 0.92 %
-DTSTART:20260403T000000Z
-SUMMARY:00:00 ★★★ [马棕油] 马来西亚3月MPOA马棕油产量预估
-UID:16c6dd51-dbb1-4074-a59e-2ca95b025af5@16c6.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【财经大事】\n真实时间: 00:00\n内容: 美棉On-Call周报\n国家: 美国\n人物: --\n重要性: 1星
-DTSTART:20260403T002000Z
-SUMMARY:00:00 [大事] ★ 美国 美棉On-Call周报
-UID:65028c7e-f2af-4824-81f3-771a5a493757@6502.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至5月1日当周石油钻井总数(口)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 口
-DTSTART:20260502T002000Z
-SUMMARY:01:00 ★★★ [原油] 美国至5月1日当周石油钻井总数(口)
-UID:c12530bc-0f32-4005-af25-2177e5cafebd@c125.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:00\n项目: 美国4月ISM非制造业PMI\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- --
-DTSTART:20260505T004000Z
-SUMMARY:22:00 ★★★ [金银] 美国4月ISM非制造业PMI
-UID:0a93bfa9-2813-4b13-b21d-a88b76e48907@0a93.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 09:00\n项目: 中国3月Swift人民币在全球支付中占比\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 2.74 %
-DTSTART:20260423T000000Z
-SUMMARY:09:00 ★★★  中国3月Swift人民币在全球支付中占比
-UID:c43992ed-5bbb-4045-8f45-41b4ecf1ab53@c439.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国3月季调后非农就业人口(万人)\n国家: 美国\n重要性: 5星\n----------------\n今值: --\n预测: 5.5\n前值: -9.2 万人
-DTSTART:20260403T035000Z
-SUMMARY:20:30 ★★★★★ [金银] 美国3月季调后非农就业人口(万人)
-UID:e3c60ede-b955-4038-aa34-e6c85824b520@e3c6.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【财经大事】\n真实时间: 16:00\n内容: IEA公布月度原油市场报告。\n国家: 法国\n人物: --\n重要性: 3星
-DTSTART:20260513T010000Z
-SUMMARY:16:00 [大事] ★★★ 法国 IEA公布月度原油市场报告。
-UID:9554d010-32cf-42d0-b493-ceb92e29758d@9554.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 16:00\n项目: 英国至4月3日LME铝合金库存变化值(吨)\n国家: 英国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 吨
-DTSTART:20260403T030000Z
-SUMMARY:16:00 ★ [铝合金] 英国至4月3日LME铝合金库存变化值(吨)
-UID:f8a9010a-7c9c-4dbd-a82a-2d19b560a3eb@f8a9.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月17日当周EIA原油产量引伸需求数据(万桶/日)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- 万桶/日
-DTSTART:20260422T005000Z
-SUMMARY:22:30 ★★  美国至4月17日当周EIA原油产量引伸需求数据(万桶/日)
-UID:41d21685-5ac9-4610-8f11-79e77003c9c8@41d2.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至5月15日当周EIA俄克拉荷马州库欣原油库存(万桶)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
-DTSTART:20260520T004000Z
-SUMMARY:22:30 ★★★ [原油] 美国至5月15日当周EIA俄克拉荷马州库欣原油库存(万桶)
-UID:8be3ec3b-9cf6-4836-84fb-50187403848a@8be3.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月10日当周EIA天然气库存(亿立方英尺)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 亿立方英尺
-DTSTART:20260416T014000Z
-SUMMARY:22:30 ★★★ [天然气] 美国至4月10日当周EIA天然气库存(亿立方英尺)
-UID:99c6b74f-601a-4936-bfa2-4abceb6d11c9@99c6.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 美国5月EIA次年短期前景美国原油产量预期(万桶/日)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- 万桶/日
-DTSTART:20260513T001000Z
-SUMMARY:00:00 ★★ [原油] 美国5月EIA次年短期前景美国原油产量预期(万桶/日)
-UID:d0967c18-8db9-4a2d-807f-d2a87199f449@d096.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 16:00\n项目: 英国至4月2日LME锡库存变化值(吨)\n国家: 英国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -25 吨
-DTSTART:20260402T031000Z
-SUMMARY:16:00 ★★ [锡] 英国至4月2日LME锡库存变化值(吨)
-UID:3a1493d2-c1aa-4e37-b4fa-2f509b3840e1@3a14.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月10日当周EIA原油库存(万桶)\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
-DTSTART:20260415T001000Z
-SUMMARY:22:30 ★★★★ [原油] 美国至4月10日当周EIA原油库存(万桶)
-UID:465a2166-56e2-4300-8065-e830cbc89b44@465a.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 10:00\n项目: 中国3月今年迄今城镇固定资产投资同比\n国家: 中国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 1.80 %
-DTSTART:20260416T003000Z
-SUMMARY:10:00 ★★ [大宗商品] 中国3月今年迄今城镇固定资产投资同比
-UID:fda1bd51-323b-453f-b9d2-aa534bc05cc3@fda1.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国至3月26日2025/2026市场年度玉米出口净销售量(吨)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 1217800 吨
-DTSTART:20260402T041000Z
-SUMMARY:20:30 ★★★ [玉米] 美国至3月26日2025/2026市场年度玉米出口净销售量(吨)
-UID:0a84e125-b004-46ed-a77e-a24901edbc77@0a84.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 09:30\n项目: 中国4月PPI年率\n国家: 中国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- %
-DTSTART:20260511T000000Z
-SUMMARY:09:30 ★★ [大宗商品] 中国4月PPI年率
-UID:aa130877-4a67-4709-bcf0-cd04e3c9f81d@aa13.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国4月达拉斯联储商业活动指数\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -0.2 --
-DTSTART:20260427T003000Z
-SUMMARY:22:30 ★★★ [金银] 美国4月达拉斯联储商业活动指数
-UID:a25ab11c-f552-4afd-9b9a-84f8ffebf11b@a25a.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 03:00\n项目: 美国2月DDGS产量(万吨)\n国家: 美国\n重要性: 3星\n----------------\n今值: 163.4\n预测: --\n前值: 178 万吨
-DTSTART:20260402T001000Z
-SUMMARY:03:00 ★★★ [美玉米] 美国2月DDGS产量(万吨)
-UID:9acffdc5-e270-4379-8bae-9b62f8a6dce8@9acf.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 21:45\n项目: 美国4月标普全球服务业PMI初值\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- --
-DTSTART:20260423T003000Z
-SUMMARY:21:45 ★★★ [金银] 美国4月标普全球服务业PMI初值
-UID:d5cc7e07-2899-4b57-9794-159db9cd7785@d5cc.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至5月29日当周总钻井总数(口)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- 口
-DTSTART:20260530T000000Z
-SUMMARY:01:00 ★★ [油气] 美国至5月29日当周总钻井总数(口)
-UID:43fe883b-cc17-4d0c-831d-d7c5b17deffd@43fe.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【财经大事】\n真实时间: 09:30\n内容: 国家统计局公布70个大中城市住宅销售价格月度报告。\n国家: 中国\n人物: --\n重要性: 3星
-DTSTART:20260518T000000Z
-SUMMARY:09:30 [大事] ★★★ 中国 国家统计局公布70个大中城市住宅销售价格月度报告。
-UID:6fe47c18-f135-4b64-a051-e1ddbc83885f@6fe4.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 21:45\n项目: 美国4月标普全球制造业PMI初值\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- --
-DTSTART:20260423T002000Z
-SUMMARY:21:45 ★★★ [金银] 美国4月标普全球制造业PMI初值
-UID:f56e0adb-2279-4eb2-a55a-6f9bfc977d8d@f56e.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 15:20\n项目: 印尼至5月20日7天逆回购利率\n国家: 印尼\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- %
-DTSTART:20260520T002000Z
-SUMMARY:15:20 ★  印尼至5月20日7天逆回购利率
-UID:68ebd3c0-46d6-4812-b22b-fb4696a18326@68eb.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至5月29日当周石油钻井总数(口)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 口
-DTSTART:20260530T002000Z
-SUMMARY:01:00 ★★★ [原油] 美国至5月29日当周石油钻井总数(口)
-UID:65a8af9c-dfd5-42fd-9942-7b0eff0e0698@65a8.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 21:45\n项目: 美国4月标普全球综合PMI终值\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- --
-DTSTART:20260505T003000Z
-SUMMARY:21:45 ★★ [金银] 美国4月标普全球综合PMI终值
-UID:14854ebc-31c2-4bb0-a906-03a557df3b1e@1485.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 21:45\n项目: 美国5月标普全球服务业PMI初值\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- --
-DTSTART:20260521T005000Z
-SUMMARY:21:45 ★★★ [金银] 美国5月标普全球服务业PMI初值
-UID:c54054c0-67b8-4fd2-a8a9-53aa4cda7b4d@c540.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 09:30\n项目: 中国4月规模以上工业企业利润年率\n国家: 中国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- %
-DTSTART:20260527T001000Z
-SUMMARY:09:30 ★ [大宗商品] 中国4月规模以上工业企业利润年率
-UID:93a36507-85e5-4213-9fbf-3805155476ba@93a3.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至4月3日当周天然气钻井总数(口)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: 127 口
-DTSTART:20260403T004000Z
-SUMMARY:01:00 ★ [天然气] 美国至4月3日当周天然气钻井总数(口)
-UID:15d75bba-061d-4951-922d-d5c48d30193c@15d7.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:【财经大事】\n真实时间: 16:00\n内容: IEA公布月度原油市场报告。\n国家: 法国\n人物: --\n重要性: 3星
-DTSTART:20260414T005000Z
-SUMMARY:16:00 [大事] ★★★ 法国 IEA公布月度原油市场报告。
-UID:b2bb6c88-5434-450e-bcf6-74add5843201@b2bb.org
+UID:33fc6fcd-6af7-49be-a482-0a6cc6587ed4@33fc.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:【经济数据】\n真实时间: 16:00\n项目: 新加坡至4月1日当周中质馏分油库存(万桶)\n国家: 新加坡\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 909.9 万桶
 DTSTART:20260402T021000Z
 SUMMARY:16:00 ★★ [燃料油] 新加坡至4月1日当周中质馏分油库存(万桶)
-UID:61d8ba60-c356-4abd-a44c-b9510457938b@61d8.org
+UID:a8e24922-c70b-4d79-b80a-9d49b853c861@a8e2.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至5月29日当周总钻井总数(口)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- 口
+DTSTART:20260530T000000Z
+SUMMARY:01:00 ★★ [油气] 美国至5月29日当周总钻井总数(口)
+UID:892f8d99-bfc0-45e0-9444-917cb83b4cf8@892f.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月10日当周EIA精炼油库存(万桶)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
+DTSTART:20260415T004000Z
+SUMMARY:22:30 ★ [原油] 美国至4月10日当周EIA精炼油库存(万桶)
+UID:d28062ad-866f-4c95-b154-ec7cffed4e39@d280.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至5月1日当周EIA蒸馏燃油产量引伸需求数据(万桶/日)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶/日
+DTSTART:20260506T013000Z
+SUMMARY:22:30 ★  美国至5月1日当周EIA蒸馏燃油产量引伸需求数据(万桶/日)
+UID:0aa634b0-4002-4db9-ba45-e5c839f2f17b@0aa6.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:00\n项目: 美国4月ISM制造业PMI\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: --\n前值: 52.7 --
+DTSTART:20260501T002000Z
+SUMMARY:22:00 ★★★★ [黄金] 美国4月ISM制造业PMI
+UID:386dcf9b-d6dc-400d-b9c6-2c72c11be9a1@386d.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月3日当周EIA原油库存(万桶)\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: --\n前值: 545.1 万桶
+DTSTART:20260408T031000Z
+SUMMARY:22:30 ★★★★ [原油] 美国至4月3日当周EIA原油库存(万桶)
+UID:a5d80b7a-cfb5-4c2f-8fef-f07a9f85f308@a5d8.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 中国3月进口年率\n国家: 中国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 10.90 %
+DTSTART:20260414T001000Z
+SUMMARY:00:00 ★★ [大宗商品] 中国3月进口年率
+UID:e0026f1b-69dc-46cf-9571-c669ea05c756@e002.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月3日当周EIA精炼油库存(万桶)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -211.1 万桶
+DTSTART:20260408T034000Z
+SUMMARY:22:30 ★ [原油] 美国至4月3日当周EIA精炼油库存(万桶)
+UID:b4f7c264-8636-4283-b9e3-1c3e3a9046b1@b4f7.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 09:00\n项目: 中国3月Swift人民币在全球支付中占比\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 2.74 %
+DTSTART:20260423T000000Z
+SUMMARY:09:00 ★★★  中国3月Swift人民币在全球支付中占比
+UID:8151c24e-f98c-403e-ab7b-9ff5a4d80bbc@8151.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国至4月18日当周初请失业金人数(万人)\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: --\n前值: -- 万人
+DTSTART:20260423T001000Z
+SUMMARY:20:30 ★★★★ [黄金] 美国至4月18日当周初请失业金人数(万人)
+UID:1ce00592-f0b4-42df-8692-a38a485d5c6a@1ce0.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至5月15日当周EIA车用汽油总产量引伸需求数据(万桶/日)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶/日
+DTSTART:20260520T012000Z
+SUMMARY:22:30 ★  美国至5月15日当周EIA车用汽油总产量引伸需求数据(万桶/日)
+UID:f69dffd3-25db-46c5-a543-ed5c8d5710db@f69d.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月17日当周EIA俄克拉荷马州库欣原油库存(万桶)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
+DTSTART:20260422T002000Z
+SUMMARY:22:30 ★★★ [原油] 美国至4月17日当周EIA俄克拉荷马州库欣原油库存(万桶)
+UID:ef7af1ab-d2e5-43fa-ba77-e75543f108cf@ef7a.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【财经大事】\n真实时间: 16:00\n内容: IEA公布月度原油市场报告。\n国家: 法国\n人物: --\n重要性: 3星
+DTSTART:20260513T010000Z
+SUMMARY:16:00 [大事] ★★★ 法国 IEA公布月度原油市场报告。
+UID:c3d668a8-09df-400f-9616-9d4a2943fb5c@c3d6.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月17日当周EIA车用汽油总产量引伸需求数据(万桶/日)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶/日
+DTSTART:20260422T010000Z
+SUMMARY:22:30 ★  美国至4月17日当周EIA车用汽油总产量引伸需求数据(万桶/日)
+UID:0ccbe7e8-c6f0-48a9-abae-e168d9f568b8@0ccb.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 10:00\n项目: 中国4月规模以上工业增加值同比\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- %
+DTSTART:20260518T002000Z
+SUMMARY:10:00 ★★★ [大宗商品] 中国4月规模以上工业增加值同比
+UID:29a0c962-ca21-4c2c-be69-2f1730c04e38@29a0.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 08:00\n项目: 韩国4月出口年率\n国家: 韩国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: 48.3 %
+DTSTART:20260501T000000Z
+SUMMARY:08:00 ★ [全球经济] 韩国4月出口年率
+UID:de1f0847-88cf-424e-a7f7-199e101b1310@de1f.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 02:00\n项目: 美国至4月29日美联储利率决定(上限)\n国家: 美国\n重要性: 5星\n----------------\n今值: --\n预测: --\n前值: 3.75 %
+DTSTART:20260430T000000Z
+SUMMARY:02:00 ★★★★★ [黄金] 美国至4月29日美联储利率决定(上限)
+UID:5006636e-aeb2-4698-9544-17fcbd754fbc@5006.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至4月24日当周天然气钻井总数(口)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 口
+DTSTART:20260425T001000Z
+SUMMARY:01:00 ★ [天然气] 美国至4月24日当周天然气钻井总数(口)
+UID:f38f9e92-55e8-4e0d-94e1-15377a654fb6@f38f.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至4月10日当周天然气钻井总数(口)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 口
+DTSTART:20260411T001000Z
+SUMMARY:01:00 ★ [天然气] 美国至4月10日当周天然气钻井总数(口)
+UID:d78ba158-2058-4ef5-8e0e-91483a7239cc@d78b.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 美国5月EIA次年天然气产量预期(亿立方英尺/日)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 亿立方英尺/日
+DTSTART:20260513T003000Z
+SUMMARY:00:00 ★ [天然气] 美国5月EIA次年天然气产量预期(亿立方英尺/日)
+UID:30960c9d-5cbf-456d-8bbd-f6174f3bda5e@3096.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月17日当周EIA原油产量引伸需求数据(万桶/日)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- 万桶/日
+DTSTART:20260422T005000Z
+SUMMARY:22:30 ★★  美国至4月17日当周EIA原油产量引伸需求数据(万桶/日)
+UID:022e7280-0d39-4310-83f5-3bd10acd75d9@022e.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月24日当周EIA天然气库存(亿立方英尺)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 亿立方英尺
+DTSTART:20260430T022000Z
+SUMMARY:22:30 ★★★ [天然气] 美国至4月24日当周EIA天然气库存(亿立方英尺)
+UID:1c6532b3-56d6-4687-ba60-34b66b9a83fa@1c65.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月24日当周EIA原油库存(万桶)\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
+DTSTART:20260429T000000Z
+SUMMARY:22:30 ★★★★ [原油] 美国至4月24日当周EIA原油库存(万桶)
+UID:dfb56ec8-9c7f-42c3-b560-c9747c211e93@dfb5.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【财经大事】\n真实时间: 03:30\n内容: CFTC公布周度持仓报告。\n国家: 美国\n人物: --\n重要性: 2星
+DTSTART:20260418T003000Z
+SUMMARY:03:30 [大事] ★★ 美国 CFTC公布周度持仓报告。
+UID:e9e144ac-0b64-4d41-93bf-b6968e96670a@e9e1.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【财经大事】\n真实时间: 09:30\n内容: 国家统计局公布70个大中城市住宅销售价格月度报告。\n国家: 中国\n人物: --\n重要性: 3星
+DTSTART:20260518T000000Z
+SUMMARY:09:30 [大事] ★★★ 中国 国家统计局公布70个大中城市住宅销售价格月度报告。
+UID:0faf514f-3292-46b0-afd7-eaef479dca0f@0faf.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至5月8日当周石油钻井总数(口)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 口
+DTSTART:20260509T004000Z
+SUMMARY:01:00 ★★★ [原油] 美国至5月8日当周石油钻井总数(口)
+UID:005c5fda-00f0-4faa-a02a-0b5dd07332e3@005c.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【财经大事】\n真实时间: 03:30\n内容: CFTC公布周度持仓报告。\n国家: 美国\n人物: --\n重要性: 2星
+DTSTART:20260425T003000Z
+SUMMARY:03:30 [大事] ★★ 美国 CFTC公布周度持仓报告。
+UID:7f4e85f9-59ae-4b16-b38e-ba36fb0f2b5e@7f4e.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 09:00\n项目: 中国至5月20日五年期贷款市场报价利率\n国家: 中国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- %
+DTSTART:20260520T000000Z
+SUMMARY:09:00 ★★ [大宗商品] 中国至5月20日五年期贷款市场报价利率
+UID:73bd252e-f3d6-4950-9ee0-0e9d75594bbb@73bd.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 09:30\n项目: 中国3月今年迄今规模以上工业企业利润年率\n国家: 中国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- %
+DTSTART:20260427T001000Z
+SUMMARY:09:30 ★★  中国3月今年迄今规模以上工业企业利润年率
+UID:af2823d2-3577-4f32-bcf1-8869f4a46d48@af28.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国第四季度实际个人消费支出季率终值\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 3.5 %
+DTSTART:20260409T012000Z
+SUMMARY:20:30 ★★★  美国第四季度实际个人消费支出季率终值
+UID:0aa664f6-f138-4e50-a9a3-1d88d4673a31@0aa6.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 21:45\n项目: 美国5月标普全球服务业PMI初值\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- --
+DTSTART:20260521T005000Z
+SUMMARY:21:45 ★★★ [金银] 美国5月标普全球服务业PMI初值
+UID:7c8a6fa7-607f-42ae-ae08-aac0c15dd36e@7c8a.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 09:45\n项目: 中国4月RatingDog综合PMI\n国家: 中国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- --
+DTSTART:20260506T000000Z
+SUMMARY:09:45 ★★ [大宗商品] 中国4月RatingDog综合PMI
+UID:1b16d533-148e-45e3-945c-188e7d546ca8@1b16.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国3月零售销售月率\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: --\n前值: 0.6 %
+DTSTART:20260421T001000Z
+SUMMARY:20:30 ★★★★ [黄金] 美国3月零售销售月率
+UID:41aa1b2a-19ee-4222-9b55-2fd004cd6329@41aa.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 16:00\n项目: 英国至4月2日LME铜库存变化值(吨)\n国家: 英国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -1000 吨
+DTSTART:20260402T023000Z
+SUMMARY:16:00 ★★★ [铜] 英国至4月2日LME铜库存变化值(吨)
+UID:9e78ed4b-3d10-4688-92c7-c73c268e3281@9e78.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至5月8日当周EIA俄克拉荷马州库欣原油库存(万桶)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
+DTSTART:20260513T012000Z
+SUMMARY:22:30 ★★★ [原油] 美国至5月8日当周EIA俄克拉荷马州库欣原油库存(万桶)
+UID:dbc6e53f-fbb7-40ce-8f67-07ac06e685d7@dbc6.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【财经大事】\n真实时间: 03:30\n内容: CFTC公布周度持仓报告。\n国家: 美国\n人物: --\n重要性: 2星
+DTSTART:20260523T003000Z
+SUMMARY:03:30 [大事] ★★ 美国 CFTC公布周度持仓报告。
+UID:c3d572fa-9cae-4147-88d3-5531cba48c2c@c3d5.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 09:00\n项目: 中国4月Swift人民币在全球支付中占比\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- %
+DTSTART:20260521T002000Z
+SUMMARY:09:00 ★★★  中国4月Swift人民币在全球支付中占比
+UID:824c1e40-1492-422d-a9d2-2d68e3742dff@824c.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 16:00\n项目: 英国至4月2日LME镍库存变化值(吨)\n国家: 英国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -6 吨
+DTSTART:20260402T032000Z
+SUMMARY:16:00 ★★★ [镍] 英国至4月2日LME镍库存变化值(吨)
+UID:d4899f20-d98a-4de9-a157-5ef76fbc3be8@d489.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【财经大事】\n真实时间: 03:30\n内容: CFTC公布周度持仓报告。\n国家: 美国\n人物: --\n重要性: 2星
+DTSTART:20260502T003000Z
+SUMMARY:03:30 [大事] ★★ 美国 CFTC公布周度持仓报告。
+UID:c91675f5-f423-4743-bfd4-3faa8f34a314@c916.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【财经大事】\n真实时间: 09:20\n内容: 今日有6000亿元1年期中期借贷便利（MLF）到期。\n国家: 中国\n人物: --\n重要性: 3星
+DTSTART:20260427T000000Z
+SUMMARY:09:20 [大事] ★★★ 中国 今日有6000亿元1年期中期借贷便利（MLF）到期。
+UID:67b8d28a-9510-436d-9db5-6826dd731597@67b8.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 09:45\n项目: 中国3月RatingDog服务业PMI\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 56.7 --
+DTSTART:20260403T013000Z
+SUMMARY:09:45 ★★★ [大宗商品] 中国3月RatingDog服务业PMI
+UID:4c5d6ee6-d4aa-4113-ad6e-b0271f87b763@4c5d.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【财经大事】\n真实时间: 16:00\n内容: ESG新加坡周度燃料油库存\n国家: 新加坡\n人物: --\n重要性: 2星
+DTSTART:20260402T033000Z
+SUMMARY:16:00 [大事] ★★ 新加坡 ESG新加坡周度燃料油库存
+UID:9ceb9ee0-5a37-42a5-ab52-c8e3d5945893@9ceb.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至4月3日当周总钻井总数(口)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 543 口
+DTSTART:20260403T003000Z
+SUMMARY:01:00 ★★ [油气] 美国至4月3日当周总钻井总数(口)
+UID:03d25a97-8326-4054-a489-0c36d97307dd@03d2.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 中国3月贸易帐(亿元)\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 6375.5 亿元
+DTSTART:20260414T002000Z
+SUMMARY:00:00 ★★★ [大宗商品] 中国3月贸易帐(亿元)
+UID:3ace2ede-c246-4d8c-858f-456b9c76cf2f@3ace.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国4月核心PCE物价指数年率\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: --\n前值: -- %
+DTSTART:20260528T001000Z
+SUMMARY:20:30 ★★★★ [黄金] 美国4月核心PCE物价指数年率
+UID:e289b42e-62d5-4c9e-a310-9f91a3b8e0af@e289.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 21:45\n项目: 美国4月标普全球服务业PMI初值\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- --
+DTSTART:20260423T003000Z
+SUMMARY:21:45 ★★★ [金银] 美国4月标普全球服务业PMI初值
+UID:94f856d9-90a7-4b44-a486-df8e436a0cbe@94f8.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至5月15日当周EIA俄克拉荷马州库欣原油库存(万桶)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
+DTSTART:20260520T004000Z
+SUMMARY:22:30 ★★★ [原油] 美国至5月15日当周EIA俄克拉荷马州库欣原油库存(万桶)
+UID:ac94a447-c858-4903-a973-9ce5298d9290@ac94.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至4月10日当周总钻井总数(口)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- 口
+DTSTART:20260411T000000Z
+SUMMARY:01:00 ★★ [油气] 美国至4月10日当周总钻井总数(口)
+UID:c4e19ed4-056b-42b0-9f07-97c991300098@c4e1.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 16:00\n项目: 英国至4月2日LME铝合金库存变化值(吨)\n国家: 英国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: 0 吨
+DTSTART:20260402T024000Z
+SUMMARY:16:00 ★ [铝合金] 英国至4月2日LME铝合金库存变化值(吨)
+UID:9a83fa2b-2267-4079-8d80-c0371ce747fc@9a83.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 美国4月EIA次年短期前景美国原油产量预期(万桶/日)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 1383 万桶/日
+DTSTART:20260408T001000Z
+SUMMARY:00:00 ★★ [原油] 美国4月EIA次年短期前景美国原油产量预期(万桶/日)
+UID:53ef63dc-e9b2-4c48-b695-9ba50403dda2@53ef.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月3日当周EIA蒸馏燃油产量引伸需求数据(万桶/日)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: 544.46 万桶/日
+DTSTART:20260408T041000Z
+SUMMARY:22:30 ★  美国至4月3日当周EIA蒸馏燃油产量引伸需求数据(万桶/日)
+UID:01d14f95-5758-4fe2-8bae-7a062236c029@01d1.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 04:30\n项目: 美国至4月3日当周API原油进口(万桶)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 32.8 万桶
+DTSTART:20260408T020000Z
+SUMMARY:04:30 ★★ [原油] 美国至4月3日当周API原油进口(万桶)
+UID:19f98d70-a7ed-4b04-aa70-078f5228eaf0@19f9.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 马来西亚3月MPOA马棕油产量预估\n国家: 马来西亚\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 0.92 %
+DTSTART:20260403T000000Z
+SUMMARY:00:00 ★★★ [马棕油] 马来西亚3月MPOA马棕油产量预估
+UID:76410ea2-cfe4-4bb3-be4a-70887bf77e84@7641.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 美国5月EIA当年天然气产量预期(亿立方英尺/日)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 亿立方英尺/日
+DTSTART:20260513T002000Z
+SUMMARY:00:00 ★ [天然气] 美国5月EIA当年天然气产量预期(亿立方英尺/日)
+UID:86c3acc4-99aa-4d2b-a5fe-1bb317ab40a6@86c3.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至3月27日当周EIA天然气库存(亿立方英尺)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: 340\n前值: -540 亿立方英尺
+DTSTART:20260402T045000Z
+SUMMARY:22:30 ★★★ [天然气] 美国至3月27日当周EIA天然气库存(亿立方英尺)
+UID:78283c5b-b221-40f0-bc43-8168aedb681d@7828.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至5月15日当周EIA原油库存(万桶)\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
+DTSTART:20260520T003000Z
+SUMMARY:22:30 ★★★★ [原油] 美国至5月15日当周EIA原油库存(万桶)
+UID:481a6d0a-2bd0-41c0-a660-5df81fbd3e3f@481a.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 09:30\n项目: 中国4月CPI年率\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- %
+DTSTART:20260511T001000Z
+SUMMARY:09:30 ★★★ [大宗商品] 中国4月CPI年率
+UID:ad452880-87a5-47d9-9d6d-2a23832a3db3@ad45.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 09:30\n项目: 中国5月非制造业PMI\n国家: 中国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- 
+DTSTART:20260531T001000Z
+SUMMARY:09:30 ★★ [大宗商品] 中国5月非制造业PMI
+UID:b7c24c5a-7112-4387-b5f1-6c9872b87bc4@b7c2.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国4月失业率\n国家: 美国\n重要性: 5星\n----------------\n今值: --\n预测: --\n前值: -- %
+DTSTART:20260508T002000Z
+SUMMARY:20:30 ★★★★★ [金银] 美国4月失业率
+UID:01a20375-0eb1-4614-8434-37f8432e134c@01a2.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月3日当周EIA汽油库存(万桶)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -58.6 万桶
+DTSTART:20260408T033000Z
+SUMMARY:22:30 ★ [原油] 美国至4月3日当周EIA汽油库存(万桶)
+UID:3148ea9e-ca90-42dc-b4c8-22871b1a6308@3148.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 09:00\n项目: 中国至5月20日一年期贷款市场报价利率\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- %
+DTSTART:20260520T001000Z
+SUMMARY:09:00 ★★★ [大宗商品] 中国至5月20日一年期贷款市场报价利率
+UID:33ae141b-f507-4990-b190-e0cea4c099ad@33ae.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至5月1日当周EIA汽油库存(万桶)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
+DTSTART:20260506T005000Z
+SUMMARY:22:30 ★ [原油] 美国至5月1日当周EIA汽油库存(万桶)
+UID:3582cf34-8001-4a39-bc85-c5530304f51c@3582.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 04:30\n项目: 美国至4月3日当周API原油库存(万桶)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 1026.3 万桶
+DTSTART:20260408T011000Z
+SUMMARY:04:30 ★★★ [原油] 美国至4月3日当周API原油库存(万桶)
+UID:1aa22ac4-f854-46e9-98c5-9f269970d858@1aa2.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【财经大事】\n真实时间: 03:30\n内容: CFTC公布周度持仓报告。\n国家: 美国\n人物: --\n重要性: 2星
+DTSTART:20260530T003000Z
+SUMMARY:03:30 [大事] ★★ 美国 CFTC公布周度持仓报告。
+UID:46e40a70-8e89-4240-872a-40c946881af9@46e4.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国至3月26日2025/2026市场年度豆油出口净销售量(吨)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 800 吨
+DTSTART:20260402T043000Z
+SUMMARY:20:30 ★★ [豆油] 美国至3月26日2025/2026市场年度豆油出口净销售量(吨)
+UID:a9545e12-fc66-4c52-8efa-7abea965b5a1@a954.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国至5月2日当周初请失业金人数(万人)\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: --\n前值: -- 万人
+DTSTART:20260507T001000Z
+SUMMARY:20:30 ★★★★ [黄金] 美国至5月2日当周初请失业金人数(万人)
+UID:fed963a7-ee9d-4139-a46f-fb66db728022@fed9.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 03:00\n项目: 美国2月DDGS产量(万吨)\n国家: 美国\n重要性: 3星\n----------------\n今值: 163.4\n预测: --\n前值: 178 万吨
+DTSTART:20260402T001000Z
+SUMMARY:03:00 ★★★ [美玉米] 美国2月DDGS产量(万吨)
+UID:150c258e-331d-4571-8019-cdd518ee5b8a@150c.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【财经大事】\n真实时间: 02:00\n内容: 美联储公布货币政策会议纪要。\n国家: 美国\n人物: 美联储\n重要性: 4星
+DTSTART:20260521T001000Z
+SUMMARY:02:00 [大事] ★★★★ 美国 美联储公布货币政策会议纪要。
+UID:8f77ba17-f178-4b91-9f05-cbfa60051f8b@8f77.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 16:00\n项目: 英国至4月2日LME锌库存变化值(吨)\n国家: 英国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -275 吨
+DTSTART:20260402T030000Z
+SUMMARY:16:00 ★★ [锌] 英国至4月2日LME锌库存变化值(吨)
+UID:6347c0e9-2326-49f0-ade6-40b18741fd4a@6347.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 美国至5月22日当周EIA原油产量引伸需求数据(万桶/日)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- 万桶/日
+DTSTART:20260529T004000Z
+SUMMARY:00:00 ★★  美国至5月22日当周EIA原油产量引伸需求数据(万桶/日)
+UID:b0f863c7-b8a0-44d2-889b-2f1287693c51@b0f8.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【财经大事】\n真实时间: 00:00\n内容: 澳大利亚和新西兰开始进入冬令时，其金融市场交易时间及经济数据公布时间将较夏令时延后一小时。\n国家: 澳大利亚\n人物: --\n重要性: 3星
+DTSTART:20260405T000000Z
+SUMMARY:00:00 [大事] ★★★ 澳大利亚 澳大利亚和新西兰开始进入冬令时，其金融市场交易时间及经济...
+UID:7d779a09-e2ba-4426-995b-8401db8e7c56@7d77.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 10:00\n项目: 中国3月今年迄今城镇固定资产投资同比\n国家: 中国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 1.80 %
+DTSTART:20260416T003000Z
+SUMMARY:10:00 ★★ [大宗商品] 中国3月今年迄今城镇固定资产投资同比
+UID:12ab06e7-e164-45e2-abbf-c3cd93673d21@12ab.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月3日当周EIA原油产量引伸需求数据(万桶/日)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 1933.2 万桶/日
+DTSTART:20260408T035000Z
+SUMMARY:22:30 ★★  美国至4月3日当周EIA原油产量引伸需求数据(万桶/日)
+UID:edd8fa83-f4c5-4f1f-816c-433319ad9894@edd8.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 10:00\n项目: 中国3月城镇固定资产投资环比\n国家: 中国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: 0.39 %
+DTSTART:20260416T011000Z
+SUMMARY:10:00 ★ [大宗商品] 中国3月城镇固定资产投资环比
+UID:ec874ccb-9a4a-46f3-be8c-52f0803cf125@ec87.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 美国5月EIA次年短期前景美国原油产量预期(万桶/日)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- 万桶/日
+DTSTART:20260513T001000Z
+SUMMARY:00:00 ★★ [原油] 美国5月EIA次年短期前景美国原油产量预期(万桶/日)
+UID:c6e12d35-c9b0-446e-b4cb-58f8683c591b@c6e1.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至5月15日当周EIA汽油库存(万桶)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
+DTSTART:20260520T005000Z
+SUMMARY:22:30 ★ [原油] 美国至5月15日当周EIA汽油库存(万桶)
+UID:ca22c7af-db35-4bcd-a095-3a12e653b494@ca22.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 09:45\n项目: 中国4月RatingDog服务业PMI\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- --
+DTSTART:20260506T001000Z
+SUMMARY:09:45 ★★★ [大宗商品] 中国4月RatingDog服务业PMI
+UID:3b0faa18-a9d4-47aa-a5e4-25a822fc29a7@3b0f.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 04:30\n项目: 美国至4月3日当周API精炼油库存(万桶)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -1043 万桶
+DTSTART:20260408T013000Z
+SUMMARY:04:30 ★ [原油] 美国至4月3日当周API精炼油库存(万桶)
+UID:222acce8-97d1-4871-a53a-4a25928dd4eb@222a.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 12:30\n项目: 印度至4月8日央行存款准备金率\n国家: 印度\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: 3 %
+DTSTART:20260408T030000Z
+SUMMARY:12:30 ★  印度至4月8日央行存款准备金率
+UID:9a6888f0-0d85-4d40-82d4-bcfeed2e4f0d@9a68.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 美国4月EIA当年WTI原油均价预期(美元/桶)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- 美元/桶
+DTSTART:20260408T004000Z
+SUMMARY:00:00 ★★ [原油] 美国4月EIA当年WTI原油均价预期(美元/桶)
+UID:1e942d10-2216-4ce0-a9ea-d4a10001c277@1e94.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 中国3月外汇储备(亿美元)\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 34278 亿美元
+DTSTART:20260407T000000Z
+SUMMARY:00:00 ★★★ [大宗商品] 中国3月外汇储备(亿美元)
+UID:c341999b-7e2c-4ad6-b39d-1cfd9b289cb6@c341.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国3月未季调CPI年率\n国家: 美国\n重要性: 5星\n----------------\n今值: --\n预测: --\n前值: 2.40 %
+DTSTART:20260410T010000Z
+SUMMARY:20:30 ★★★★★ [金银] 美国3月未季调CPI年率
+UID:e15a5777-cd3d-44b5-856a-8fda8873a2e9@e15a.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 12:30\n项目: 印度至4月8日央行逆回购利率\n国家: 印度\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: 3.35 %
+DTSTART:20260408T025000Z
+SUMMARY:12:30 ★  印度至4月8日央行逆回购利率
+UID:efa967a8-90cb-4c77-9a8d-33fc732bc587@efa9.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至5月8日当周EIA原油产量引伸需求数据(万桶/日)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- 万桶/日
+DTSTART:20260513T015000Z
+SUMMARY:22:30 ★★  美国至5月8日当周EIA原油产量引伸需求数据(万桶/日)
+UID:dc91f668-f337-4dfd-9bb3-d024a2f09ec2@dc91.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国3月季调后核心CPI月率\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 0.20 %
+DTSTART:20260410T005000Z
+SUMMARY:20:30 ★★★ [金银] 美国3月季调后核心CPI月率
+UID:83be0f6e-7d49-4c0c-8ed3-724c2a8b3db0@83be.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 04:30\n项目: 美国至4月3日当周API投产原油量(万桶/日)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -20.5 万桶/日
+DTSTART:20260408T022000Z
+SUMMARY:04:30 ★★ [原油] 美国至4月3日当周API投产原油量(万桶/日)
+UID:e2d29ead-f019-4032-b3f1-4d3e128b7b94@e2d2.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【财经大事】\n真实时间: 00:00\n内容: EIA公布月度短期能源展望报告。\n国家: 美国\n人物: --\n重要性: 3星
+DTSTART:20260513T004000Z
+SUMMARY:00:00 [大事] ★★★ 美国 EIA公布月度短期能源展望报告。
+UID:ace303e3-9697-4917-8d3a-6c74befb2f58@ace3.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国第一季度实际GDP年化季率初值\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- %
+DTSTART:20260430T015000Z
+SUMMARY:20:30 ★★★ [黄金] 美国第一季度实际GDP年化季率初值
+UID:cf143bff-03bb-4bbc-a38d-bec3a2162d85@cf14.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月24日当周EIA原油产量引伸需求数据(万桶/日)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- 万桶/日
+DTSTART:20260429T004000Z
+SUMMARY:22:30 ★★  美国至4月24日当周EIA原油产量引伸需求数据(万桶/日)
+UID:f9c44cd8-40ae-4818-83c1-0da866588c5e@f9c4.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 09:30\n项目: 中国3月PPI月率\n国家: 中国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 0.4 %
+DTSTART:20260410T002000Z
+SUMMARY:09:30 ★★ [大宗商品] 中国3月PPI月率
+UID:c808d775-745e-49b3-9dc4-1552dbd12b6c@c808.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 14:00\n项目: 中国至4月2日螺纹钢周度表观需求(万吨)\n国家: 中国\n重要性: 3星\n----------------\n今值: 228.26\n预测: --\n前值: 225.37 万吨
+DTSTART:20260402T013000Z
+SUMMARY:14:00 ★★★ [螺纹钢] 中国至4月2日螺纹钢周度表观需求(万吨)
+UID:a9cefef4-b5fe-4f31-8511-cf75fbd1f5a4@a9ce.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国4月达拉斯联储商业活动指数\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -0.2 --
+DTSTART:20260427T003000Z
+SUMMARY:22:30 ★★★ [金银] 美国4月达拉斯联储商业活动指数
+UID:1a910240-8917-485d-bce7-c217049bc886@1a91.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 09:30\n项目: 中国4月今年迄今规模以上工业企业利润年率\n国家: 中国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- %
+DTSTART:20260527T000000Z
+SUMMARY:09:30 ★★  中国4月今年迄今规模以上工业企业利润年率
+UID:2ab89697-8958-4aac-968f-7eceb5309282@2ab8.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 16:00\n项目: 英国至4月3日LME锌库存变化值(吨)\n国家: 英国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- 吨
+DTSTART:20260403T032000Z
+SUMMARY:16:00 ★★ [锌] 英国至4月3日LME锌库存变化值(吨)
+UID:b040f5a5-302c-4979-b6af-e0b08c847f32@b040.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国2月核心PCE物价指数月率\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 0.40 %
+DTSTART:20260409T002000Z
+SUMMARY:20:30 ★★★  美国2月核心PCE物价指数月率
+UID:2a9fc86c-de69-4bd5-a34d-e03b15e210ae@2a9f.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国5月达拉斯联储商业活动指数\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- --
+DTSTART:20260526T000000Z
+SUMMARY:22:30 ★★★ [金银] 美国5月达拉斯联储商业活动指数
+UID:9c9f1da0-cc14-4e9f-a432-a16a24b4a082@9c9f.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【财经大事】\n真实时间: 00:00\n内容: 国内成品油将开启新一轮调价窗口。\n国家: 中国\n人物: --\n重要性: 3星
+DTSTART:20260421T000000Z
+SUMMARY:00:00 [大事] ★★★ 中国 国内成品油将开启新一轮调价窗口。
+UID:ed9d88f8-b30b-42e2-badd-66903f4aba35@ed9d.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月17日当周EIA天然气库存(亿立方英尺)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 亿立方英尺
+DTSTART:20260423T005000Z
+SUMMARY:22:30 ★★★ [天然气] 美国至4月17日当周EIA天然气库存(亿立方英尺)
+UID:3e27e443-95f2-4160-a2f8-305da648537a@3e27.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月24日当周EIA精炼油库存(万桶)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
+DTSTART:20260429T003000Z
+SUMMARY:22:30 ★ [原油] 美国至4月24日当周EIA精炼油库存(万桶)
+UID:3c43d14d-f377-4629-b37e-9903b12df8d9@3c43.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 23:00\n项目: 美国4月纽约联储1年通胀预期\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- %
+DTSTART:20260507T003000Z
+SUMMARY:23:00 ★★★  美国4月纽约联储1年通胀预期
+UID:e05e2b57-2ac8-4804-97e9-9ae26d6ae6ea@e05e.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月24日当周EIA蒸馏燃油产量引伸需求数据(万桶/日)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶/日
+DTSTART:20260429T010000Z
+SUMMARY:22:30 ★  美国至4月24日当周EIA蒸馏燃油产量引伸需求数据(万桶/日)
+UID:2a4d0a43-db2c-4131-919f-0550f181a5bb@2a4d.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【财经大事】\n真实时间: 00:00\n内容: 欧佩克公布月度原油市场报告（月报具体公布时间待定，一般于北京时间18-21点左右公布）。\n国家: 奥地利\n人物: --\n重要性: 3星
+DTSTART:20260413T000000Z
+SUMMARY:00:00 [大事] ★★★ 奥地利 欧佩克公布月度原油市场报告（月报具体公布时间待定，一般于...
+UID:a56ab5ad-e368-4cbd-bb6f-62ebe7e19143@a56a.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【财经大事】\n真实时间: 00:00\n内容: 沙特阿美在每月5日左右公布官方原油售价。\n国家: 沙特\n人物: --\n重要性: 3星
+DTSTART:20260405T001000Z
+SUMMARY:00:00 [大事] ★★★ 沙特 沙特阿美在每月5日左右公布官方原油售价。
+UID:3d39085e-098c-464c-a096-94b18a0fa523@3d39.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月10日当周EIA原油库存(万桶)\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
+DTSTART:20260415T001000Z
+SUMMARY:22:30 ★★★★ [原油] 美国至4月10日当周EIA原油库存(万桶)
+UID:d0aae635-fed9-49a0-9613-dc7beef0518d@d0aa.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至4月10日当周石油钻井总数(口)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 口
+DTSTART:20260411T002000Z
+SUMMARY:01:00 ★★★ [原油] 美国至4月10日当周石油钻井总数(口)
+UID:086aa61f-5b19-42e1-b6cb-ab83c66ce669@086a.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【财经大事】\n真实时间: 03:30\n内容: CFTC公布周度持仓报告。\n国家: 美国\n人物: --\n重要性: 2星
+DTSTART:20260509T005000Z
+SUMMARY:03:30 [大事] ★★ 美国 CFTC公布周度持仓报告。
+UID:184e5dd3-8d39-4c26-a092-cb21b7ea2a46@184e.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 23:00\n项目: 美国3月纽约联储1年通胀预期\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 3.00 %
+DTSTART:20260407T003000Z
+SUMMARY:23:00 ★★★  美国3月纽约联储1年通胀预期
+UID:186e96b3-3e67-4c1f-9392-69fc7814141b@186e.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月17日当周EIA原油库存(万桶)\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
+DTSTART:20260422T001000Z
+SUMMARY:22:30 ★★★★ [原油] 美国至4月17日当周EIA原油库存(万桶)
+UID:5a2cb68a-9827-4759-9655-e994e7e4ce9d@5a2c.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国至5月9日当周初请失业金人数(万人)\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: --\n前值: -- 万人
+DTSTART:20260514T000000Z
+SUMMARY:20:30 ★★★★ [黄金] 美国至5月9日当周初请失业金人数(万人)
+UID:57ec906c-0761-4940-bfbd-df2299803c7a@57ec.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国至4月4日当周初请失业金人数(万人)\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: --\n前值: -- 万人
+DTSTART:20260409T004000Z
+SUMMARY:20:30 ★★★★ [黄金] 美国至4月4日当周初请失业金人数(万人)
+UID:aca4116e-6465-4c31-bd89-1be4dccedbfb@aca4.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 09:30\n项目: 中国5月综合PMI\n国家: 中国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- --
+DTSTART:20260531T002000Z
+SUMMARY:09:30 ★★ [大宗商品] 中国5月综合PMI
+UID:6830569e-66ef-429e-ab51-c5e8cedab9c1@6830.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国第四季度实际个人消费支出季率初值\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 2.00 %
+DTSTART:20260409T010000Z
+SUMMARY:20:30 ★★★ [黄金] 美国第四季度实际个人消费支出季率初值
+UID:26552d13-95c4-4888-a044-a137bc3239cf@2655.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至5月22日当周天然气钻井总数(口)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 口
+DTSTART:20260523T001000Z
+SUMMARY:01:00 ★ [天然气] 美国至5月22日当周天然气钻井总数(口)
+UID:a7f4549c-04ce-4928-ac5f-1d8cd717f279@a7f4.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 16:00\n项目: 英国至4月3日LME铝合金库存变化值(吨)\n国家: 英国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 吨
+DTSTART:20260403T030000Z
+SUMMARY:16:00 ★ [铝合金] 英国至4月3日LME铝合金库存变化值(吨)
+UID:7a32e98a-e65c-4933-8365-6cbffb4fa0ac@7a32.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 中国3月进口总额(亿元)\n国家: 中国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: 14618.8 亿元
+DTSTART:20260414T004000Z
+SUMMARY:00:00 ★ [大宗商品] 中国3月进口总额(亿元)
+UID:de34c44a-6d29-4105-a56c-e35909a0f196@de34.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 09:30\n项目: 中国3月规模以上工业企业利润年率\n国家: 中国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: 5.30 %
+DTSTART:20260427T002000Z
+SUMMARY:09:30 ★ [大宗商品] 中国3月规模以上工业企业利润年率
+UID:7ef6a616-07b8-4752-a8bd-6a0f79a01754@7ef6.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至5月15日当周石油钻井总数(口)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 口
+DTSTART:20260516T002000Z
+SUMMARY:01:00 ★★★ [原油] 美国至5月15日当周石油钻井总数(口)
+UID:b5b4f1c8-9557-4886-a889-dbfecc02f49a@b5b4.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至5月1日当周EIA俄克拉荷马州库欣原油库存(万桶)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
+DTSTART:20260506T004000Z
+SUMMARY:22:30 ★★★ [原油] 美国至5月1日当周EIA俄克拉荷马州库欣原油库存(万桶)
+UID:11d9c08b-9c21-4128-acf7-c1d6a64d9e00@11d9.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 21:45\n项目: 美国4月标普全球综合PMI终值\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- --
+DTSTART:20260505T003000Z
+SUMMARY:21:45 ★★ [金银] 美国4月标普全球综合PMI终值
+UID:eacfb390-1fdb-4876-8375-05741d6f0f91@eacf.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【财经大事】\n真实时间: 10:00\n内容: 国新办就国民经济运行情况举行新闻发布会。\n国家: 中国\n人物: --\n重要性: 3星
+DTSTART:20260518T005000Z
+SUMMARY:10:00 [大事] ★★★ 中国 国新办就国民经济运行情况举行新闻发布会。
+UID:58118874-decf-4261-b144-39471ca9b832@5811.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至5月8日当周EIA天然气库存(亿立方英尺)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 亿立方英尺
+DTSTART:20260514T002000Z
+SUMMARY:22:30 ★★★ [天然气] 美国至5月8日当周EIA天然气库存(亿立方英尺)
+UID:0f504d3c-0859-4ebb-989a-c307791734eb@0f50.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至5月1日当周EIA原油库存(万桶)\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
+DTSTART:20260506T003000Z
+SUMMARY:22:30 ★★★★ [原油] 美国至5月1日当周EIA原油库存(万桶)
+UID:dbe96d55-6ee1-4cdf-96c4-d8e7465c5d0f@dbe9.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国4月季调后非农就业人口(万人)\n国家: 美国\n重要性: 5星\n----------------\n今值: --\n预测: --\n前值: -- 万人
+DTSTART:20260508T001000Z
+SUMMARY:20:30 ★★★★★ [金银] 美国4月季调后非农就业人口(万人)
+UID:c90eb506-085b-4236-9ec8-7995059b2271@c90e.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 16:00\n项目: 英国至4月2日LME铝库存变化值(吨)\n国家: 英国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -2600 吨
+DTSTART:20260402T025000Z
+SUMMARY:16:00 ★★★ [铝] 英国至4月2日LME铝库存变化值(吨)
+UID:b0c2e7ee-f303-4dd2-a57a-8740447543a7@b0c2.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至5月8日当周总钻井总数(口)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- 口
+DTSTART:20260509T002000Z
+SUMMARY:01:00 ★★ [油气] 美国至5月8日当周总钻井总数(口)
+UID:bf3bd067-0a50-4ec9-ac30-5b220b2f401c@bf3b.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 16:00\n项目: 英国至4月3日LME铜库存变化值(吨)\n国家: 英国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 吨
+DTSTART:20260403T025000Z
+SUMMARY:16:00 ★★★ [铜] 英国至4月3日LME铜库存变化值(吨)
+UID:0a94418b-8e1d-4bb7-af1e-9becf1295918@0a94.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 16:00\n项目: 英国至4月3日LME铝库存变化值(吨)\n国家: 英国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 吨
+DTSTART:20260403T031000Z
+SUMMARY:16:00 ★★★ [铝] 英国至4月3日LME铝库存变化值(吨)
+UID:99498e33-6304-493d-b627-6b14030db449@9949.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 04:30\n项目: 美国至4月3日当周API取暖油库存(万桶)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -53 万桶
+DTSTART:20260408T015000Z
+SUMMARY:04:30 ★★ [原油] 美国至4月3日当周API取暖油库存(万桶)
+UID:08c6db77-f4a7-44a2-b313-6b76d844c3c3@08c6.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【财经大事】\n真实时间: 03:30\n内容: CFTC公布周度持仓报告。\n国家: 美国\n人物: --\n重要性: 2星
+DTSTART:20260516T003000Z
+SUMMARY:03:30 [大事] ★★ 美国 CFTC公布周度持仓报告。
+UID:205fd772-4127-42a2-a7a0-c27589a67332@205f.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国4月未季调CPI年率\n国家: 美国\n重要性: 5星\n----------------\n今值: --\n预测: --\n前值: -- %
+DTSTART:20260512T002000Z
+SUMMARY:20:30 ★★★★★ [金银] 美国4月未季调CPI年率
+UID:51e54296-ce70-4222-9daf-5879feb2b3a2@51e5.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【财经大事】\n真实时间: 00:00\n内容: 布宜诺斯艾利斯谷物交易所作物报告\n国家: 阿根廷\n人物: --\n重要性: 1星
+DTSTART:20260403T001000Z
+SUMMARY:00:00 [大事] ★ 阿根廷 布宜诺斯艾利斯谷物交易所作物报告
+UID:e505d042-8e01-496e-bc6c-5cb1ae3602d5@e505.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 13:00\n项目: 中国至4月3日外购仔猪养殖利润(元/头)\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -189.87 元/头
+DTSTART:20260403T014000Z
+SUMMARY:13:00 ★★★ [生猪] 中国至4月3日外购仔猪养殖利润(元/头)
+UID:95a7a9c7-6f6b-46ab-a5c6-f4d245b23823@95a7.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 美国4月EIA当年布伦特原油均价预期(美元/桶)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- 美元/桶
+DTSTART:20260408T005000Z
+SUMMARY:00:00 ★★ [原油] 美国4月EIA当年布伦特原油均价预期(美元/桶)
+UID:b5bc9448-748b-45d2-9fb4-132c0929e688@b5bc.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【财经大事】\n真实时间: 00:00\n内容: 国内成品油将开启新一轮调价窗口。\n国家: 中国\n人物: --\n重要性: 3星
+DTSTART:20260521T000000Z
+SUMMARY:00:00 [大事] ★★★ 中国 国内成品油将开启新一轮调价窗口。
+UID:f3c4b19c-d88c-4b62-b179-21c3e2004c96@f3c4.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国至3月26日2025/2026市场年度玉米出口净销售量(吨)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 1217800 吨
+DTSTART:20260402T041000Z
+SUMMARY:20:30 ★★★ [玉米] 美国至3月26日2025/2026市场年度玉米出口净销售量(吨)
+UID:dd9bc47b-8437-4de8-83fe-ef7b34e40d5b@dd9b.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国4月零售销售月率\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: --\n前值: -- %
+DTSTART:20260514T001000Z
+SUMMARY:20:30 ★★★★ [黄金] 美国4月零售销售月率
+UID:12ee1561-11e1-4cce-b02c-2b17663d0273@12ee.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 09:30\n项目: 中国3月PPI年率\n国家: 中国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -0.90 %
+DTSTART:20260410T000000Z
+SUMMARY:09:30 ★★ [大宗商品] 中国3月PPI年率
+UID:4eb3a52d-980c-470f-8f1b-f13ccfcc652c@4eb3.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至5月8日当周天然气钻井总数(口)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 口
+DTSTART:20260509T003000Z
+SUMMARY:01:00 ★ [天然气] 美国至5月8日当周天然气钻井总数(口)
+UID:ca617f78-88b6-444c-abcd-28ad3d588afb@ca61.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国3月失业率\n国家: 美国\n重要性: 5星\n----------------\n今值: --\n预测: 4.40\n前值: 4.40 %
+DTSTART:20260403T040000Z
+SUMMARY:20:30 ★★★★★ [金银] 美国3月失业率
+UID:1e3539a7-805e-41ec-ba12-a6e6de8df621@1e35.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【财经大事】\n真实时间: 09:20\n内容: 今日有3020亿元7天期逆回购到期。\n国家: 中国\n人物: --\n重要性: 2星
+DTSTART:20260407T002000Z
+SUMMARY:09:20 [大事] ★★ 中国 今日有3020亿元7天期逆回购到期。
+UID:a95901f1-e25e-46c7-b3f9-8a7a5b23e929@a959.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至5月29日当周天然气钻井总数(口)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 口
+DTSTART:20260530T001000Z
+SUMMARY:01:00 ★ [天然气] 美国至5月29日当周天然气钻井总数(口)
+UID:63061b35-b253-417a-987b-ff3570d98061@6306.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【财经大事】\n真实时间: 09:20\n内容: 今日有1462亿元7天期逆回购到期。\n国家: 中国\n人物: --\n重要性: 2星
+DTSTART:20260403T011000Z
+SUMMARY:09:20 [大事] ★★ 中国 今日有1462亿元7天期逆回购到期。
+UID:73461561-7f86-41b0-8702-66f1b3148b2b@7346.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至4月24日当周石油钻井总数(口)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 口
+DTSTART:20260425T002000Z
+SUMMARY:01:00 ★★★ [原油] 美国至4月24日当周石油钻井总数(口)
+UID:2cddeb71-8f36-4c18-a4e9-bc47769e3da9@2cdd.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月17日当周EIA精炼油库存(万桶)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
+DTSTART:20260422T004000Z
+SUMMARY:22:30 ★ [原油] 美国至4月17日当周EIA精炼油库存(万桶)
+UID:23817323-146c-43ed-b846-2c3e3f483b4f@2381.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 21:45\n项目: 美国5月标普全球制造业PMI初值\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- --
+DTSTART:20260521T004000Z
+SUMMARY:21:45 ★★★ [金银] 美国5月标普全球制造业PMI初值
+UID:dfa8b3a3-dcd1-4f78-a869-6dbfe0052a6f@dfa8.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国至3月28日当周初请失业金人数(万人)\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: 21.2\n前值: 21 万人
+DTSTART:20260402T044000Z
+SUMMARY:20:30 ★★★★ [黄金] 美国至3月28日当周初请失业金人数(万人)
+UID:d10ec6ed-6e16-448a-83ab-6c9e85b09b56@d10e.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 03:00\n项目: 美国2月USDA大豆压榨量(万吨)\n国家: 美国\n重要性: 3星\n----------------\n今值: 643\n预测: --\n前值: 684 万吨
+DTSTART:20260402T003000Z
+SUMMARY:03:00 ★★★ [大豆] 美国2月USDA大豆压榨量(万吨)
+UID:625c3445-e56c-4158-8f9a-1270431fb8b0@625c.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 09:00\n项目: 中国至4月20日五年期贷款市场报价利率\n国家: 中国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 3.50 %
+DTSTART:20260420T000000Z
+SUMMARY:09:00 ★★ [大宗商品] 中国至4月20日五年期贷款市场报价利率
+UID:f2904be2-ab13-4b6e-a7d5-a6394e7e2151@f290.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:00\n项目: 美国4月ISM非制造业PMI\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- --
+DTSTART:20260505T004000Z
+SUMMARY:22:00 ★★★ [金银] 美国4月ISM非制造业PMI
+UID:4299fc57-a55a-42ab-ba13-1e7c19b52b02@4299.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 马来西亚3月1-31日SGS马棕油出口量(吨)\n国家: 马来西亚\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 852629 吨
+DTSTART:20260402T000000Z
+SUMMARY:00:00 ★★★ [马棕油] 马来西亚3月1-31日SGS马棕油出口量(吨)
+UID:ed860c4e-6334-46cc-b130-46ce81a9a958@ed86.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至5月15日当周EIA原油产量引伸需求数据(万桶/日)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- 万桶/日
+DTSTART:20260520T011000Z
+SUMMARY:22:30 ★★  美国至5月15日当周EIA原油产量引伸需求数据(万桶/日)
+UID:ec90c648-712b-44fa-a092-ab43ea0c9ef0@ec90.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 10:00\n项目: 中国3月城镇调查失业率\n国家: 中国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 5.30 %
+DTSTART:20260416T004000Z
+SUMMARY:10:00 ★★ [大宗商品] 中国3月城镇调查失业率
+UID:eebc4dde-8ca9-4415-9b19-c7cff8d34d70@eebc.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月24日当周EIA俄克拉荷马州库欣原油库存(万桶)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
+DTSTART:20260429T001000Z
+SUMMARY:22:30 ★★★ [原油] 美国至4月24日当周EIA俄克拉荷马州库欣原油库存(万桶)
+UID:3d35add2-0198-40c2-8a1e-2f062017bdd6@3d35.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 21:45\n项目: 美国4月标普全球制造业PMI初值\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- --
+DTSTART:20260423T002000Z
+SUMMARY:21:45 ★★★ [金银] 美国4月标普全球制造业PMI初值
+UID:707bb974-51eb-4cea-868a-228482782c49@707b.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 16:00\n项目: 英国至4月3日LME铅库存变化值(吨)\n国家: 英国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 吨
+DTSTART:20260403T024000Z
+SUMMARY:16:00 ★ [铅] 英国至4月3日LME铅库存变化值(吨)
+UID:ef4e3e32-f875-499b-a2a1-9ad13d4f34d6@ef4e.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 09:30\n项目: 中国4月官方制造业PMI\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 50.4 
+DTSTART:20260430T004000Z
+SUMMARY:09:30 ★★★ [大宗商品] 中国4月官方制造业PMI
+UID:00936ce3-5512-4a7e-91c1-825b8d215a71@0093.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月17日当周EIA汽油库存(万桶)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
+DTSTART:20260422T003000Z
+SUMMARY:22:30 ★ [原油] 美国至4月17日当周EIA汽油库存(万桶)
+UID:d7e58ca7-62cf-4676-a918-4cf6a5e5c993@d7e5.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 02:00\n项目: 美国至4月30日储备余额利率\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 3.65 %
+DTSTART:20260430T002000Z
+SUMMARY:02:00 ★★ [金银] 美国至4月30日储备余额利率
+UID:36b17198-0c12-4ebc-a332-41811337495d@36b1.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【财经大事】\n真实时间: 00:00\n内容: 欧佩克公布月度原油市场报告（月报具体公布时间待定，一般于北京时间18-21点左右公布）。\n国家: 奥地利\n人物: --\n重要性: 3星
+DTSTART:20260513T005000Z
+SUMMARY:00:00 [大事] ★★★ 奥地利 欧佩克公布月度原油市场报告（月报具体公布时间待定，一般于...
+UID:ee339fbd-c364-4bc3-9d6a-35c703e73a48@ee33.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 09:30\n项目: 中国4月综合PMI\n国家: 中国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 50.5 --
+DTSTART:20260430T010000Z
+SUMMARY:09:30 ★★ [大宗商品] 中国4月综合PMI
+UID:be41fa82-def3-4503-a9d3-9d2d158e96d6@be41.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至5月15日当周EIA精炼油库存(万桶)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
+DTSTART:20260520T010000Z
+SUMMARY:22:30 ★ [原油] 美国至5月15日当周EIA精炼油库存(万桶)
+UID:edfe7394-dfaf-42fc-94f6-283ca81cfefa@edfe.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 04:30\n项目: 美国至4月3日当周API成品油进口(万桶/日)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 12 万桶/日
+DTSTART:20260408T021000Z
+SUMMARY:04:30 ★★ [原油] 美国至4月3日当周API成品油进口(万桶/日)
+UID:c66a5a3d-bcf3-4951-8eb2-43d7f48e1e4d@c66a.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【财经大事】\n真实时间: 00:00\n内容: 沙特阿美在每月5日左右公布官方原油售价。\n国家: 沙特\n人物: --\n重要性: 3星
+DTSTART:20260505T000000Z
+SUMMARY:00:00 [大事] ★★★ 沙特 沙特阿美在每月5日左右公布官方原油售价。
+UID:9c8d1f80-304b-48ff-a2ef-68a78df8b27a@9c8d.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【财经大事】\n真实时间: 16:00\n内容: IEA公布月度原油市场报告。\n国家: 法国\n人物: --\n重要性: 3星
+DTSTART:20260414T005000Z
+SUMMARY:16:00 [大事] ★★★ 法国 IEA公布月度原油市场报告。
+UID:163d172a-d675-4cd7-8dbd-2c63000a9cdb@163d.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国3月未季调核心CPI年率\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 2.50 %
+DTSTART:20260410T011000Z
+SUMMARY:20:30 ★★★ [金银] 美国3月未季调核心CPI年率
+UID:35811e7e-c3f9-42b0-9a86-1b6cac4a3568@3581.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月10日当周EIA汽油库存(万桶)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
+DTSTART:20260415T003000Z
+SUMMARY:22:30 ★ [原油] 美国至4月10日当周EIA汽油库存(万桶)
+UID:d4ebcec1-7ddc-4eb3-8942-5c8281ce07e8@d4eb.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 05:30\n项目: 巴西至4月29日Selic利率\n国家: 巴西\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 14.75 %
+DTSTART:20260430T003000Z
+SUMMARY:05:30 ★★ [巴西雷亚尔] 巴西至4月29日Selic利率
+UID:0bc583d7-b0dd-4388-9967-8ec930579a10@0bc5.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国第一季度核心PCE物价指数年化季率初值\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- %
+DTSTART:20260430T021000Z
+SUMMARY:20:30 ★★★ [黄金] 美国第一季度核心PCE物价指数年化季率初值
+UID:b08f468d-2377-4c4d-806f-f30d8296bf68@b08f.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至5月1日当周EIA原油产量引伸需求数据(万桶/日)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- 万桶/日
+DTSTART:20260506T011000Z
+SUMMARY:22:30 ★★  美国至5月1日当周EIA原油产量引伸需求数据(万桶/日)
+UID:b4454f4a-98f0-4789-9692-69e40eea32c7@b445.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 16:00\n项目: 中国至4月3日全国主要油厂大豆压榨量(万吨)\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 183.52 万吨
+DTSTART:20260403T023000Z
+SUMMARY:16:00 ★★★ [豆粕] 中国至4月3日全国主要油厂大豆压榨量(万吨)
+UID:49abb077-2688-4e9f-84dd-836d49108442@49ab.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至5月22日当周EIA天然气库存(亿立方英尺)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 亿立方英尺
+DTSTART:20260528T005000Z
+SUMMARY:22:30 ★★★ [天然气] 美国至5月22日当周EIA天然气库存(亿立方英尺)
+UID:604ac43a-c40e-4e76-a31a-9b05fab21aa9@604a.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至4月17日当周石油钻井总数(口)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 口
+DTSTART:20260418T002000Z
+SUMMARY:01:00 ★★★ [原油] 美国至4月17日当周石油钻井总数(口)
+UID:505eb987-22ce-45cf-97e8-c3e31e76fb6d@505e.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 16:00\n项目: 新加坡至4月1日当周轻质馏分油库存(万桶)\n国家: 新加坡\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 1843.8 万桶
+DTSTART:20260402T020000Z
+SUMMARY:16:00 ★★ [燃料油] 新加坡至4月1日当周轻质馏分油库存(万桶)
+UID:6af66ccd-72d9-4a30-9aab-f052393a6d27@6af6.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【财经大事】\n真实时间: 18:30\n内容: 俄罗斯央行公布利率决议。\n国家: 俄罗斯\n人物: --\n重要性: 2星
+DTSTART:20260424T001000Z
+SUMMARY:18:30 [大事] ★★ 俄罗斯 俄罗斯央行公布利率决议。
+UID:0678dbac-1b18-42d4-9ec4-56b1b89ae58c@0678.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 美国至5月22日当周EIA精炼油库存(万桶)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
+DTSTART:20260529T003000Z
+SUMMARY:00:00 ★ [原油] 美国至5月22日当周EIA精炼油库存(万桶)
+UID:9f40dfb0-2bf0-4fa4-80b6-087fe135c56b@9f40.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 16:00\n项目: 中国至4月2日华东港口甲醇库存(万吨)\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 47.27 万吨
+DTSTART:20260402T014000Z
+SUMMARY:16:00 ★★★ [甲醇] 中国至4月2日华东港口甲醇库存(万吨)
+UID:09e832a4-4e23-4184-8683-2d40a149a4fa@09e8.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至5月1日当周石油钻井总数(口)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 口
+DTSTART:20260502T002000Z
+SUMMARY:01:00 ★★★ [原油] 美国至5月1日当周石油钻井总数(口)
+UID:91fffd63-b19f-46ab-b83b-395fcd253a86@91ff.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国3月核心PCE物价指数月率\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- %
+DTSTART:20260430T012000Z
+SUMMARY:20:30 ★★★  美国3月核心PCE物价指数月率
+UID:5c688653-e26f-4b6b-9d54-8cd5ba788525@5c68.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 美国至5月22日当周EIA原油库存(万桶)\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
+DTSTART:20260529T000000Z
+SUMMARY:00:00 ★★★★ [原油] 美国至5月22日当周EIA原油库存(万桶)
+UID:4261efb3-5a36-40b1-bdbd-559c33900716@4261.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【财经大事】\n真实时间: 00:00\n内容: 国家能源局每月15日左右公布全社会用电量数据。\n国家: 中国\n人物: --\n重要性: 3星
+DTSTART:20260515T000000Z
+SUMMARY:00:00 [大事] ★★★ 中国 国家能源局每月15日左右公布全社会用电量数据。
+UID:0877fab6-bc50-48a9-a0f3-d06587f52eef@0877.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 09:30\n项目: 中国4月非制造业PMI\n国家: 中国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 50.1 
+DTSTART:20260430T005000Z
+SUMMARY:09:30 ★★ [大宗商品] 中国4月非制造业PMI
+UID:81faa98f-375e-4d28-bd7a-a1ddac4688c8@81fa.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国至3月26日2025/2026市场年度棉花出口净销售量(包)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 202400 包
+DTSTART:20260402T035000Z
+SUMMARY:20:30 ★★ [棉花] 美国至3月26日2025/2026市场年度棉花出口净销售量(包)
+UID:e84f2ee8-8d19-41f4-bf80-44befe8421b0@e84f.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月10日当周EIA俄克拉荷马州库欣原油库存(万桶)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
+DTSTART:20260415T002000Z
+SUMMARY:22:30 ★★★ [原油] 美国至4月10日当周EIA俄克拉荷马州库欣原油库存(万桶)
+UID:fef626de-8890-4781-9b7e-5c48e260f5d7@fef6.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国4月季调后CPI月率\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: --\n前值: -- %
+DTSTART:20260512T000000Z
+SUMMARY:20:30 ★★★★ [金银] 美国4月季调后CPI月率
+UID:af53b634-084f-4ddf-9ac5-d924f75cf6a5@af53.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 中国4月出口年率\n国家: 中国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- %
+DTSTART:20260509T000000Z
+SUMMARY:00:00 ★★ [大宗商品] 中国4月出口年率
+UID:49ca281f-7a3e-465e-8215-415409512ac2@49ca.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 16:00\n项目: 英国至4月2日LME锡库存变化值(吨)\n国家: 英国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -25 吨
+DTSTART:20260402T031000Z
+SUMMARY:16:00 ★★ [锡] 英国至4月2日LME锡库存变化值(吨)
+UID:adaee207-6ff9-4260-a815-b4d131f21871@adae.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 13:00\n项目: 中国至4月3日豆粕周度库存(万吨)\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 64.18 万吨
+DTSTART:20260403T021000Z
+SUMMARY:13:00 ★★★ [豆粕] 中国至4月3日豆粕周度库存(万吨)
+UID:d06b31b5-c8ab-4124-a252-c6dc4be67ea2@d06b.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至5月22日当周总钻井总数(口)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- 口
+DTSTART:20260523T000000Z
+SUMMARY:01:00 ★★ [油气] 美国至5月22日当周总钻井总数(口)
+UID:dcb5614d-0f93-432b-9e25-61cd522ef16e@dcb5.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 美国至5月22日当周EIA俄克拉荷马州库欣原油库存(万桶)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
+DTSTART:20260529T001000Z
+SUMMARY:00:00 ★★★ [原油] 美国至5月22日当周EIA俄克拉荷马州库欣原油库存(万桶)
+UID:03a21091-52cc-469b-ba71-9ccec6f66aaf@03a2.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至4月17日当周总钻井总数(口)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- 口
+DTSTART:20260418T000000Z
+SUMMARY:01:00 ★★ [油气] 美国至4月17日当周总钻井总数(口)
+UID:a96b22e5-89f5-45d3-b296-272f8f6ae8eb@a96b.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【财经大事】\n真实时间: 09:20\n内容: 今日有5000亿元1年期中期借贷便利（MLF）到期。\n国家: 中国\n人物: --\n重要性: 3星
+DTSTART:20260525T000000Z
+SUMMARY:09:20 [大事] ★★★ 中国 今日有5000亿元1年期中期借贷便利（MLF）到期。
+UID:34c1bef3-dbde-47a7-8539-6b76050320db@34c1.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 04:30\n项目: 美国至4月3日当周API库欣原油库存(万桶)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 78.4 万桶
+DTSTART:20260408T014000Z
+SUMMARY:04:30 ★★ [原油] 美国至4月3日当周API库欣原油库存(万桶)
+UID:a077c4a0-aa14-4216-86d4-64826e0b708a@a077.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 10:00\n项目: 中国4月今年迄今城镇固定资产投资同比\n国家: 中国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- %
+DTSTART:20260518T003000Z
+SUMMARY:10:00 ★★ [大宗商品] 中国4月今年迄今城镇固定资产投资同比
+UID:c682b22f-db82-47d9-b85a-713f9befda3a@c682.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 02:00\n项目: 美国至4月29日美联储利率决定(下限)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 3.50 %
+DTSTART:20260430T001000Z
+SUMMARY:02:00 ★★ [黄金] 美国至4月29日美联储利率决定(下限)
+UID:eb2fbd17-b9f8-4bae-8a6c-9935876f0197@eb2f.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国4月核心PCE物价指数月率\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- %
+DTSTART:20260528T000000Z
+SUMMARY:20:30 ★★★  美国4月核心PCE物价指数月率
+UID:439096e9-e398-4142-92e2-f26c181c2410@4390.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【财经大事】\n真实时间: 09:20\n内容: 今日有5亿元7天期逆回购到期。\n国家: 中国\n人物: --\n重要性: 2星
+DTSTART:20260408T023000Z
+SUMMARY:09:20 [大事] ★★ 中国 今日有5亿元7天期逆回购到期。
+UID:5bb95f34-8a9d-4ba2-95e5-a08167cd0187@5bb9.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 美国至5月22日当周EIA车用汽油总产量引伸需求数据(万桶/日)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶/日
+DTSTART:20260529T005000Z
+SUMMARY:00:00 ★  美国至5月22日当周EIA车用汽油总产量引伸需求数据(万桶/日)
+UID:7d316c8d-20c7-45e6-92c2-256dd0e2b08a@7d31.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 21:45\n项目: 美国3月标普全球综合PMI终值\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 51.4 --
+DTSTART:20260403T042000Z
+SUMMARY:21:45 ★★ [金银] 美国3月标普全球综合PMI终值
+UID:b8bbd5d5-5cac-4739-82b6-97a4bdf7d15f@b8bb.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:00\n项目: 美国3月ISM非制造业PMI\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: 55\n前值: 56.1 --
+DTSTART:20260406T000000Z
+SUMMARY:22:00 ★★★ [金银] 美国3月ISM非制造业PMI
+UID:d221a587-7caf-4c36-858f-239c69611bc7@d221.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 21:45\n项目: 美国4月标普全球制造业PMI终值\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 52.3 --
+DTSTART:20260501T001000Z
+SUMMARY:21:45 ★★★ [金银] 美国4月标普全球制造业PMI终值
+UID:5e1f81ef-6501-40c1-8f3f-c22f22d4bab4@5e1f.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 09:45\n项目: 中国4月RatingDog制造业PMI\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 50.8 --
+DTSTART:20260430T011000Z
+SUMMARY:09:45 ★★★ [大宗商品] 中国4月RatingDog制造业PMI
+UID:4ea73d41-8170-4743-81f8-92f899450171@4ea7.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 10:00\n项目: 中国3月规模以上工业增加值环比\n国家: 中国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 0.83 %
+DTSTART:20260416T010000Z
+SUMMARY:10:00 ★★ [大宗商品] 中国3月规模以上工业增加值环比
+UID:857afccd-1416-46c0-a159-9a6e2921d37b@857a.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国至5月23日当周初请失业金人数(万人)\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: --\n前值: -- 万人
+DTSTART:20260528T002000Z
+SUMMARY:20:30 ★★★★ [黄金] 美国至5月23日当周初请失业金人数(万人)
+UID:86c53b48-f7f0-447c-b78f-440de944db9e@86c5.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【财经大事】\n真实时间: 00:00\n内容: EIA公布月度短期能源展望报告。\n国家: 美国\n人物: --\n重要性: 3星
+DTSTART:20260408T010000Z
+SUMMARY:00:00 [大事] ★★★ 美国 EIA公布月度短期能源展望报告。
+UID:04eed00c-eb05-4c12-a0c1-07d361a5ea0a@04ee.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月17日当周EIA蒸馏燃油产量引伸需求数据(万桶/日)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶/日
+DTSTART:20260422T011000Z
+SUMMARY:22:30 ★  美国至4月17日当周EIA蒸馏燃油产量引伸需求数据(万桶/日)
+UID:bd1dbe14-bfce-45db-ab47-72a2189004bc@bd1d.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 09:45\n项目: 中国3月RatingDog综合PMI\n国家: 中国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 55.4 --
+DTSTART:20260403T012000Z
+SUMMARY:09:45 ★★ [大宗商品] 中国3月RatingDog综合PMI
+UID:ba9c7533-a2eb-4b44-966a-5e5cd8f9cc05@ba9c.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 13:00\n项目: 中国至4月3日自繁自养生猪养殖利润(元/头)\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -344.24 元/头
+DTSTART:20260403T015000Z
+SUMMARY:13:00 ★★★ [生猪] 中国至4月3日自繁自养生猪养殖利润(元/头)
+UID:2959b2db-2e8b-44ce-803c-d4bd470857a5@2959.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国至5月16日当周初请失业金人数(万人)\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: --\n前值: -- 万人
+DTSTART:20260521T003000Z
+SUMMARY:20:30 ★★★★ [黄金] 美国至5月16日当周初请失业金人数(万人)
+UID:89b94640-64dc-48cc-8239-b5ea70ef6445@89b9.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 21:45\n项目: 美国4月标普全球服务业PMI终值\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- --
+DTSTART:20260505T002000Z
+SUMMARY:21:45 ★★★ [金银] 美国4月标普全球服务业PMI终值
+UID:02368b77-4178-4c84-b7de-6a8bfeb5c7ab@0236.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月10日当周EIA天然气库存(亿立方英尺)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 亿立方英尺
+DTSTART:20260416T014000Z
+SUMMARY:22:30 ★★★ [天然气] 美国至4月10日当周EIA天然气库存(亿立方英尺)
+UID:037b5f7d-6b50-41c1-869b-d990563a5561@037b.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 14:00\n项目: 中国至4月2日螺纹钢周度钢厂库存(万吨)\n国家: 中国\n重要性: 3星\n----------------\n今值: 208.65\n预测: --\n前值: 219.16 万吨
+DTSTART:20260402T011000Z
+SUMMARY:14:00 ★★★ [螺纹钢] 中国至4月2日螺纹钢周度钢厂库存(万吨)
+UID:c4de64b0-cd01-49f8-a281-8e24760cc810@c4de.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【财经大事】\n真实时间: 03:30\n内容: CFTC公布周度持仓报告。\n国家: 美国\n人物: --\n重要性: 2星
+DTSTART:20260411T003000Z
+SUMMARY:03:30 [大事] ★★ 美国 CFTC公布周度持仓报告。
+UID:3b783dfb-4d45-4cac-9c30-87496c6038f0@3b78.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 美国4月EIA次年天然气产量预期(亿立方英尺/日)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: 1123.3 亿立方英尺/日
+DTSTART:20260408T003000Z
+SUMMARY:00:00 ★ [天然气] 美国4月EIA次年天然气产量预期(亿立方英尺/日)
+UID:9f1a2711-334b-4d85-a4ec-edf772bf1e4e@9f1a.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 21:45\n项目: 美国5月标普全球综合PMI初值\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- --
+DTSTART:20260521T010000Z
+SUMMARY:21:45 ★★ [金银] 美国5月标普全球综合PMI初值
+UID:635763ae-9578-4a0a-9c0a-cf014e2d20c1@6357.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至5月8日当周EIA精炼油库存(万桶)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
+DTSTART:20260513T014000Z
+SUMMARY:22:30 ★ [原油] 美国至5月8日当周EIA精炼油库存(万桶)
+UID:1b94005d-4c9e-415f-82f8-95e87f184e81@1b94.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 13:00\n项目: 中国至4月3日菜粕周度库存(万吨)\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 2.4 万吨
+DTSTART:20260403T020000Z
+SUMMARY:13:00 ★★★ [菜粕] 中国至4月3日菜粕周度库存(万吨)
+UID:f390f2d6-26c8-4dd1-ba6f-f0f75663f8d8@f390.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至5月8日当周EIA原油库存(万桶)\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
+DTSTART:20260513T011000Z
+SUMMARY:22:30 ★★★★ [原油] 美国至5月8日当周EIA原油库存(万桶)
+UID:b729e370-76e2-4f71-9b0e-e82a3991978b@b729.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月10日当周EIA车用汽油总产量引伸需求数据(万桶/日)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶/日
+DTSTART:20260415T010000Z
+SUMMARY:22:30 ★  美国至4月10日当周EIA车用汽油总产量引伸需求数据(万桶/日)
+UID:8a3213ac-4913-4a7a-a743-5cf986e948dd@8a32.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 20:15\n项目: 美国4月ADP就业人数(万人)\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: --\n前值: 6.2 万人
+DTSTART:20260506T002000Z
+SUMMARY:20:15 ★★★★ [黄金] 美国4月ADP就业人数(万人)
+UID:f3ab1277-35b3-480d-81e5-cd93e64b3ea4@f3ab.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至5月29日当周石油钻井总数(口)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 口
+DTSTART:20260530T002000Z
+SUMMARY:01:00 ★★★ [原油] 美国至5月29日当周石油钻井总数(口)
+UID:6b53d108-9001-4433-a51f-239b1fc7b40e@6b53.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 03:00\n项目: 美国2月USDA豆油产量(亿磅)\n国家: 美国\n重要性: 3星\n----------------\n今值: 24.8\n预测: --\n前值: 26.3 亿磅
+DTSTART:20260402T004000Z
+SUMMARY:03:00 ★★★ [豆油] 美国2月USDA豆油产量(亿磅)
+UID:a8f61381-0389-4b36-9d7f-875038da4beb@a8f6.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至5月1日当周EIA天然气库存(亿立方英尺)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 亿立方英尺
+DTSTART:20260507T002000Z
+SUMMARY:22:30 ★★★ [天然气] 美国至5月1日当周EIA天然气库存(亿立方英尺)
+UID:dd5d842c-cdd1-43b0-a1d9-65d81b14435d@dd5d.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至5月15日当周总钻井总数(口)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- 口
+DTSTART:20260516T000000Z
+SUMMARY:01:00 ★★ [油气] 美国至5月15日当周总钻井总数(口)
+UID:202efac5-41a2-4052-b2e8-a3592fc71444@202e.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国至3月26日2025/2026市场年度小麦出口净销售量(吨)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: 397200 吨
+DTSTART:20260402T034000Z
+SUMMARY:20:30 ★ [美小麦] 美国至3月26日2025/2026市场年度小麦出口净销售量(吨)
+UID:c0b189b3-485c-4eaa-8faa-4d4c6c300644@c0b1.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 15:20\n项目: 印尼至4月22日7天逆回购利率\n国家: 印尼\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: 4.75 %
+DTSTART:20260422T000000Z
+SUMMARY:15:20 ★  印尼至4月22日7天逆回购利率
+UID:53777633-b447-4aa5-b86a-c0254e2902f0@5377.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月24日当周EIA汽油库存(万桶)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
+DTSTART:20260429T002000Z
+SUMMARY:22:30 ★ [原油] 美国至4月24日当周EIA汽油库存(万桶)
+UID:abf25919-777e-44c8-bd34-13b317fabf10@abf2.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至5月15日当周EIA蒸馏燃油产量引伸需求数据(万桶/日)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶/日
+DTSTART:20260520T013000Z
+SUMMARY:22:30 ★  美国至5月15日当周EIA蒸馏燃油产量引伸需求数据(万桶/日)
+UID:0287afb8-7762-421a-ba33-9c2e361b4fd8@0287.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 15:20\n项目: 印尼至5月20日7天逆回购利率\n国家: 印尼\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- %
+DTSTART:20260520T002000Z
+SUMMARY:15:20 ★  印尼至5月20日7天逆回购利率
+UID:0206c976-1707-4a5e-bf6c-c7e67ff90b5a@0206.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国3月季调后CPI月率\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: --\n前值: 0.30 %
+DTSTART:20260410T004000Z
+SUMMARY:20:30 ★★★★ [金银] 美国3月季调后CPI月率
+UID:b1661821-8a97-41dd-bc21-937b802d4a59@b166.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【财经大事】\n真实时间: 09:30\n内容: 国家统计局公布70个大中城市住宅销售价格月度报告。\n国家: 中国\n人物: --\n重要性: 3星
+DTSTART:20260416T000000Z
+SUMMARY:09:30 [大事] ★★★ 中国 国家统计局公布70个大中城市住宅销售价格月度报告。
+UID:54e9f76c-c21c-45ee-adac-1852cab864cf@54e9.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国4月季调后核心CPI月率\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- %
+DTSTART:20260512T001000Z
+SUMMARY:20:30 ★★★ [金银] 美国4月季调后核心CPI月率
+UID:10cab075-5bec-494c-8d94-866da4bd7dc1@10ca.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至4月24日当周总钻井总数(口)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- 口
+DTSTART:20260425T000000Z
+SUMMARY:01:00 ★★ [油气] 美国至4月24日当周总钻井总数(口)
+UID:de7773eb-da4f-4b20-915f-712190978eaf@de77.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 16:00\n项目: 新加坡至4月1日当周燃料油库存(万桶)\n国家: 新加坡\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 2450.9 万桶
+DTSTART:20260402T015000Z
+SUMMARY:16:00 ★★★ [燃料油] 新加坡至4月1日当周燃料油库存(万桶)
+UID:6811b646-c816-4485-af14-27ae34ea64a5@6811.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【财经大事】\n真实时间: 09:20\n内容: 今日有2240亿元7天期逆回购到期。\n国家: 中国\n人物: --\n重要性: 2星
+DTSTART:20260402T005000Z
+SUMMARY:09:20 [大事] ★★ 中国 今日有2240亿元7天期逆回购到期。
+UID:74df7f87-fc45-4ec6-9615-504193e8f432@74df.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至5月1日当周EIA车用汽油总产量引伸需求数据(万桶/日)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶/日
+DTSTART:20260506T012000Z
+SUMMARY:22:30 ★  美国至5月1日当周EIA车用汽油总产量引伸需求数据(万桶/日)
+UID:eda264ab-2d73-470c-8553-b959152de086@eda2.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 美国至5月22日当周EIA蒸馏燃油产量引伸需求数据(万桶/日)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶/日
+DTSTART:20260529T010000Z
+SUMMARY:00:00 ★  美国至5月22日当周EIA蒸馏燃油产量引伸需求数据(万桶/日)
+UID:92c91de2-2cb3-4f70-997c-b9421da2056d@92c9.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 09:00\n项目: 中国至4月20日一年期贷款市场报价利率\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 3.00 %
+DTSTART:20260420T001000Z
+SUMMARY:09:00 ★★★ [大宗商品] 中国至4月20日一年期贷款市场报价利率
+UID:0a942a1c-6c06-48b8-90de-bfffa416e92e@0a94.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 21:45\n项目: 美国4月标普全球综合PMI初值\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- --
+DTSTART:20260423T004000Z
+SUMMARY:21:45 ★★ [金银] 美国4月标普全球综合PMI初值
+UID:dbdb78c8-0df0-491d-a56b-e745ab20ac82@dbdb.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月10日当周EIA原油产量引伸需求数据(万桶/日)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- 万桶/日
+DTSTART:20260415T005000Z
+SUMMARY:22:30 ★★  美国至4月10日当周EIA原油产量引伸需求数据(万桶/日)
+UID:66184458-9414-47c9-815f-ab3130087dd9@6618.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 09:30\n项目: 中国4月PPI年率\n国家: 中国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- %
+DTSTART:20260511T000000Z
+SUMMARY:09:30 ★★ [大宗商品] 中国4月PPI年率
+UID:90234301-453f-4010-9617-8f4c57885b46@9023.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 中国4月外汇储备(亿美元)\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 亿美元
+DTSTART:20260507T000000Z
+SUMMARY:00:00 ★★★ [大宗商品] 中国4月外汇储备(亿美元)
+UID:e901c206-ce49-4d5f-973b-43734c178c1b@e901.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【财经大事】\n真实时间: 02:00\n内容: 美联储公布货币政策会议纪要。\n国家: 美国\n人物: 美联储\n重要性: 4星
+DTSTART:20260409T000000Z
+SUMMARY:02:00 [大事] ★★★★ 美国 美联储公布货币政策会议纪要。
+UID:2b7ef530-1ed7-4d0f-b134-5ee05efde9bd@2b7e.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 14:00\n项目: 中国至4月2日螺纹钢周度产量(万吨)\n国家: 中国\n重要性: 3星\n----------------\n今值: 207.1\n预测: --\n前值: 197.87 万吨
+DTSTART:20260402T010000Z
+SUMMARY:14:00 ★★★ [螺纹钢] 中国至4月2日螺纹钢周度产量(万吨)
+UID:cb348934-cab5-41ab-88b0-7fba4d89615f@cb34.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国第一季度实际GDP年化季率修正值\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 0.7 %
+DTSTART:20260528T003000Z
+SUMMARY:20:30 ★★★ [贵金属] 美国第一季度实际GDP年化季率修正值
+UID:21aefe7f-2f9a-4582-af6e-c1bdb284073e@21ae.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 美国至5月22日当周EIA汽油库存(万桶)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
+DTSTART:20260529T002000Z
+SUMMARY:00:00 ★ [原油] 美国至5月22日当周EIA汽油库存(万桶)
+UID:f3f49593-0cbe-446f-bf15-1b654280bfcc@f3f4.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 18:30\n项目: 俄罗斯至4月24日央行利率决定\n国家: 俄罗斯\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 15.00 %
+DTSTART:20260424T000000Z
+SUMMARY:18:30 ★★  俄罗斯至4月24日央行利率决定
+UID:782ad295-d622-4da0-91d5-645f0f0d0de7@782a.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【财经大事】\n真实时间: 00:00\n内容: 美棉On-Call周报\n国家: 美国\n人物: --\n重要性: 1星
+DTSTART:20260403T002000Z
+SUMMARY:00:00 [大事] ★ 美国 美棉On-Call周报
+UID:ecb3d1ce-b12e-4262-97c4-403a2fa48650@ecb3.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 美国4月EIA当年短期前景美国原油产量预期(万桶/日)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 1361 万桶/日
+DTSTART:20260408T000000Z
+SUMMARY:00:00 ★★ [原油] 美国4月EIA当年短期前景美国原油产量预期(万桶/日)
+UID:fc059c88-1c4f-4567-a3b4-b505c8709e95@fc05.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月3日当周EIA俄克拉荷马州库欣原油库存(万桶)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 52 万桶
+DTSTART:20260408T032000Z
+SUMMARY:22:30 ★★★ [原油] 美国至4月3日当周EIA俄克拉荷马州库欣原油库存(万桶)
+UID:2db87452-8afe-4d79-8a45-54a390eba377@2db8.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至5月8日当周EIA汽油库存(万桶)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
+DTSTART:20260513T013000Z
+SUMMARY:22:30 ★ [原油] 美国至5月8日当周EIA汽油库存(万桶)
+UID:f6a4d532-c746-4362-aaab-c5492c572215@f6a4.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国2月核心PCE物价指数年率\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: --\n前值: 3.10 %
+DTSTART:20260409T003000Z
+SUMMARY:20:30 ★★★★ [黄金] 美国2月核心PCE物价指数年率
+UID:d4e17fe7-fab8-4392-8e98-6888cf697f28@d4e1.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国至4月25日当周初请失业金人数(万人)\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: --\n前值: -- 万人
+DTSTART:20260430T014000Z
+SUMMARY:20:30 ★★★★ [黄金] 美国至4月25日当周初请失业金人数(万人)
+UID:28a78cf7-b3b1-4e2b-bb66-ba6e91ce4ca0@28a7.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 09:30\n项目: 中国4月规模以上工业企业利润年率\n国家: 中国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- %
+DTSTART:20260527T001000Z
+SUMMARY:09:30 ★ [大宗商品] 中国4月规模以上工业企业利润年率
+UID:e8f6fb5d-4936-42a3-91bd-798b9711f2f7@e8f6.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 10:00\n项目: 中国4月城镇调查失业率\n国家: 中国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- %
+DTSTART:20260518T004000Z
+SUMMARY:10:00 ★★ [大宗商品] 中国4月城镇调查失业率
+UID:242d9ace-4bc1-4d9a-a718-84e7ba96eff6@242d.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 16:00\n项目: 英国至4月2日LME铅库存变化值(吨)\n国家: 英国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: 0 吨
+DTSTART:20260402T022000Z
+SUMMARY:16:00 ★ [铅] 英国至4月2日LME铅库存变化值(吨)
+UID:db1db7b2-bccc-47bd-9008-f8df04779dfc@db1d.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 美国4月EIA当年天然气产量预期(亿立方英尺/日)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: 1094.9 亿立方英尺/日
+DTSTART:20260408T002000Z
+SUMMARY:00:00 ★ [天然气] 美国4月EIA当年天然气产量预期(亿立方英尺/日)
+UID:19b6417c-0dee-4023-bf3a-a1f93e2498b8@19b6.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国至3月26日2025/2026市场年度豆粕出口净销售量(吨)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 507600 吨
+DTSTART:20260402T042000Z
+SUMMARY:20:30 ★★ [豆粕] 美国至3月26日2025/2026市场年度豆粕出口净销售量(吨)
+UID:dd5794ed-6887-45fc-99e2-60ae3c252ea5@dd57.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【财经大事】\n真实时间: 00:00\n内容: 国内成品油将开启新一轮调价窗口。\n国家: 中国\n人物: --\n重要性: 3星
+DTSTART:20260407T001000Z
+SUMMARY:00:00 [大事] ★★★ 中国 国内成品油将开启新一轮调价窗口。
+UID:f48a868b-bef5-49fb-833d-3bd35052fa79@f48a.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 中国4月进口年率\n国家: 中国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- %
+DTSTART:20260509T001000Z
+SUMMARY:00:00 ★★ [大宗商品] 中国4月进口年率
+UID:0aa1068e-a5e6-4a49-91fa-209adece51b3@0aa1.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至5月1日当周天然气钻井总数(口)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 口
+DTSTART:20260502T001000Z
+SUMMARY:01:00 ★ [天然气] 美国至5月1日当周天然气钻井总数(口)
+UID:652b7cbf-fac7-4e01-bc0a-1340f9c0239f@652b.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 10:00\n项目: 中国3月社会消费品零售总额环比\n国家: 中国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: 0.81 %
+DTSTART:20260416T005000Z
+SUMMARY:10:00 ★ [大宗商品] 中国3月社会消费品零售总额环比
+UID:e76cd90f-88e3-441b-b2e0-ca0297a5f321@e76c.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至5月15日当周天然气钻井总数(口)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 口
+DTSTART:20260516T001000Z
+SUMMARY:01:00 ★ [天然气] 美国至5月15日当周天然气钻井总数(口)
+UID:d93bc03e-2ca2-42f6-a537-df2cb68bdccb@d93b.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 03:00\n项目: 美国2月用于乙醇燃料的玉米消费量(亿蒲式耳)\n国家: 美国\n重要性: 3星\n----------------\n今值: 4.69\n预测: --\n前值: 4.61 亿蒲式耳
+DTSTART:20260402T002000Z
+SUMMARY:03:00 ★★★ [玉米] 美国2月用于乙醇燃料的玉米消费量(亿蒲式耳)
+UID:4b39efff-ce83-4f98-852d-7829a0c4e2e7@4b39.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 21:45\n项目: 美国3月标普全球服务业PMI终值\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 51.1 --
+DTSTART:20260403T041000Z
+SUMMARY:21:45 ★★★ [金银] 美国3月标普全球服务业PMI终值
+UID:fd1e8315-80fb-4b56-8acc-4250097a2f94@fd1e.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 21:00\n项目: 南非至5月28日回购利率\n国家: 南非\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: 6.75 %
+DTSTART:20260528T004000Z
+SUMMARY:21:00 ★  南非至5月28日回购利率
+UID:d5147844-a26b-4259-9de8-cc08d5fd9d73@d514.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月10日当周EIA蒸馏燃油产量引伸需求数据(万桶/日)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶/日
+DTSTART:20260415T011000Z
+SUMMARY:22:30 ★  美国至4月10日当周EIA蒸馏燃油产量引伸需求数据(万桶/日)
+UID:a9663d8d-0aa6-41c0-9918-362a34a3dcec@a966.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 16:00\n项目: 英国至4月3日LME锡库存变化值(吨)\n国家: 英国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- 吨
+DTSTART:20260403T033000Z
+SUMMARY:16:00 ★★ [锡] 英国至4月3日LME锡库存变化值(吨)
+UID:e19b9a22-6af8-4bfa-af34-0d03948bf436@e19b.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至5月1日当周EIA精炼油库存(万桶)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶
+DTSTART:20260506T010000Z
+SUMMARY:22:30 ★ [原油] 美国至5月1日当周EIA精炼油库存(万桶)
+UID:a0a122b0-d653-493e-b060-023f457176f8@a0a1.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月3日当周EIA天然气库存(亿立方英尺)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 亿立方英尺
+DTSTART:20260409T013000Z
+SUMMARY:22:30 ★★★ [天然气] 美国至4月3日当周EIA天然气库存(亿立方英尺)
+UID:48185393-2af3-4a3f-9f8f-43c42936677b@4818.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【财经大事】\n真实时间: 00:00\n内容: 国家能源局每月15日左右公布全社会用电量数据。\n国家: 中国\n人物: --\n重要性: 3星
+DTSTART:20260415T000000Z
+SUMMARY:00:00 [大事] ★★★ 中国 国家能源局每月15日左右公布全社会用电量数据。
+UID:cc04754f-a10f-450b-a061-816666daf634@cc04.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【财经大事】\n真实时间: 03:30\n内容: CFTC公布周度持仓报告。\n国家: 美国\n人物: --\n重要性: 2星
+DTSTART:20260404T000000Z
+SUMMARY:03:30 [大事] ★★ 美国 CFTC公布周度持仓报告。
+UID:ffde18e1-740b-46e3-a991-917e0a741530@ffde.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 12:30\n项目: 澳大利亚至5月5日澳洲联储利率决定\n国家: 澳大利亚\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 4.1 %
+DTSTART:20260505T001000Z
+SUMMARY:12:30 ★★★ [澳元] 澳大利亚至5月5日澳洲联储利率决定
+UID:6f35b503-e619-4bd0-8c50-d7f0d0335d0b@6f35.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国第四季度实际GDP年化季率终值\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 0.70 %
+DTSTART:20260409T005000Z
+SUMMARY:20:30 ★★★ [贵金属] 美国第四季度实际GDP年化季率终值
+UID:91947cbb-a31e-4ccd-b5e2-9814ddc854ae@9194.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国至4月11日当周初请失业金人数(万人)\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: --\n前值: -- 万人
+DTSTART:20260416T013000Z
+SUMMARY:20:30 ★★★★ [黄金] 美国至4月11日当周初请失业金人数(万人)
+UID:1ea9b9de-e141-4464-866b-c9b9257d2326@1ea9.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国第一季度实际个人消费支出季率初值\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- %
+DTSTART:20260430T020000Z
+SUMMARY:20:30 ★★★ [黄金] 美国第一季度实际个人消费支出季率初值
+UID:d14cd916-ffe4-4d14-9ba9-003adeff9ff8@d14c.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 美国5月EIA当年短期前景美国原油产量预期(万桶/日)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- 万桶/日
+DTSTART:20260513T000000Z
+SUMMARY:00:00 ★★ [原油] 美国5月EIA当年短期前景美国原油产量预期(万桶/日)
+UID:60caf29e-ca53-4398-bd14-df6b2eed4e77@60ca.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国4月未季调核心CPI年率\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- %
+DTSTART:20260512T003000Z
+SUMMARY:20:30 ★★★ [金银] 美国4月未季调核心CPI年率
+UID:d994315d-4f11-459c-aff2-f6f9dd717521@d994.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至5月8日当周EIA车用汽油总产量引伸需求数据(万桶/日)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶/日
+DTSTART:20260513T020000Z
+SUMMARY:22:30 ★  美国至5月8日当周EIA车用汽油总产量引伸需求数据(万桶/日)
+UID:6d262410-2e4f-425b-91bf-ee24ec85a281@6d26.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 04:30\n项目: 美国至4月3日当周API汽油库存(万桶)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -320.9 万桶
+DTSTART:20260408T012000Z
+SUMMARY:04:30 ★ [原油] 美国至4月3日当周API汽油库存(万桶)
+UID:c008af15-116a-4bdb-8735-5b7754cb7abe@c008.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至5月15日当周EIA天然气库存(亿立方英尺)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 亿立方英尺
+DTSTART:20260521T011000Z
+SUMMARY:22:30 ★★★ [天然气] 美国至5月15日当周EIA天然气库存(亿立方英尺)
+UID:51c1ee3e-1958-4fcf-b72a-97d5b982944c@51c1.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 10:00\n项目: 中国4月社会消费品零售总额同比\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- %
+DTSTART:20260518T001000Z
+SUMMARY:10:00 ★★★ [大宗商品] 中国4月社会消费品零售总额同比
+UID:6e928ace-014d-459b-a00f-a7ba8995e134@6e92.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国3月核心PCE物价指数年率\n国家: 美国\n重要性: 4星\n----------------\n今值: --\n预测: --\n前值: -- %
+DTSTART:20260430T013000Z
+SUMMARY:20:30 ★★★★ [黄金] 美国3月核心PCE物价指数年率
+UID:571839c1-f3ca-47a3-a251-aed3a20c0ffa@5718.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至5月22日当周石油钻井总数(口)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 口
+DTSTART:20260523T002000Z
+SUMMARY:01:00 ★★★ [原油] 美国至5月22日当周石油钻井总数(口)
+UID:ba86e1aa-cd25-45c7-9ff6-ada0b030bf2b@ba86.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【财经大事】\n真实时间: 09:20\n内容: 今日有5亿元7天期逆回购到期。\n国家: 中国\n人物: --\n重要性: 2星
+DTSTART:20260409T001000Z
+SUMMARY:09:20 [大事] ★★ 中国 今日有5亿元7天期逆回购到期。
+UID:dc227046-0b3b-49b1-8004-93291a202a47@dc22.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 09:30\n项目: 中国3月CPI月率\n国家: 中国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 1 %
+DTSTART:20260410T003000Z
+SUMMARY:09:30 ★★ [大宗商品] 中国3月CPI月率
+UID:b6651b7e-4f1e-4491-9743-6dd76ad7b54e@b665.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 00:00\n项目: 中国3月出口总额(亿元)\n国家: 中国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: 20994.3 亿元
+DTSTART:20260414T003000Z
+SUMMARY:00:00 ★ [大宗商品] 中国3月出口总额(亿元)
+UID:eb1bb112-a5d3-43ff-8552-48a56b9825b2@eb1b.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 16:00\n项目: 中国至4月3日全国主要油厂大豆压榨开机率\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 50.53 %
+DTSTART:20260403T022000Z
+SUMMARY:16:00 ★★★ [豆粕] 中国至4月3日全国主要油厂大豆压榨开机率
+UID:4b98a408-b81a-43b1-a639-f5f7773da79e@4b98.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 09:30\n项目: 中国5月官方制造业PMI\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 
+DTSTART:20260531T000000Z
+SUMMARY:09:30 ★★★ [大宗商品] 中国5月官方制造业PMI
+UID:d11b37db-a1f5-4f10-9e46-9a3a60bf1d20@d11b.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 10:00\n项目: 中国3月规模以上工业增加值同比\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- %
+DTSTART:20260416T002000Z
+SUMMARY:10:00 ★★★ [大宗商品] 中国3月规模以上工业增加值同比
+UID:fc3e0145-5682-4037-9d4a-a25118b0f37c@fc3e.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【财经大事】\n真实时间: 10:00\n内容: 国新办就国民经济运行情况举行新闻发布会。\n国家: 中国\n人物: --\n重要性: 3星
+DTSTART:20260416T012000Z
+SUMMARY:10:00 [大事] ★★★ 中国 国新办就国民经济运行情况举行新闻发布会。
+UID:3e9f0b58-e92e-4e3b-88e4-5cab5ab67461@3e9f.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至5月8日当周EIA蒸馏燃油产量引伸需求数据(万桶/日)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 万桶/日
+DTSTART:20260513T021000Z
+SUMMARY:22:30 ★  美国至5月8日当周EIA蒸馏燃油产量引伸需求数据(万桶/日)
+UID:69be1382-27a8-4424-8ad0-2214277ccd11@69be.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至4月17日当周天然气钻井总数(口)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: -- 口
+DTSTART:20260418T001000Z
+SUMMARY:01:00 ★ [天然气] 美国至4月17日当周天然气钻井总数(口)
+UID:5cc823f0-0188-4461-b60c-09b693902815@5cc8.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 08:00\n项目: 中国至4月2日45个港口铁矿石库存(万吨)\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 17000.31 万吨
+DTSTART:20260403T010000Z
+SUMMARY:08:00 ★★★ [铁矿石] 中国至4月2日45个港口铁矿石库存(万吨)
+UID:fc239fea-e2eb-4829-9b6a-190535756042@fc23.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【财经大事】\n真实时间: 20:00\n内容: 俄罗斯央行行长纳比乌琳娜召开货币政策新闻发布会。\n国家: 俄罗斯\n人物: 纳比乌琳娜\n重要性: 2星
+DTSTART:20260424T002000Z
+SUMMARY:20:00 [大事] ★★ 俄罗斯 俄罗斯央行行长纳比乌琳娜召开货币政策新闻发布会。
+UID:81422588-d942-4706-8bee-91e69526b343@8142.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至5月1日当周总钻井总数(口)\n国家: 美国\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: -- 口
+DTSTART:20260502T000000Z
+SUMMARY:01:00 ★★ [油气] 美国至5月1日当周总钻井总数(口)
+UID:655e37ae-e833-4a1a-9d95-69133d813af2@655e.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至4月3日当周石油钻井总数(口)\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 409 口
+DTSTART:20260403T005000Z
+SUMMARY:01:00 ★★★ [原油] 美国至4月3日当周石油钻井总数(口)
+UID:f90392bb-d400-4cf6-a974-e89c8907a0b1@f903.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 09:30\n项目: 中国3月CPI年率\n国家: 中国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 1.30 %
+DTSTART:20260410T001000Z
+SUMMARY:09:30 ★★★ [大宗商品] 中国3月CPI年率
+UID:726c6e22-4b4c-41d0-bab6-465e1b16e161@726c.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 22:30\n项目: 美国至4月3日当周EIA车用汽油总产量引伸需求数据(万桶/日)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: 951.51 万桶/日
+DTSTART:20260408T040000Z
+SUMMARY:22:30 ★  美国至4月3日当周EIA车用汽油总产量引伸需求数据(万桶/日)
+UID:4625095e-78a1-4751-a5b3-27467f0d8ac8@4625.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 16:00\n项目: 英国至4月3日LME镍库存变化值(吨)\n国家: 英国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: -- 吨
+DTSTART:20260403T034000Z
+SUMMARY:16:00 ★★★ [镍] 英国至4月3日LME镍库存变化值(吨)
+UID:232e28fb-c180-4e56-bf90-c4a84071f18e@232e.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 01:00\n项目: 美国至4月3日当周天然气钻井总数(口)\n国家: 美国\n重要性: 1星\n----------------\n今值: --\n预测: --\n前值: 127 口
+DTSTART:20260403T004000Z
+SUMMARY:01:00 ★ [天然气] 美国至4月3日当周天然气钻井总数(口)
+UID:fa54a849-9a4a-44c7-8f6f-d5931698f19b@fa54.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 12:30\n项目: 印度至4月8日央行利率决定\n国家: 印度\n重要性: 2星\n----------------\n今值: --\n预测: --\n前值: 5.25 %
+DTSTART:20260408T024000Z
+SUMMARY:12:30 ★★  印度至4月8日央行利率决定
+UID:9745caa1-f41c-4cfc-9b4c-228c23271052@9745.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国第四季度核心PCE物价指数年化季率终值\n国家: 美国\n重要性: 3星\n----------------\n今值: --\n预测: --\n前值: 2.70 %
+DTSTART:20260409T011000Z
+SUMMARY:20:30 ★★★  美国第四季度核心PCE物价指数年化季率终值
+UID:567744ed-506f-430a-88bf-9b2130b6bfa7@5677.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 14:00\n项目: 中国至4月2日螺纹钢周度社会库存(万吨)\n国家: 中国\n重要性: 3星\n----------------\n今值: 632.1\n预测: --\n前值: 642.75 万吨
+DTSTART:20260402T012000Z
+SUMMARY:14:00 ★★★ [螺纹钢] 中国至4月2日螺纹钢周度社会库存(万吨)
+UID:84b444e9-75dc-478e-a18b-ebb391219507@84b4.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【经济数据】\n真实时间: 20:30\n项目: 美国3月季调后非农就业人口(万人)\n国家: 美国\n重要性: 5星\n----------------\n今值: --\n预测: 6\n前值: -9.2 万人
+DTSTART:20260403T035000Z
+SUMMARY:20:30 ★★★★★ [金银] 美国3月季调后非农就业人口(万人)
+UID:3c3e6a25-8c42-4130-8a21-2530f76101c5@3c3e.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:【财经大事】\n真实时间: 00:00\n内容: 国内成品油将开启新一轮调价窗口。\n国家: 中国\n人物: --\n重要性: 3星
+DTSTART:20260508T000000Z
+SUMMARY:00:00 [大事] ★★★ 中国 国内成品油将开启新一轮调价窗口。
+UID:7dcae400-d135-4b5a-827a-543e79c17785@7dca.org
 END:VEVENT
 END:VCALENDAR
